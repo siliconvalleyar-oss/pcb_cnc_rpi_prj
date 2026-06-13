@@ -1,0 +1,164 @@
+# ============================================
+# 🔧 KIcad PROJECT IGNORE FILE
+# ============================================
+
+# -------------------------------
+# 📁 Archivos de backup y temporales
+# -------------------------------
+*-backups/
+*_backups/
+*.bak
+*.tmp
+*.bck
+*~
+*.swp
+*.swo
+
+# -------------------------------
+# 💾 Archivos de autoguardado de KiCad
+# -------------------------------
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb~ 
+*.kicad_sch~
+*.kicad_prl-bak
+fp-info-cache
+
+# -------------------------------
+# 📊 Archivos de reportes (generados automáticamente)
+# -------------------------------
+*.rpt
+*.rep
+*.log
+*.drc
+*.erc
+*.xml
+BOM_*.csv
+BOM_*.html
+*.netlist
+
+# -------------------------------
+# 🖨️ Archivos de salida para fabricación
+# -------------------------------
+# Gerber files
+*.gbr
+*.GBL
+*.GTL
+*.GTS
+*.GBS
+*.GTO
+*.GTS
+*.GKO
+*.GTL
+*.GBL
+*.G2L
+*.G3L
+
+# Drill files
+*.drl
+*.txt
+*.xln
+*.dri
+
+# -------------------------------
+# 📈 Archivos de simulación
+# -------------------------------
+*.raw
+*.tr0
+*.ac0
+*.fft
+*.sim
+
+# -------------------------------
+# 🐍 Python cache (si usas scripts)
+# -------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+
+# -------------------------------
+# 📦 Archivos de proyecto específicos
+# -------------------------------
+# Tu archivo netlist
+*.net
+
+# Archivos de reglas de diseño
+*.kicad_dru
+
+# Archivos de simulación SPICE
+*.cir
+*.net
+
+# -------------------------------
+# 🗺️ Archivos de documentación generada
+# -------------------------------
+# PDFs generados automáticamente
+documentation/*.pdf
+!documentation/*_manual.pdf  # Excepto manuales importantes
+
+# -------------------------------
+# ⚙️ Archivos de configuración local
+# -------------------------------
+*.user
+*.local
+config.env
+.env
+
+# -------------------------------
+# 🖼️ Archivos de imágenes temporales
+# -------------------------------
+*.png.tmp
+*.jpg.tmp
+thumbs.db
+.DS_Store
+
+# -------------------------------
+# 📚 Archivos de salida de documentación
+# -------------------------------
+*.aux
+*.out
+*.toc
+*.lof
+*.lot
+
+# -------------------------------
+# 🔌 Archivos de proyectos de terceros
+# -------------------------------
+# Altium
+*.PcbDoc
+*.SchDoc
+*.PrjPcb
+
+# Eagle
+*.brd
+*.sch
+
+# -------------------------------
+# 🎯 Tus archivos específicos del proyecto
+# -------------------------------
+# Backups de tu proyecto
+cnc_pic32-backups/
+
+# Archivos netlist específicos
+cnc_pic32_Volds.net
+
+# Puedes ignorar TODO.md si es temporal
+# TODO.md  # Descomenta si es archivo temporal
+
+# -------------------------------
+# ✅ ARCHIVOS QUE DEBES MANTENER EN GIT
+# -------------------------------
+# *.kicad_pcb      - Archivo principal de PCB
+# *.kicad_sch      - Archivo principal de esquemático
+# *.kicad_pro      - Proyecto KiCad
+# *.kicad_prl      - Reglas de diseño (si son importantes)
+# README.md        - Documentación
+# LICENSE          - Licencia
+# *.pretty/        - Bibliotecas de footprints (si son custom)
+# *.kicad_mod      - Footprints personalizados
+
+cnc_pic32-backups/
+*.o
+
