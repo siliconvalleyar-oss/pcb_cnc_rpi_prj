@@ -1,10 +1,8 @@
 (kicad_pcb
-	(version 20260206)
+	(version 20220115)
 	(generator "pcbnew")
-	(generator_version "10.0")
 	(general
 		(thickness 1.6)
-		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
@@ -102,7 +100,6 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
@@ -111,16 +108,7 @@
 			(front yes)
 			(back yes)
 		)
-		(covering
-			(front no)
-			(back no)
-		)
-		(plugging
-			(front no)
-			(back no)
-		)
-		(capping no)
-		(filling no)
+
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
