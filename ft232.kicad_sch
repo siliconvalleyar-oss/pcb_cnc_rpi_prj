@@ -1872,6 +1872,12 @@
 		)
 	)
 	(junction
+		(at 97.79 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09634cea-9f1a-496c-afcc-b72a80767751")
+	)
+	(junction
 		(at 147.32 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1900,6 +1906,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73e6c226-d9ea-475c-a574-afb28ee932b2")
+	)
+	(junction
+		(at 97.79 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5f99730-7d78-4f03-96b6-2cbcb0091a06")
 	)
 	(junction
 		(at 180.34 66.04)
@@ -1953,6 +1965,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 76.2) (xy 97.79 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a90dc8-269b-4de1-b661-3b1ab6501554")
+	)
+	(wire
+		(pts
 			(xy 152.4 66.04) (xy 152.4 71.12)
 		)
 		(stroke
@@ -1983,6 +2005,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 78.74) (xy 102.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c30a2bc-cf0f-4198-b99e-40a6ed2e891b")
+	)
+	(wire
+		(pts
 			(xy 196.85 106.68) (xy 198.12 106.68)
 		)
 		(stroke
@@ -1993,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 102.87 78.74)
+			(xy 78.74 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2123,7 +2155,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 81.28) (xy 102.87 81.28)
+			(xy 76.2 81.28) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2613,6 +2645,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d823c3da-ce0f-4709-9b49-3e0c250894b2")
+	)
+	(wire
+		(pts
 			(xy 97.79 111.76) (xy 124.46 111.76)
 		)
 		(stroke
@@ -2630,6 +2672,16 @@
 			(type default)
 		)
 		(uuid "dcb5f723-71a9-426b-ae0c-cf915375c5e9")
+	)
+	(wire
+		(pts
+			(xy 97.79 83.82) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4633b4-4d30-426f-822e-07bd661720c1")
 	)
 	(wire
 		(pts
@@ -2944,7 +2996,7 @@
 	)
 	(hierarchical_label "RX_MCU"
 		(shape input)
-		(at 97.79 78.74 180)
+		(at 97.79 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,7 +3007,7 @@
 	)
 	(hierarchical_label "TX_MCU"
 		(shape input)
-		(at 97.79 81.28 180)
+		(at 97.79 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4012,7 +4064,7 @@
 		(dnp no)
 		(uuid "8be88fda-678a-48bd-8f10-146701e04fac")
 		(property "Reference" "C11"
-			(at 82.55 82.55 0)
+			(at 82.042 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4023,7 +4075,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 85.09 82.55 0)
+			(at 91.186 89.154 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4168,10 +4220,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "983726bf-2941-44e9-87cb-014bbc7aa197")
 		(property "Reference" "R17"
-			(at 78.74 87.63 90)
+			(at 74.168 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4181,7 +4232,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 78.74 90.17 90)
+			(at 78.232 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,6 +5590,96 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "FT_CTS" input
+			(at 30.48 40.64 180)
+			(uuid "097f30e4-cd6d-4f82-85e2-6fc02548a874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_DRS" input
+			(at 30.48 43.18 180)
+			(uuid "c749ffc2-3030-406e-87d2-ca37759adc01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_TXD_EN" input
+			(at 30.48 45.72 180)
+			(uuid "54b70d74-9b19-411a-a10f-736e58e647e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_DCD" input
+			(at 30.48 48.26 180)
+			(uuid "a8b97456-4a3c-4909-8d76-ded7db090cd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_RST" input
+			(at 30.48 50.80 180)
+			(uuid "455f4d3c-4e7a-4592-a7cd-c58cc5cb1b32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_RI" input
+			(at 30.48 53.34 180)
+			(uuid "04c37160-993f-4cc2-80ee-a623809af294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_PWR_EN" input
+			(at 30.48 55.88 180)
+			(uuid "76e99d2b-87e2-4ade-8b6a-b98e25f371e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_RST" input
+			(at 30.48 58.42 180)
+			(uuid "f4d8c6f7-9d69-485d-aec6-a39f63c91f92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FT_DTR" input
+			(at 30.48 60.96 180)
+			(uuid "8088cb45-6d0f-4584-a74a-d7ff32106ff0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

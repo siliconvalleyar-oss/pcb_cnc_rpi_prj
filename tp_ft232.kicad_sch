@@ -602,93 +602,102 @@
 		)
 		(uuid "efa38de5-d8d6-43cf-99bb-458e5d291889")
 	)
-	(label "FT_CTS"
-		(at 128.27 119.38 180)
+	(hierarchical_label "FT_CTS"
+		(shape input)
+		(at 134.62 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "06a9f814-3100-4c91-84c4-9f458f62145e")
 	)
-	(label "FT_DRS"
+	(hierarchical_label "FT_DRS"
+		(shape input)
 		(at 135.89 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "17645df7-bf33-49dd-9e12-558fdf42e6a3")
 	)
-	(label "FT_TXD_EN"
+	(hierarchical_label "FT_TXD_EN"
+		(shape input)
 		(at 135.89 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "1dc4a209-1bc1-4898-89d1-4cf40242d7d5")
 	)
-	(label "FT_DCD"
+	(hierarchical_label "FT_DCD"
+		(shape input)
 		(at 135.89 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "1e1a745d-dc17-4efb-9a5c-1b6ae9bed922")
 	)
-	(label "FT_RST"
-		(at 128.27 115.57 180)
+	(hierarchical_label "FT_RST"
+		(shape input)
+		(at 134.62 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
 		(uuid "4cf5abe4-1f12-42a9-a047-ad2f21fd4a60")
 	)
-	(label "FT_RI"
+	(hierarchical_label "FT_RI"
+		(shape input)
 		(at 135.89 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "8022983f-4b01-49b0-9f39-4ac40cd442e3")
 	)
-	(label "FT_PWR_EN"
+	(hierarchical_label "FT_PWR_EN"
+		(shape input)
 		(at 135.89 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "8232d7f1-4e77-40f8-948e-57136aa13710")
 	)
-	(label "FT_RST"
+	(hierarchical_label "FT_RST"
+		(shape input)
 		(at 146.05 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "9986d97f-b98c-467d-be3b-2f188d600a15")
 	)
-	(label "FT_DTR"
+	(hierarchical_label "FT_DTR"
+		(shape input)
 		(at 147.32 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
 		(uuid "b9f8d05c-4775-4a07-9e3c-8690539ad3a4")
 	)
@@ -740,30 +749,7 @@
 			)
 		)
 	)
-	(global_label "FT_CTS"
-		(shape input)
-		(at 134.62 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9aa459df-d192-4b55-aa0a-f627ca61fa27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9967 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(global_label "RX_Rpi"
 		(shape input)
 		(at 147.32 66.04 0)
@@ -812,30 +798,7 @@
 			)
 		)
 	)
-	(global_label "FT_RTS"
-		(shape input)
-		(at 134.62 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9ba5cde-7813-4354-972c-eac89f33991a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.9967 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
+
 	(hierarchical_label "TX_MCU"
 		(shape input)
 		(at 182.88 77.47 180)
