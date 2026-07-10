@@ -3584,7 +3584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:pad_0508"
 			(at 172.72 66.04 0)
 			(hide yes)
 			(effects

@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:Adafruit_SSD1306_No_Mounting_Holes_pads"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(effects
