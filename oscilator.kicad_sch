@@ -15,8 +15,6 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,8 +24,6 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -37,8 +33,6 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -48,8 +42,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -59,8 +51,6 @@
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -70,8 +60,6 @@
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -81,8 +69,6 @@
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -168,8 +154,6 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
 				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,8 +162,6 @@
 			)
 			(property "Value" "Crystal"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -188,8 +170,6 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -199,8 +179,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -210,8 +188,6 @@
 			)
 			(property "Description" "Two pin crystal"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -221,8 +197,6 @@
 			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -232,8 +206,6 @@
 			)
 			(property "ki_fp_filters" "Crystal*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -353,8 +325,6 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -363,8 +333,6 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -373,8 +341,6 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -384,8 +350,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -395,8 +359,6 @@
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -406,8 +368,6 @@
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -417,8 +377,6 @@
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -488,8 +446,6 @@
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -499,8 +455,6 @@
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -509,8 +463,6 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -520,8 +472,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -531,8 +481,6 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -542,8 +490,6 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -774,8 +720,6 @@
 		(uuid "321ec697-c4f7-466b-90c5-f72b416ab09c")
 		(property "Reference" "C9"
 			(at 130.81 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,8 +729,6 @@
 		)
 		(property "Value" "15p"
 			(at 130.81 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,8 +739,6 @@
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 127.9652 111.76 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -808,8 +748,6 @@
 		(property "Datasheet" ""
 			(at 127 107.95 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,8 +756,6 @@
 		)
 		(property "Description" ""
 			(at 127 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,8 +786,6 @@
 		(uuid "3d1f390f-6347-4a6a-9431-bc9802ee0f7f")
 		(property "Reference" "R16"
 			(at 151.13 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,8 +794,6 @@
 		)
 		(property "Value" "1M"
 			(at 151.13 68.58 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,8 +803,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 151.13 74.168 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,8 +812,6 @@
 		(property "Datasheet" ""
 			(at 151.13 72.39 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,8 +820,6 @@
 		)
 		(property "Description" ""
 			(at 151.13 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,8 +850,6 @@
 		(uuid "6f07b089-ba8a-47f7-a2b1-fe24bcb43de2")
 		(property "Reference" "C10"
 			(at 179.07 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,8 +859,6 @@
 		)
 		(property "Value" "15p"
 			(at 179.07 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,8 +869,6 @@
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 176.2252 110.49 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,8 +878,6 @@
 		(property "Datasheet" ""
 			(at 175.26 106.68 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -968,8 +886,6 @@
 		)
 		(property "Description" ""
 			(at 175.26 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,8 +916,6 @@
 		(uuid "b40a8fd2-d3bb-45db-97e0-5f1586152b15")
 		(property "Reference" "Y1"
 			(at 151.13 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +924,6 @@
 		)
 		(property "Value" "8Mhz"
 			(at 151.13 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,8 +933,6 @@
 		(property "Footprint" ""
 			(at 151.13 87.63 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,8 +942,6 @@
 		(property "Datasheet" ""
 			(at 151.13 87.63 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,8 +951,6 @@
 		(property "Description" "Two pin crystal"
 			(at 151.13 87.63 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,8 +981,6 @@
 		(uuid "ce34a79c-adff-42fa-9222-13d31ad0a2c0")
 		(property "Reference" "R15"
 			(at 129.54 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,8 +990,6 @@
 		)
 		(property "Value" "1K"
 			(at 129.54 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,8 +1000,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 125.222 58.42 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,8 +1009,6 @@
 		(property "Datasheet" ""
 			(at 127 58.42 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,8 +1017,6 @@
 		)
 		(property "Description" ""
 			(at 127 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,8 +1048,6 @@
 		(property "Reference" "#PWR06"
 			(at 127 146.05 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,8 +1056,6 @@
 		)
 		(property "Value" "GND"
 			(at 127 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1173,8 +1065,6 @@
 		(property "Footprint" ""
 			(at 127 139.7 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,8 +1074,6 @@
 		(property "Datasheet" ""
 			(at 127 139.7 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,8 +1083,6 @@
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 139.7 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
