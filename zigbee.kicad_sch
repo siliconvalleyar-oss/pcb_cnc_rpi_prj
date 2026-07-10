@@ -615,7 +615,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "MODULE_MRF24J40MA"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(hide yes)
 				(effects
@@ -1899,7 +1899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_MRF24J40MA"
+		(property "Footprint" ""
 			(at 137.16 78.74 0)
 			(hide yes)
 			(effects

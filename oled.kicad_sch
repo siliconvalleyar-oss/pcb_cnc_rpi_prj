@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:Adafruit_SSD1306_No_Mounting_Holes_pads"
+		(property "Footprint" ""
 			(at 189.23 82.55 0)
 			(hide yes)
 			(effects

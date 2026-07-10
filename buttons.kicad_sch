@@ -1008,7 +1008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" ""
 			(at 212.09 110.49 0)
 			(hide yes)
 			(effects
@@ -1072,7 +1072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" ""
 			(at 137.16 77.47 0)
 			(hide yes)
 			(effects
@@ -1462,7 +1462,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" ""
 			(at 144.78 123.19 0)
 			(hide yes)
 			(effects
@@ -1588,7 +1588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm"
+		(property "Footprint" ""
 			(at 212.09 97.79 0)
 			(hide yes)
 			(effects
