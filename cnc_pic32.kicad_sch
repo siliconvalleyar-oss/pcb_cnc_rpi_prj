@@ -73,11 +73,6 @@
 	(sheet
 		(at 25.4 123.19)
 		(size 33.02 36.83)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -88,8 +83,6 @@
 		(uuid "01979eff-2b02-4479-903a-ef1b6c01f12f")
 		(property "Sheetname" "zigbee"
 			(at 25.4 122.4784 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,8 +92,6 @@
 		)
 		(property "Sheetfile" "zigbee.kicad_sch"
 			(at 25.4 160.6046 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -119,11 +110,6 @@
 	(sheet
 		(at 220.98 118.11)
 		(size 38.1 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -134,8 +120,6 @@
 		(uuid "22a12b0c-67ed-4f76-a580-7ac736b63dbd")
 		(property "Sheetname" "Ft232"
 			(at 220.98 117.3984 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -145,8 +129,6 @@
 		)
 		(property "Sheetfile" "ft232.kicad_sch"
 			(at 220.98 146.6346 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -195,11 +177,6 @@
 	(sheet
 		(at 228.6 58.42)
 		(size 26.67 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -210,8 +187,6 @@
 		(uuid "623622a4-6618-4850-ab50-b533a9bbea15")
 		(property "Sheetname" "idc"
 			(at 228.6 57.7084 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -221,8 +196,6 @@
 		)
 		(property "Sheetfile" "idc.kicad_sch"
 			(at 228.6 86.9446 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,10 +244,6 @@
 	(sheet
 		(at 88.9 50.8)
 		(size 76.2 101.6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -285,8 +254,6 @@
 		(uuid "64cf98d4-7353-423c-baad-4e05534717be")
 		(property "Sheetname" "MCU"
 			(at 102.87 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -296,8 +263,6 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 88.9 155.5246 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,11 +1131,6 @@
 	(sheet
 		(at 25.4 82.55)
 		(size 26.67 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1181,8 +1141,6 @@
 		(uuid "71987749-cd9a-4512-bfc9-6de6f65225ef")
 		(property "Sheetname" "Usb_pic32"
 			(at 25.4 81.8384 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,8 +1150,6 @@
 		)
 		(property "Sheetfile" "Usb_pic32.kicad_sch"
 			(at 25.4 111.0746 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,11 +1168,6 @@
 	(sheet
 		(at 237.49 22.86)
 		(size 27.94 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1227,8 +1178,6 @@
 		(uuid "8e42f8aa-f00a-41b2-96fb-3753b4f2b509")
 		(property "Sheetname" "power"
 			(at 237.49 22.1484 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,8 +1187,6 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 237.49 45.0346 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1258,11 +1205,6 @@
 	(sheet
 		(at 33.02 35.56)
 		(size 36.83 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1273,8 +1215,6 @@
 		(uuid "907034bd-da52-4a91-8e77-55c555a9b713")
 		(property "Sheetname" "Oled"
 			(at 33.02 34.8484 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,8 +1224,6 @@
 		)
 		(property "Sheetfile" "oled.kicad_sch"
 			(at 33.02 65.3546 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,11 +1242,6 @@
 	(sheet
 		(at 96.52 166.37)
 		(size 54.61 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1319,8 +1252,6 @@
 		(uuid "d163b643-6954-48bb-bb05-5c9c3fb08250")
 		(property "Sheetname" "Pololu"
 			(at 96.52 165.6584 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,8 +1261,6 @@
 		)
 		(property "Sheetfile" "pololu.kicad_sch"
 			(at 96.52 192.3546 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,11 +1279,6 @@
 	(sheet
 		(at 180.34 22.86)
 		(size 30.48 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1365,8 +1289,6 @@
 		(uuid "df1eb81b-5f69-4799-b1cb-37f6a4a182a1")
 		(property "Sheetname" "oscilator"
 			(at 180.34 22.1484 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,8 +1298,6 @@
 		)
 		(property "Sheetfile" "oscilator.kicad_sch"
 			(at 180.34 45.0346 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

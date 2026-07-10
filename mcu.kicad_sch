@@ -11,15 +11,10 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,8 +23,6 @@
 			)
 			(property "Value" "R"
 				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,8 +31,6 @@
 			)
 			(property "Footprint" ""
 				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -49,8 +40,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -60,8 +49,6 @@
 			)
 			(property "Description" "Resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -71,8 +58,6 @@
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -82,8 +67,6 @@
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -145,15 +128,10 @@
 			(embedded_fonts no)
 		)
 		(symbol "MCU_Microchip_PIC32:PIC32MX795F512L-80x-PF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -19.05 64.77 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -163,8 +141,6 @@
 			)
 			(property "Value" "PIC32MX795F512L-80x-PF"
 				(at 6.35 -64.77 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -174,8 +150,6 @@
 			)
 			(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 				(at 0 -76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -185,8 +159,6 @@
 			)
 			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf"
 				(at 0 -76.2 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -196,8 +168,6 @@
 			)
 			(property "Description" "MIPS MCU, 80MHz, 512KB Flash, 12KB Boot Flash, 128KB RAM, 2.3-3.6V, USB, CAN, Ethernet, TQFP-100"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -207,8 +177,6 @@
 			)
 			(property "ki_keywords" "32-bit MIPS MCU Microcontroller"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -218,8 +186,6 @@
 			)
 			(property "ki_fp_filters" "TQFP*14x14mm*P0.5mm*"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2053,15 +2019,10 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2071,8 +2032,6 @@
 			)
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2081,8 +2040,6 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2092,8 +2049,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2103,8 +2058,6 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2114,8 +2067,6 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2189,15 +2140,10 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2207,8 +2153,6 @@
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2217,8 +2161,6 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2228,8 +2170,6 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2239,8 +2179,6 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -2250,8 +2188,6 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -3675,16 +3611,10 @@
 		(at 203.2 101.6 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "1ebf6445-9f73-4972-af82-96fea697e285")
 		(property "Reference" "R11"
 			(at 201.93 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,8 +3624,6 @@
 		)
 		(property "Value" "0"
 			(at 204.47 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,8 +3634,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.2 103.378 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,8 +3643,6 @@
 		(property "Datasheet" ""
 			(at 203.2 101.6 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3727,8 +3651,6 @@
 		)
 		(property "Description" ""
 			(at 203.2 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,18 +3677,11 @@
 		(at 121.92 21.59 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24ace9b7-1149-4f90-aa86-39d3f564c59c")
 		(property "Reference" "#PWR01"
 			(at 121.92 25.4 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,8 +3690,6 @@
 		)
 		(property "Value" "+3.3V"
 			(at 121.92 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,8 +3699,6 @@
 		(property "Footprint" ""
 			(at 121.92 21.59 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,8 +3708,6 @@
 		(property "Datasheet" ""
 			(at 121.92 21.59 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,8 +3717,6 @@
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 121.92 21.59 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,18 +3740,11 @@
 		(at 132.08 176.53 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28001132-f9e0-4e5a-9bdf-aac74f5fcdac")
 		(property "Reference" "#PWR02"
 			(at 132.08 182.88 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,8 +3753,6 @@
 		)
 		(property "Value" "GND"
 			(at 132.08 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,8 +3762,6 @@
 		(property "Footprint" ""
 			(at 132.08 176.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,8 +3771,6 @@
 		(property "Datasheet" ""
 			(at 132.08 176.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,8 +3780,6 @@
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 132.08 176.53 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,17 +3803,10 @@
 		(at 134.62 93.98 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "492a788c-32cf-4723-b630-691f26efd048")
 		(property "Reference" "U1"
 			(at 139.3541 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,8 +3816,6 @@
 		)
 		(property "Value" "PIC32MX795F512L-80x-PF"
 			(at 139.3541 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,8 +3826,6 @@
 		(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
 			(at 134.62 170.18 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,8 +3835,6 @@
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/60001156J.pdf"
 			(at 134.62 170.18 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,8 +3843,6 @@
 		)
 		(property "Description" ""
 			(at 134.62 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,17 +4163,10 @@
 		(at 266.517 75.175 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b8f175c-e802-4019-9c09-954ec19fb1b0")
 		(property "Reference" "R14"
 			(at 269.057 73.905 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,8 +4176,6 @@
 		)
 		(property "Value" "100"
 			(at 269.057 76.445 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,8 +4186,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 264.739 75.175 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,8 +4195,6 @@
 		(property "Datasheet" ""
 			(at 266.517 75.175 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,8 +4203,6 @@
 		)
 		(property "Description" ""
 			(at 266.517 75.175 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,17 +4229,10 @@
 		(at 203.2 96.52 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66e1bdfd-6fa9-47f6-a5d6-16343fb07527")
 		(property "Reference" "R12"
 			(at 203.2 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4386,8 +4241,6 @@
 		)
 		(property "Value" "0"
 			(at 203.2 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,8 +4250,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 203.2 98.298 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,8 +4259,6 @@
 		(property "Datasheet" ""
 			(at 203.2 96.52 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4418,8 +4267,6 @@
 		)
 		(property "Description" ""
 			(at 203.2 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,18 +4293,11 @@
 		(at 203.2 20.32 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ce99623-9a5a-4723-ad6d-637be0af7619")
 		(property "Reference" "#PWR03"
 			(at 203.2 24.13 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,8 +4306,6 @@
 		)
 		(property "Value" "+3.3V"
 			(at 203.2 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4477,8 +4315,6 @@
 		(property "Footprint" ""
 			(at 203.2 20.32 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,8 +4324,6 @@
 		(property "Datasheet" ""
 			(at 203.2 20.32 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,8 +4333,6 @@
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 203.2 20.32 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4524,17 +4356,10 @@
 		(at 241.3 71.12 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d5feb2b-d313-4070-8641-ef5c2194fffd")
 		(property "Reference" "R13"
 			(at 243.84 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,8 +4369,6 @@
 		)
 		(property "Value" "10K"
 			(at 243.84 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4556,8 +4379,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 239.522 71.12 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,8 +4388,6 @@
 		(property "Datasheet" ""
 			(at 241.3 71.12 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4577,8 +4396,6 @@
 		)
 		(property "Description" ""
 			(at 241.3 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,17 +4422,10 @@
 		(at 203.2 27.94 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6f944f3-a46f-42a6-a5ec-3c33dd5396a0")
 		(property "Reference" "R10"
 			(at 205.74 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,8 +4435,6 @@
 		)
 		(property "Value" "10K"
 			(at 205.74 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,8 +4445,6 @@
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.422 27.94 90)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,8 +4454,6 @@
 		(property "Datasheet" ""
 			(at 203.2 27.94 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,8 +4462,6 @@
 		)
 		(property "Description" ""
 			(at 203.2 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,11 +4486,6 @@
 	(sheet
 		(at 226.06 116.84)
 		(size 24.13 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4699,8 +4496,6 @@
 		(uuid "fed6e348-19f5-499e-8dbd-e696ef87e744")
 		(property "Sheetname" "buttons"
 			(at 226.06 116.1284 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,8 +4505,6 @@
 		)
 		(property "Sheetfile" "buttons.kicad_sch"
 			(at 226.06 145.3646 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
