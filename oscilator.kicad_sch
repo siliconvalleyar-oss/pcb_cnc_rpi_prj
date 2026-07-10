@@ -11,9 +11,6 @@
 			(pin_names
 				(offset 0.254)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
@@ -167,9 +164,6 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
@@ -355,9 +349,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
@@ -493,9 +484,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -782,12 +770,7 @@
 		(at 127 107.95 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "321ec697-c4f7-466b-90c5-f72b416ab09c")
 		(property "Reference" "C9"
 			(at 130.81 106.68 0)
@@ -863,12 +846,7 @@
 		(at 151.13 72.39 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3d1f390f-6347-4a6a-9431-bc9802ee0f7f")
 		(property "Reference" "R16"
 			(at 151.13 66.04 90)
@@ -942,12 +920,7 @@
 		(at 175.26 106.68 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6f07b089-ba8a-47f7-a2b1-fe24bcb43de2")
 		(property "Reference" "C10"
 			(at 179.07 105.41 0)
@@ -1023,12 +996,7 @@
 		(at 151.13 87.63 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b40a8fd2-d3bb-45db-97e0-5f1586152b15")
 		(property "Reference" "Y1"
 			(at 151.13 80.01 0)
@@ -1103,12 +1071,7 @@
 		(at 127 58.42 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce34a79c-adff-42fa-9222-13d31ad0a2c0")
 		(property "Reference" "R15"
 			(at 129.54 57.1499 0)
@@ -1184,12 +1147,7 @@
 		(at 127 139.7 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed36f1b9-2641-48ee-b4c4-983aa0964f8b")
 		(property "Reference" "#PWR06"
 			(at 127 146.05 0)

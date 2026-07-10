@@ -11,9 +11,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
@@ -145,9 +142,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "MCU_Microchip_PIC32:PIC32MX795F512L-80x-PF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
@@ -2053,9 +2047,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -2189,9 +2180,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -3675,11 +3663,7 @@
 		(at 203.2 101.6 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "1ebf6445-9f73-4972-af82-96fea697e285")
 		(property "Reference" "R11"
 			(at 201.93 99.06 90)
@@ -3755,12 +3739,7 @@
 		(at 121.92 21.59 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24ace9b7-1149-4f90-aa86-39d3f564c59c")
 		(property "Reference" "#PWR01"
 			(at 121.92 25.4 0)
@@ -3833,12 +3812,7 @@
 		(at 132.08 176.53 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "28001132-f9e0-4e5a-9bdf-aac74f5fcdac")
 		(property "Reference" "#PWR02"
 			(at 132.08 182.88 0)
@@ -3911,12 +3885,7 @@
 		(at 134.62 93.98 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "492a788c-32cf-4723-b630-691f26efd048")
 		(property "Reference" "U1"
 			(at 139.3541 158.75 0)
@@ -4286,12 +4255,7 @@
 		(at 266.517 75.175 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b8f175c-e802-4019-9c09-954ec19fb1b0")
 		(property "Reference" "R14"
 			(at 269.057 73.905 0)
@@ -4367,12 +4331,7 @@
 		(at 203.2 96.52 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66e1bdfd-6fa9-47f6-a5d6-16343fb07527")
 		(property "Reference" "R12"
 			(at 203.2 90.17 90)
@@ -4446,12 +4405,7 @@
 		(at 203.2 20.32 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ce99623-9a5a-4723-ad6d-637be0af7619")
 		(property "Reference" "#PWR03"
 			(at 203.2 24.13 0)
@@ -4524,12 +4478,7 @@
 		(at 241.3 71.12 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6d5feb2b-d313-4070-8641-ef5c2194fffd")
 		(property "Reference" "R13"
 			(at 243.84 69.85 0)
@@ -4605,12 +4554,7 @@
 		(at 203.2 27.94 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6f944f3-a46f-42a6-a5ec-3c33dd5396a0")
 		(property "Reference" "R10"
 			(at 205.74 26.67 0)
@@ -4684,11 +4628,6 @@
 	(sheet
 		(at 226.06 116.84)
 		(size 24.13 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)

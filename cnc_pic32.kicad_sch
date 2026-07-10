@@ -73,11 +73,6 @@
 	(sheet
 		(at 25.4 123.19)
 		(size 33.02 36.83)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -119,11 +114,6 @@
 	(sheet
 		(at 220.98 118.11)
 		(size 38.1 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -195,11 +185,6 @@
 	(sheet
 		(at 228.6 58.42)
 		(size 26.67 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -271,10 +256,6 @@
 	(sheet
 		(at 88.9 50.8)
 		(size 76.2 101.6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1166,11 +1147,6 @@
 	(sheet
 		(at 25.4 82.55)
 		(size 26.67 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1212,11 +1188,6 @@
 	(sheet
 		(at 237.49 22.86)
 		(size 27.94 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1258,11 +1229,6 @@
 	(sheet
 		(at 33.02 35.56)
 		(size 36.83 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1304,11 +1270,6 @@
 	(sheet
 		(at 96.52 166.37)
 		(size 54.61 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1350,11 +1311,6 @@
 	(sheet
 		(at 180.34 22.86)
 		(size 30.48 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)

@@ -11,9 +11,6 @@
 			(pin_names
 				(offset 0.254)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
@@ -164,9 +161,6 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
@@ -436,9 +430,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -699,11 +690,7 @@
 		(at 160.02 96.52 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "3af1eaa9-e124-4542-a35e-3b66d8437288")
 		(property "Reference" "C17"
 			(at 163.83 95.25 0)
@@ -779,11 +766,7 @@
 		(at 148.59 104.14 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "52242a5c-d4b9-4b2c-ad4c-6ea02bbee2e5")
 		(property "Reference" "#PWR019"
 			(at 148.59 110.49 0)
@@ -855,11 +838,7 @@
 		(at 153.67 77.47 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "6a0d6a81-731a-478e-8c63-6b28cfad7d36")
 		(property "Reference" "#PWR020"
 			(at 153.67 83.82 0)
@@ -931,11 +910,7 @@
 		(at 135.89 96.52 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "8bbd0353-5cc8-420e-88df-4a6e45aa2fa3")
 		(property "Reference" "C16"
 			(at 139.7 95.25 0)
@@ -1011,11 +986,7 @@
 		(at 148.59 92.71 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "c446813f-10b5-4e75-8817-b949d77cb406")
 		(property "Reference" "Y2"
 			(at 160.02 88.5191 0)

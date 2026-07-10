@@ -9,9 +9,6 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
@@ -148,9 +145,6 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
@@ -523,9 +517,6 @@
 			(pin_names
 				(offset 0.254)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
@@ -679,9 +670,6 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "L"
@@ -856,9 +844,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
@@ -990,9 +975,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Regulator_Linear:LM1117DT-3.3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
@@ -1147,9 +1129,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -1283,9 +1262,6 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
@@ -1702,12 +1678,7 @@
 		(at 200.66 80.01 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1ec50d47-c6dd-41ac-bd89-b7439a5b0ffa")
 		(property "Reference" "U5"
 			(at 200.66 73.66 0)
@@ -1784,11 +1755,7 @@
 		(at 168.91 96.52 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "261bc2b6-bd3d-4a61-8493-f654f67150d7")
 		(property "Reference" "R40"
 			(at 171.45 88.9 90)
@@ -1862,12 +1829,7 @@
 		(at 214.63 72.39 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "61b2749f-b2cb-4a50-81c6-cba7f1841c13")
 		(property "Reference" "#PWR043"
 			(at 214.63 76.2 0)
@@ -1939,11 +1901,7 @@
 		(at 171.45 80.01 90)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "6f169086-e225-475e-8b67-a0f2d74ab859")
 		(property "Reference" "L2"
 			(at 171.45 76.2 90)
@@ -2019,11 +1977,7 @@
 		(at 187.96 85.09 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "ad830ea8-a12f-4286-838b-e2d1178b8650")
 		(property "Reference" "C29"
 			(at 193.802 87.122 0)
@@ -2099,12 +2053,7 @@
 		(at 149.86 111.76 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b49dcb9d-0a61-4017-9aaa-d7653a59bf5f")
 		(property "Reference" "#PWR041"
 			(at 149.86 118.11 0)
@@ -2177,11 +2126,7 @@
 		(mirror x)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "bb178db5-c156-4745-a2a7-52369193e9e0")
 		(property "Reference" "TP17"
 			(at 181.61 76.2 0)
@@ -2253,11 +2198,7 @@
 		(at 168.91 93.98 270)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "ce0c3106-33c0-4c10-9e6e-9172d5f1919e")
 		(property "Reference" "R39"
 			(at 171.45 101.6 90)
@@ -2331,12 +2272,7 @@
 		(at 144.78 93.98 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d12fc2a1-fee5-4643-8cfc-5f1e3a410d17")
 		(property "Reference" "J18"
 			(at 144.78 81.28 0)
@@ -2422,11 +2358,7 @@
 		(at 214.63 85.09 180)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
 		(uuid "d4c9f17b-0f0f-4b06-9187-f8cf9b840688")
 		(property "Reference" "C30"
 			(at 220.472 87.122 0)
@@ -2502,12 +2434,7 @@
 		(at 200.66 95.25 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df8a715c-3750-4037-8ec3-d5ada0498ef2")
 		(property "Reference" "#PWR042"
 			(at 200.66 101.6 0)
