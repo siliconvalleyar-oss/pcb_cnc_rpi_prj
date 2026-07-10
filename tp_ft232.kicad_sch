@@ -901,7 +901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 123.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -977,7 +977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 118.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1053,7 +1053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 118.11 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1129,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1205,7 +1205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1363,7 +1363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.5mmx1mm"
+		(property "Footprint" "kiC:Pin_D1.5mmx1mm"
 			(at 203.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1439,7 +1439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 118.11 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1597,7 +1597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:pad_0508"
+		(property "Footprint" "kiC:pad_0508"
 			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)

@@ -2196,7 +2196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.5mmx1mm"
+		(property "Footprint" "kiC:Pin_D1.5mmx1mm"
 			(at 156.21 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -2589,7 +2589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.5mmx1mm"
+		(property "Footprint" "kiC:Pin_D1.5mmx1mm"
 			(at 114.3 72.39 0)
 			(hide yes)
 			(show_name no)

@@ -19,7 +19,7 @@
 # -------------------------------
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_pcb~ 
+*.kicad_pcb~
 *.kicad_sch~
 *.kicad_prl-bak
 fp-info-cache
@@ -163,3 +163,19 @@ cnc_pic32-backups/
 *.o
 
 .history/
+report.txt
+
+# Lock files
+~*.lck
+
+# Lock files
+~*.lck
+
+# Footprint library (custom, not system)
+footprints/
+
+# Libraries for conversion (not project files)
+libraries_kicad7/
+
+# Version file
+VERSION
