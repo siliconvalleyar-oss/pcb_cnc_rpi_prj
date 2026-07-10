@@ -177,5 +177,4 @@ footprints/
 # Libraries for conversion (not project files)
 libraries_kicad7/
 
-# Version file
-VERSION
+example/

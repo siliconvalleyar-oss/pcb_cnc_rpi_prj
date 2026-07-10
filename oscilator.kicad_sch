@@ -1031,16 +1031,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b40a8fd2-d3bb-45db-97e0-5f1586152b15")
-		(property "Footprint" "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm"
-			(at 151.13 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "Y1"
 			(at 151.13 80.01 0)
 			(show_name no)

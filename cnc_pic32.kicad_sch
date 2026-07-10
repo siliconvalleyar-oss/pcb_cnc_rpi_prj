@@ -109,6 +109,76 @@
 				(justify left top)
 			)
 		)
+		(pin "CS_spi4" input
+			(at 25.4 133.35 180)
+			(uuid "5b157d98-9cca-41e2-b993-57ae15ef4671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "int" input
+			(at 25.4 135.89 180)
+			(uuid "4e2ca73f-e200-4345-926c-1afd9f289ce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MISO_spi4" input
+			(at 25.4 139.7 180)
+			(uuid "802e403f-ac44-4708-a2f0-6d2820097cba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOSI_spi4" input
+			(at 25.4 142.24 180)
+			(uuid "33fb99fb-6850-48a4-a34e-ed21bdb36597")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_mrf" input
+			(at 25.4 146.05 180)
+			(uuid "caf59714-0535-4736-a537-b599db0a189e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK_spi4" input
+			(at 25.4 149.86 180)
+			(uuid "b0738a6a-f23e-47ee-840c-0e8955be1985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE_mrf" input
+			(at 25.4 153.67 180)
+			(uuid "723405be-f057-4439-8f84-62cf60191231")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
@@ -254,6 +324,16 @@
 		(pin "RB7" bidirectional
 			(at 228.6 71.12 180)
 			(uuid "dc1b44f1-dbdf-4bc8-ae23-8e6ff5688e44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RB4" bidirectional
+			(at 228.6 63.5 180)
+			(uuid "64748127-88b9-4c5e-96f8-aed3bd4b8914")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,6 +1236,26 @@
 				(justify left)
 			)
 		)
+		(pin "scl" input
+			(at 148.59 50.8 90)
+			(uuid "2935d549-4f92-4fd2-941d-74d3d8607158")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "sda" input
+			(at 152.4 50.8 90)
+			(uuid "a9d7173c-5564-4540-a404-9b4b2c383438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
@@ -1200,6 +1300,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 25.4 96.52 180)
+			(uuid "76a63a48-c6d6-4ee7-995c-9f469e818f02")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 25.4 92.71 180)
+			(uuid "33d9168b-8412-47bd-bea6-013667ce00ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1294,6 +1414,26 @@
 				(justify left top)
 			)
 		)
+		(pin "scl" input
+			(at 33.02 44.45 180)
+			(uuid "9ffcbf3a-947b-40ca-ac1a-46154dd5642f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sda" input
+			(at 33.02 46.99 180)
+			(uuid "2c9b8adb-109c-4be0-9e70-97c3ac3c18d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
@@ -1340,6 +1480,36 @@
 				(justify left top)
 			)
 		)
+		(pin "reset" input
+			(at 96.52 182.88 180)
+			(uuid "6562c07c-b70c-4b71-9efe-c0c8f6ee0ea5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sleep" input
+			(at 96.52 180.34 180)
+			(uuid "9915769e-5f1a-4e8a-adc2-4515b8a44882")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "enable" input
+			(at 96.52 176.53 180)
+			(uuid "8e5abccd-3d88-4ac5-a9da-c1ba1179c544")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
@@ -1384,6 +1554,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "OSC0" input
+			(at 180.34 38.1 180)
+			(uuid "1bfd81bc-335c-4fb7-b76f-107605a5bde8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSC1" input
+			(at 180.34 34.29 180)
+			(uuid "9ce63de9-82f7-46fe-96dd-1e68b43d24f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

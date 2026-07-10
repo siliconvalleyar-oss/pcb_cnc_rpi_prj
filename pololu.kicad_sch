@@ -1410,6 +1410,39 @@
 		)
 		(uuid "b217d57d-7207-40b9-976d-13bbed5ada75")
 	)
+	(hierarchical_label "reset"
+		(shape input)
+		(at 39.37 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09f69023-40d7-42a9-be7a-291c37326a06")
+	)
+	(hierarchical_label "enable"
+		(shape input)
+		(at 38.1 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55de83ed-238b-48db-b64b-71af686d6da4")
+	)
+	(hierarchical_label "sleep"
+		(shape input)
+		(at 38.1 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d937e946-d6d6-4af0-a920-7bf2e73bbb73")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 119.38 105.41 0)
@@ -3511,16 +3544,6 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b523d49a-5985-40d8-bd96-23e25fc0f5fa")
-		(property "Footprint" "kiC:PinHeader_1x06_P2.54mm_Vertical"
-			(at 86.36 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Reference" "J17"
 			(at 86.995 36.83 0)
 			(show_name no)
