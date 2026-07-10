@@ -1980,7 +1980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.5mmx1mm"
+		(property "Footprint" ""
 			(at 156.21 78.74 0)
 			(hide yes)
 			(effects
@@ -2301,7 +2301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.5mmx1mm"
+		(property "Footprint" ""
 			(at 114.3 72.39 0)
 			(hide yes)
 			(effects
