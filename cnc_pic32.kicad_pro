@@ -892,7 +892,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1,Q1,C1-28,U1-5,SW1-5,#PWR1-77,D1-2,Y1-3,L1-2,R1-39,JP1-2,A1-5,J1-24",
     "variants": []
   },
   "sheets": [
@@ -943,10 +943,6 @@
     [
       "aa6b2b7f-e067-4903-af41-a51929953e3c",
       "tp_ft232"
-    ],
-    [
-      "01979eff-2b02-4479-903a-ef1b6c01f12f",
-      "zigbee"
     ],
     [
       "d163b643-6954-48bb-bb05-5c9c3fb08250",

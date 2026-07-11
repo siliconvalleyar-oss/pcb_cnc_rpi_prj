@@ -2394,6 +2394,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 130.81) (xy 226.06 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1844ef62-efa5-4f1d-8b23-923c0ac218fc")
+	)
+	(wire
+		(pts
 			(xy 177.8 73.66) (xy 165.1 73.66)
 		)
 		(stroke
@@ -2401,6 +2411,16 @@
 			(type default)
 		)
 		(uuid "1caf760e-ec97-49b9-ae1f-04d73b61bffc")
+	)
+	(wire
+		(pts
+			(xy 218.44 128.27) (xy 226.06 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21732127-4ef1-42cc-b395-b029e17fff58")
 	)
 	(wire
 		(pts
@@ -2464,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 133.35) (xy 226.06 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "526ae248-695e-4824-b74a-9efa551be689")
+	)
+	(wire
+		(pts
 			(xy 165.1 66.04) (xy 177.8 66.04)
 		)
 		(stroke
@@ -2481,6 +2511,16 @@
 			(type default)
 		)
 		(uuid "6d0e7dc2-3ee4-4a91-946b-0f71326fcde8")
+	)
+	(wire
+		(pts
+			(xy 218.44 125.73) (xy 226.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ddf6bed-9ae3-46b7-b974-79bab3612642")
 	)
 	(wire
 		(pts
@@ -2879,6 +2919,17 @@
 		)
 		(uuid "395eea79-217d-45cd-bf1b-48147ed2341c")
 	)
+	(hierarchical_label "RD7"
+		(shape bidirectional)
+		(at 218.44 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "414076e3-ef5e-4d4f-9d91-2986be340348")
+	)
 	(hierarchical_label "OSC2"
 		(shape input)
 		(at 95.25 86.36 180)
@@ -2922,6 +2973,17 @@
 			(justify right)
 		)
 		(uuid "4aa4c43f-6bd1-4fec-9880-962183b46046")
+	)
+	(hierarchical_label "RD5"
+		(shape bidirectional)
+		(at 218.44 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "502f8e1c-628e-48db-bafa-4e909d3345eb")
 	)
 	(hierarchical_label "RD0"
 		(shape bidirectional)
@@ -2988,6 +3050,17 @@
 			(justify right)
 		)
 		(uuid "5c371964-71d9-4f02-8dd5-f19f3a4e4333")
+	)
+	(hierarchical_label "RD4"
+		(shape bidirectional)
+		(at 218.44 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d0dd788-8206-4adb-b4a0-92dca02fd5e7")
 	)
 	(hierarchical_label "RA15"
 		(shape bidirectional)
@@ -3318,6 +3391,17 @@
 			(justify right)
 		)
 		(uuid "b013fc94-dece-4c68-89dd-c9b9d942c222")
+	)
+	(hierarchical_label "RD6"
+		(shape bidirectional)
+		(at 218.44 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5714a10-dc94-4be0-9ea2-7eb3723697f6")
 	)
 	(hierarchical_label "VBUS"
 		(shape bidirectional)
@@ -3682,7 +3766,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ebf6445-9f73-4972-af82-96fea697e285")
-		(property "Reference" "R11"
+		(property "Reference" "R3"
 			(at 201.93 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +3829,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "R11")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4294,7 +4378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b8f175c-e802-4019-9c09-954ec19fb1b0")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 269.057 73.905 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4357,7 +4441,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4375,7 +4459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e1bdfd-6fa9-47f6-a5d6-16343fb07527")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 203.2 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4436,7 +4520,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4532,7 +4616,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d5feb2b-d313-4070-8641-ef5c2194fffd")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 243.84 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4595,7 +4679,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f944f3-a46f-42a6-a5ec-3c33dd5396a0")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 205.74 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,7 +4760,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4718,6 +4802,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "RD6" input
+			(at 226.06 130.81 180)
+			(uuid "788a9c9f-d80c-4ba4-987a-5ab6922dfee6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD7" input
+			(at 226.06 133.35 180)
+			(uuid "d1b12cda-0076-40ad-9df8-047415db0aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD4" input
+			(at 226.06 125.73 180)
+			(uuid "c5b83a12-65c9-4973-bcc7-55d0decdf3c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RD5" input
+			(at 226.06 128.27 180)
+			(uuid "6130976b-c920-49b3-8184-37bef25706d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

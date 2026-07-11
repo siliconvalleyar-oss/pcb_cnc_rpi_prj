@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -118,10 +118,7 @@
     "files": []
   },
   "schematic": {
-    "hierarchy_collapsed": [
-      "/64cf98d4-7353-423c-baad-4e05534717be/",
-      "/22a12b0c-67ed-4f76-a580-7ac736b63dbd/"
-    ],
+    "hierarchy_collapsed": [],
     "selection_filter": {
       "graphics": true,
       "images": true,

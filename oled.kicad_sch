@@ -1208,7 +1208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14b0a436-d5a1-40d3-ab6b-cf8331ea2c0c")
-		(property "Reference" "J23"
+		(property "Reference" "J21"
 			(at 153.67 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1283,7 +1283,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "J23")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -1301,7 +1301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2361b7d8-b448-482a-a49f-05338fbd0e4a")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR068"
 			(at 210.82 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1361,7 +1361,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR044")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1378,7 +1378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ca83932-ec97-4d1e-a0e8-20f045f10339")
-		(property "Reference" "J2"
+		(property "Reference" "J22"
 			(at 189.865 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1388,7 +1388,7 @@
 				)
 			)
 		)
-		(property "Value" "ST7789 oled 128x64"
+		(property "Value" "Adafruit ST7789"
 			(at 180.086 73.152 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:Adafruit_SSD1306_No_Mounting_Holes_pads"
+		(property "Footprint" "Library:Adafruit_SSD1306_No_Mounting_Holes_pads"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -1454,7 +1454,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "J2")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -1472,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f0f506d-7ade-4c73-8d73-a0a6c5c04ccd")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR065"
 			(at 119.38 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1532,7 +1532,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR068")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1550,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93776476-5ec8-4c9e-a0a1-d3c263d18aa6")
-		(property "Reference" "R42"
+		(property "Reference" "R31"
 			(at 92.71 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1613,7 +1613,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "R42")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1631,7 +1631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65a6448-a757-4c71-8900-721ba4a42107")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR066"
 			(at 125.73 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1691,7 +1691,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR069")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1709,7 +1709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5858237-851d-4c75-8c62-e68ecd439970")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR063"
 			(at 90.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1769,7 +1769,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR070")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1787,7 +1787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c750e5ea-d8fa-467d-80a2-194da8a78340")
-		(property "Reference" "R41"
+		(property "Reference" "R32"
 			(at 106.68 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +1850,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "R41")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1868,7 +1868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c81bfa67-88b8-4fb1-9d28-2affb2512d9e")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR064"
 			(at 104.14 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1928,7 +1928,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR071")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

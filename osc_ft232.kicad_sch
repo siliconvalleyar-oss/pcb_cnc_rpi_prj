@@ -706,7 +706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3af1eaa9-e124-4542-a35e-3b66d8437288")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 163.83 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -769,7 +769,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -786,7 +786,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "52242a5c-d4b9-4b2c-ad4c-6ea02bbee2e5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 148.59 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -845,7 +845,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -862,7 +862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a0d6a81-731a-478e-8c63-6b28cfad7d36")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -921,7 +921,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -938,7 +938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bbd0353-5cc8-420e-88df-4a6e45aa2fa3")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 139.7 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1001,7 +1001,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
