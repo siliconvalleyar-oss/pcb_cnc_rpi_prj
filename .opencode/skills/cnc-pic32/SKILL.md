@@ -228,22 +228,24 @@ Cada Pololu (A1-A5) tiene 5 signals individuales:
 - Sin "Locked Items" habilitado, no se pueden seleccionar componentes bloqueados
 
 ## Git workflow
-- Remote: `git-user/pcb_cnc_rpi_prj` (403 permission denied)
+- Remote: `siliconvalleyar-oss/pcb_cnc_rpi_prj`
 - Branch actual: `kicad_v10`
-- **Version tagging**: usar formato `v1.X.Y` (major.minor.patch). Tags en orden cronológico: v1.0.1→v1.1.7
+- **Version tagging**: usar formato `v1.X.Y` (major.minor.patch). Tags en orden cronológico: v1.0.1→v1.1.10
 - **Tag order**: v1.0.x = setup, v1.1.x = features/fixes
-- **Actual tags**: v1.0.1(cc79846) → v1.0.7(5fd926f) → v1.1.0(982b61f) → v1.1.7(8fd4761)
-- Commits recientes:
-  - `4be5f93` — feat: 25 hierarchical labels for 5 Pololus + fix footprints + USB pin6→SH
-  - `42a93b5`, `56e6edb`, `982b61f`, `2467753`
-- **Push bloqueado**: 403 permission denied para el remote actual
+- **Push credentials**: `git config --global user.password` → token GitHub
+- **Push workflow**:
+  ```bash
+  git remote set-url origin https://siliconvalleyar-oss:<TOKEN>@github.com/siliconvalleyar-oss/pcb_cnc_rpi_prj.git
+  git push origin kicad_v10 --tags
+  git remote set-url origin https://github.com/siliconvalleyar-oss/pcb_cnc_rpi_prj.git
+  ```
 
 ### Comando para commit + tag
 ```bash
 git add <files>
 git commit -m "tipo: descripcion"
-git tag -a v1.0.X -m "descripcion del tag"
-git push origin kicad_v10 --tags
+git tag -a v1.X.Y -m "descripcion del tag"
+# push con token
 ```
 
 ## Reglas de ruteo (net classes)
@@ -272,11 +274,26 @@ git push origin kicad_v10 --tags
 0.127mm, 0.254mm, 0.508mm, 0.762mm, 1.0mm, 1.27mm, 1.5mm, 2.54mm, 3.0mm, 5.0mm
 
 ## DRC conocido
-- 5 errores de short circuit
-- 3 violaciones de clearance
-- 226 pads sin conectar
-- 6 warnings de library
-- Prioridad: resolver shorts y clearance antes de routing final
+- **0 errores DRC** (sin shorts, sin violaciones de clearance)
+- **306 pads sin conectar** — normal antes de routing
+- **Duplicate references**: C7 y JP1 estaban duplicados en PCB (huérfanos) — corregido en v1.1.9
+- **Freerouting**: requiere Java 25+ (instalar `brew install --cask temurin@25`)
+
+### Freerouting workflow
+1. En KiCad PCB Editor: `File → Export → Specctra DSN...`
+2. Ejecutar Freerouting con el archivo DSN
+3. Después del routing, importar de vuelta a KiCad
+4. Ajustar differential pairs USB manualmente en KiCad
+
+### Limitaciones Freerouting
+- No tiene "bus routing" — cada net se rutea individualmente
+- No hace matched-length automáticamente
+- Para USB differential pairs: usar `Route → Interactive Differential Pair Tuning` en KiCad
+
+## Tareas pendientes
+- [ ] Definir reglas de bus routing (USB, I2C, SPI) para Freerouting
+- [ ] Agregar GND pour pour plan
+- [ ] Verificar clearance final tras routing
 
 ## Archivos clave
 - `cnc_pic32.kicad_pcb` — PCB layout
