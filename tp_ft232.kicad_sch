@@ -602,105 +602,6 @@
 		)
 		(uuid "efa38de5-d8d6-43cf-99bb-458e5d291889")
 	)
-	(hierarchical_label "FT_CTS"
-		(shape input)
-		(at 134.62 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06a9f814-3100-4c91-84c4-9f458f62145e")
-	)
-	(hierarchical_label "FT_DRS"
-		(shape input)
-		(at 135.89 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17645df7-bf33-49dd-9e12-558fdf42e6a3")
-	)
-	(hierarchical_label "FT_TXD_EN"
-		(shape input)
-		(at 135.89 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1dc4a209-1bc1-4898-89d1-4cf40242d7d5")
-	)
-	(hierarchical_label "FT_DCD"
-		(shape input)
-		(at 135.89 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1e1a745d-dc17-4efb-9a5c-1b6ae9bed922")
-	)
-	(hierarchical_label "FT_RST"
-		(shape input)
-		(at 134.62 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cf5abe4-1f12-42a9-a047-ad2f21fd4a60")
-	)
-	(hierarchical_label "FT_RI"
-		(shape input)
-		(at 135.89 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8022983f-4b01-49b0-9f39-4ac40cd442e3")
-	)
-	(hierarchical_label "FT_PWR_EN"
-		(shape input)
-		(at 135.89 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8232d7f1-4e77-40f8-948e-57136aa13710")
-	)
-	(hierarchical_label "FT_RST"
-		(shape input)
-		(at 146.05 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9986d97f-b98c-467d-be3b-2f188d600a15")
-	)
-	(hierarchical_label "FT_DTR"
-		(shape input)
-		(at 147.32 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9f8d05c-4775-4a07-9e3c-8690539ad3a4")
-	)
 	(global_label "TXD"
 		(shape input)
 		(at 179.07 66.04 180)
@@ -749,7 +650,6 @@
 			)
 		)
 	)
-
 	(global_label "RX_Rpi"
 		(shape input)
 		(at 147.32 66.04 0)
@@ -798,7 +698,50 @@
 			)
 		)
 	)
-
+	(hierarchical_label "FT_CTS"
+		(shape input)
+		(at 134.62 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06a9f814-3100-4c91-84c4-9f458f62145e")
+	)
+	(hierarchical_label "FT_DRS"
+		(shape input)
+		(at 135.89 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "17645df7-bf33-49dd-9e12-558fdf42e6a3")
+	)
+	(hierarchical_label "FT_TXD_EN"
+		(shape input)
+		(at 135.89 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dc4a209-1bc1-4898-89d1-4cf40242d7d5")
+	)
+	(hierarchical_label "FT_DCD"
+		(shape input)
+		(at 135.89 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e1a745d-dc17-4efb-9a5c-1b6ae9bed922")
+	)
 	(hierarchical_label "TX_MCU"
 		(shape input)
 		(at 182.88 77.47 180)
@@ -821,6 +764,50 @@
 		)
 		(uuid "4257ee63-c97c-42c3-8e7b-58bb8575e1b6")
 	)
+	(hierarchical_label "FT_RST"
+		(shape input)
+		(at 134.62 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4cf5abe4-1f12-42a9-a047-ad2f21fd4a60")
+	)
+	(hierarchical_label "FT_RI"
+		(shape input)
+		(at 135.89 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8022983f-4b01-49b0-9f39-4ac40cd442e3")
+	)
+	(hierarchical_label "FT_PWR_EN"
+		(shape input)
+		(at 135.89 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8232d7f1-4e77-40f8-948e-57136aa13710")
+	)
+	(hierarchical_label "FT_RST"
+		(shape input)
+		(at 146.05 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9986d97f-b98c-467d-be3b-2f188d600a15")
+	)
 	(hierarchical_label "RX_MCU"
 		(shape input)
 		(at 127 80.01 180)
@@ -831,6 +818,17 @@
 			(justify right)
 		)
 		(uuid "aa190c49-9ee4-4524-8fb8-57c17dd25214")
+	)
+	(hierarchical_label "FT_DTR"
+		(shape input)
+		(at 147.32 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9f8d05c-4775-4a07-9e3c-8690539ad3a4")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
@@ -864,7 +862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 123.19 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -940,7 +938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 118.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1016,7 +1014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 118.11 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -1092,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1168,7 +1166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1326,7 +1324,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:Pin_D1.5mmx1mm"
+		(property "Footprint" "Library:connector_pin1"
 			(at 203.2 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -1402,7 +1400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 118.11 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1560,7 +1558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:pad_0508"
+		(property "Footprint" "Library:connector_pin1"
 			(at 118.11 102.87 0)
 			(hide yes)
 			(show_name no)
