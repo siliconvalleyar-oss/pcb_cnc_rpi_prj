@@ -1132,7 +1132,7 @@
 	)
 	(hierarchical_label "scl"
 		(shape input)
-		(at 90.17 115.57 180)
+		(at 90.17 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1163,6 +1163,17 @@
 		)
 		(uuid "1628d833-e373-4446-8505-0ba4c1571230")
 	)
+	(hierarchical_label "RG6"
+		(shape input)
+		(at 194.31 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e7aaf12-944e-4264-b30f-1496ca1c9272")
+	)
 	(hierarchical_label "scl"
 		(shape input)
 		(at 146.05 78.74 180)
@@ -1185,6 +1196,17 @@
 		)
 		(uuid "5a9c301f-9167-4a68-a1c0-18805552f6f8")
 	)
+	(hierarchical_label "RG1"
+		(shape input)
+		(at 194.31 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63a89169-8252-4c2c-adf7-1dd23ba2e439")
+	)
 	(hierarchical_label "sda"
 		(shape input)
 		(at 90.17 118.11 180)
@@ -1196,6 +1218,39 @@
 		)
 		(uuid "a0c89bd6-d238-4923-988b-e92c5165b989")
 	)
+	(hierarchical_label "RG0"
+		(shape input)
+		(at 194.31 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da7e3815-13f0-4599-84d7-3a45f408c651")
+	)
+	(hierarchical_label "RG8"
+		(shape input)
+		(at 146.05 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0add58c-2f19-4cc3-940c-0391ac1ef511")
+	)
+	(hierarchical_label "RG7"
+		(shape input)
+		(at 146.05 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e25efc8d-dedd-4678-8c97-20b8b2785792")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 151.13 78.74 0)
@@ -1206,10 +1261,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14b0a436-d5a1-40d3-ab6b-cf8331ea2c0c")
 		(property "Reference" "J21"
-			(at 153.67 78.7399 0)
+			(at 139.954 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1220,7 +1274,7 @@
 			)
 		)
 		(property "Value" "conector oled ST1306 128x32"
-			(at 153.67 81.2799 0)
+			(at 125.476 70.358 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1389,7 +1443,7 @@
 			)
 		)
 		(property "Value" "Adafruit ST7789"
-			(at 180.086 73.152 0)
+			(at 195.072 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1540,7 +1594,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 111.76 0)
+		(at 90.17 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1551,7 +1605,7 @@
 		(fields_autoplaced yes)
 		(uuid "93776476-5ec8-4c9e-a0a1-d3c263d18aa6")
 		(property "Reference" "R31"
-			(at 92.71 110.49 0)
+			(at 92.71 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1562,7 +1616,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 92.71 113.03 0)
+			(at 92.71 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1573,7 +1627,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 88.392 111.76 90)
+			(at 88.392 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1584,7 +1638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 111.76 0)
+			(at 90.17 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1595,7 +1649,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 111.76 0)
+			(at 90.17 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1699,7 +1753,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 90.17 107.95 0)
+		(at 90.17 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1710,7 +1764,7 @@
 		(fields_autoplaced yes)
 		(uuid "c5858237-851d-4c75-8c62-e68ecd439970")
 		(property "Reference" "#PWR063"
-			(at 90.17 111.76 0)
+			(at 90.17 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +1775,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 90.17 102.87 0)
+			(at 90.17 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1731,7 +1785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 107.95 0)
+			(at 90.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 107.95 0)
+			(at 90.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +1807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 107.95 0)
+			(at 90.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

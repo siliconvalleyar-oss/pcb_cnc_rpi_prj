@@ -686,12 +686,6 @@
 		)
 	)
 	(junction
-		(at 175.26 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a822aad-149d-4735-aa05-dcd421e5905f")
-	)
-	(junction
 		(at 127 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -702,6 +696,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37adb459-a265-4a7f-b0f5-49c388bb452b")
+	)
+	(junction
+		(at 175.26 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "765bb5c7-269e-4c0d-a795-d02b9ca8e791")
+	)
+	(junction
+		(at 175.26 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8380bffe-d83f-4a13-a736-6b9a6719127c")
 	)
 	(junction
 		(at 127 87.63)
@@ -768,6 +774,16 @@
 			(type default)
 		)
 		(uuid "51ab8f49-2bc7-4aef-9565-403a692f3707")
+	)
+	(wire
+		(pts
+			(xy 175.26 62.23) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544e3a38-7ede-4e92-b9e5-42bb05b97669")
 	)
 	(wire
 		(pts
@@ -861,6 +877,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 62.23) (xy 186.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4094496-3065-4dd3-ac35-7ba9ad62d358")
+	)
+	(wire
+		(pts
 			(xy 157.48 78.74) (xy 157.48 80.01)
 		)
 		(stroke
@@ -901,7 +927,7 @@
 	)
 	(hierarchical_label "OSC1"
 		(shape input)
-		(at 175.26 72.39 0)
+		(at 186.69 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -910,7 +936,7 @@
 		)
 		(uuid "7bf6768c-17c7-4bb6-a2dc-67d99e99d2ae")
 	)
-	(hierarchical_label "OSC0"
+	(hierarchical_label "OSC2"
 		(shape input)
 		(at 130.81 50.8 0)
 		(effects

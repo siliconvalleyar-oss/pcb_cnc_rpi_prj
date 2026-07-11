@@ -974,7 +974,7 @@
 		(uuid "bf1bea46-96f2-4d9a-9ef8-bc33329fad11")
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3.3V")
 		(at 179.07 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -984,7 +984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "93b582e9-56a3-46ff-bfb4-c013e26ac392")
+		(uuid "2ab6238d-89a0-4cf3-b141-7a0c48fb86f5")
 		(property "Reference" "#PWR06"
 			(at 179.07 67.31 0)
 			(hide yes)
@@ -996,7 +996,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 179.07 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "08d64326-eeee-424d-bfbb-f71bfeb01599")
+			(uuid "c4013725-160f-434d-9643-f5f75da40e81")
 		)
 		(instances
 			(project "cnc_pic32"
