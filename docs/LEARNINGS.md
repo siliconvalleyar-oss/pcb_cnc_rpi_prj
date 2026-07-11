@@ -6,7 +6,7 @@
 El push falla con `403 Permission denied` cuando se usa HTTPS con el remote `siliconvalleyar-oss/pcb_cnc_rpi_prj.git`.
 
 ### Causa
-El credential helper de macOS (`osxkeychain`) almacena credenciales para el usuario `leoamayamarketing-bit`, pero ese usuario no tiene permisos de escritura en el repositorio `siliconvalleyar-oss`.
+El credential helper de macOS (`osxkeychain`) almacena credenciales para el usuario `git-user`, pero ese usuario no tiene permisos de escritura en el repositorio `siliconvalleyar-oss`.
 
 ### Solución — Token en config global
 
@@ -61,10 +61,10 @@ git log --oneline -5
 
 Las credenciales de GitHub se almacenan en:
 ```bash
-security find-internet-password -s "github.com" -a "leoamayamarketing-bit"
+security find-internet-password -s "github.com" -a "git-user"
 ```
 
-Pero estas son para el usuario `leoamayamarketing-bit` (solo lectura en `siliconvalleyar-oss`).
+Pero estas son para el usuario `git-user` (solo lectura en `siliconvalleyar-oss`).
 
 ## Version Tagging
 

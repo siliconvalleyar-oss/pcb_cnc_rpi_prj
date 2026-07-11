@@ -228,7 +228,7 @@ Cada Pololu (A1-A5) tiene 5 signals individuales:
 - Sin "Locked Items" habilitado, no se pueden seleccionar componentes bloqueados
 
 ## Git workflow
-- Remote: `leoamayamarketing-bit/pcb_cnc_rpi_prj` (403 permission denied)
+- Remote: `git-user/pcb_cnc_rpi_prj` (403 permission denied)
 - Branch actual: `kicad_v10`
 - **Version tagging**: usar formato `v1.0.X` (sumar +0.0.1 cada release)
 - Commits recientes:
