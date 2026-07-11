@@ -693,48 +693,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.54,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.254,
-        "diff_pair_width": 0.254,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "usb_differential",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "motor",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
-        "tuning_profile": "",
-        "via_diameter": 0.9,
-        "via_drill": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -749,40 +711,8 @@
         "pattern": "+12V"
       },
       {
-        "netclass": "power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "power",
-        "pattern": "+15V"
-      },
-      {
-        "netclass": "power",
-        "pattern": "+16"
-      },
-      {
-        "netclass": "power",
-        "pattern": "power+15"
-      },
-      {
         "netclass": "power5V",
         "pattern": "+5V"
-      },
-      {
-        "netclass": "power5V",
-        "pattern": "V+_USB"
-      },
-      {
-        "netclass": "power5V",
-        "pattern": "_V+_USB"
-      },
-      {
-        "netclass": "power5V",
-        "pattern": "/Ft232/V+_USB"
-      },
-      {
-        "netclass": "power5V",
-        "pattern": "/Ft232/tp_ft232/+5v"
       },
       {
         "netclass": "power3V3",
@@ -801,220 +731,28 @@
         "pattern": "/RF"
       },
       {
+        "netclass": "power",
+        "pattern": "+15V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+16"
+      },
+      {
+        "netclass": "V_USB",
+        "pattern": "_V+_USB"
+      },
+      {
+        "netclass": "power5V",
+        "pattern": "V+_USB"
+      },
+      {
+        "netclass": "power",
+        "pattern": "power+15"
+      },
+      {
         "netclass": "rf",
         "pattern": "RF"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "/MCU/D+"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "/MCU/D-"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "Net-(J2-D+)"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "Net-(J2-D-)"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "Net-(J5-D+)"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "Net-(J5-D-)"
-      },
-      {
-        "netclass": "usb_differential",
-        "pattern": "Net-(J4-D-)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A1-1A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A1-1B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A1-2A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A1-2B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A2-1A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A2-1B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A2-2A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A2-2B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A3-1A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A3-1B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A3-2A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A3-2B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A4-1A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A4-1B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A4-2A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A4-2B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A5-1A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A5-1B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A5-2A)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(A5-2B)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(U3-AVCC)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(U3-~{SLEEP})"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(U3-D0{slash}TXD)"
-      },
-      {
-        "netclass": "motor",
-        "pattern": "Net-(U3-D1{slash}RXD)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "/MCU/*"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "/Ft232/*"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "/idc/*"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "RXD"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "TXD"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "RX_Rpi"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "TX_Rpi"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "TX_RP2040"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "TX_MCU"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "SW_PWR"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(Q1-D)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(D1-A)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(D1-K)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(D2-A)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(D2-K)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(J3-Pin_1)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(J4-Pin_1)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(R12-Pad2)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(R59-Pad2)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(C12-Pad1)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(TP1-Pin_1)"
-      },
-      {
-        "netclass": "signal",
-        "pattern": "Net-(TP17-Pin_1)"
       }
     ]
   },
@@ -1154,7 +892,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "TP1,Q1,C1-28,U1-5,SW1-5,#PWR1-77,D1-2,Y1-3,L1-2,R1-39,JP1-2,A1-5,J1-24",
+    "used_designators": "TP1,Q1,C1-28,U1-5,SW1-5,D1-2,#PWR1-77,Y1-3,L1-2,R1-39,JP1-2,A1-5,J1-24",
     "variants": []
   },
   "sheets": [
