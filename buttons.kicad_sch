@@ -476,7 +476,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1932,7 +1932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 109.22 72.39 0)
 		(unit 1)
 		(body_style 1)
@@ -1954,7 +1954,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 109.22 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2246,7 +2246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 196.85 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -2268,7 +2268,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 196.85 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)

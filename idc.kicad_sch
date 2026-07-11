@@ -527,7 +527,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -974,7 +974,7 @@
 		(uuid "bf1bea46-96f2-4d9a-9ef8-bc33329fad11")
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 179.07 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -996,7 +996,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3V3"
 			(at 179.07 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)

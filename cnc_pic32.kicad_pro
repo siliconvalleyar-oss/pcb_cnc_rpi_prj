@@ -720,7 +720,7 @@
       },
       {
         "netclass": "power3V3",
-        "pattern": "+3.3V"
+        "pattern": "+3V3"
       },
       {
         "netclass": "power3V3",
