@@ -230,7 +230,9 @@ Cada Pololu (A1-A5) tiene 5 signals individuales:
 ## Git workflow
 - Remote: `git-user/pcb_cnc_rpi_prj` (403 permission denied)
 - Branch actual: `kicad_v10`
-- **Version tagging**: usar formato `v1.0.X` (sumar +0.0.1 cada release)
+- **Version tagging**: usar formato `v1.X.Y` (major.minor.patch). Tags en orden cronológico: v1.0.1→v1.1.7
+- **Tag order**: v1.0.x = setup, v1.1.x = features/fixes
+- **Actual tags**: v1.0.1(cc79846) → v1.0.7(5fd926f) → v1.1.0(982b61f) → v1.1.7(8fd4761)
 - Commits recientes:
   - `4be5f93` — feat: 25 hierarchical labels for 5 Pololus + fix footprints + USB pin6→SH
   - `42a93b5`, `56e6edb`, `982b61f`, `2467753`
@@ -243,6 +245,31 @@ git commit -m "tipo: descripcion"
 git tag -a v1.0.X -m "descripcion del tag"
 git push origin kicad_v10 --tags
 ```
+
+## Reglas de ruteo (net classes)
+
+| Net Class | Track Width | Via Ø | Drill | Clearance | Uso |
+|-----------|-------------|-------|-------|-----------|-----|
+| `power` | 1.27mm | 1.2mm | 0.7mm | 0.2mm | +12V, GND (high current) |
+| `power5V` | 0.762mm | 1.2mm | 0.7mm | 0.2mm | +5V, V+_USB |
+| `power3V3` | 0.508mm | 0.9mm | 0.5mm | 0.2mm | +3.3V, +3V3 |
+| `motor` | 0.762mm | 0.9mm | 0.5mm | 0.2mm | A4988 coils (A1-A5) |
+| `usb_differential` | 0.254mm | 0.6mm | 0.3mm | 0.15mm | USB D+/D- (matched pairs) |
+| `signal` | 0.254mm | 0.6mm | 0.3mm | 0.127mm | MCU, FT232, IDC, I2C, SPI |
+| `rf` | 3.62mm | 1.2mm | 0.7mm | 0.127mm | Zigbee MRF24J40 antenna |
+| `Default` | 0.25mm | 0.8mm | 0.4mm | 0.127mm | Fallback |
+
+### Asignacion de nets
+- **power**: GND, +12V
+- **power5V**: +5V, V+_USB, /Ft232/V+_USB, /Ft232/tp_ft232/+5v
+- **power3V3**: +3V3, +3.3V
+- **motor**: Net-(A1-A5-*), Net-(U3-AVCC), Net-(U3-~{SLEEP})
+- **usb_differential**: /MCU/D+, /MCU/D-, Net-(J2-D+), Net-(J2-D-), Net-(J5-D+), Net-(J5-D-), Net-(J4-D-)
+- **signal**: /MCU/*, /Ft232/*, /idc/*, RXD, TXD, RX_Rpi, TX_Rpi, SW_PWR
+- **rf**: /RF, RF
+
+### Track widths disponibles
+0.127mm, 0.254mm, 0.508mm, 0.762mm, 1.0mm, 1.27mm, 1.5mm, 2.54mm, 3.0mm, 5.0mm
 
 ## DRC conocido
 - 5 errores de short circuit
