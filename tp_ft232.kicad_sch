@@ -842,7 +842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27943355-c492-48c3-9293-b1d8ea90072e")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 121.92 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +900,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -918,7 +918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d42b627-c885-4319-869e-df96076e6777")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 116.84 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -976,7 +976,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -994,7 +994,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56d23809-65b1-4624-b7f0-7d93d8f407a4")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 116.84 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1052,7 +1052,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -1070,7 +1070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "596f9105-e138-4fcc-bfe5-739a70b5babd")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 116.84 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1128,7 +1128,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -1146,7 +1146,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "672ebc0d-e74b-4428-865f-b61d567532a9")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 123.19 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1204,7 +1204,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1222,7 +1222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6efd282e-be09-444a-bedb-baea349a6f15")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 135.89 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1286,7 +1286,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -1304,7 +1304,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83f1355f-9432-42df-ad1b-f113c540df11")
-		(property "Reference" "J16"
+		(property "Reference" "J14"
 			(at 201.93 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1362,7 +1362,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J16")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1380,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "89ffb0ec-542e-4d64-9999-c83e8370056c")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 116.84 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1438,7 +1438,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1456,7 +1456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fc6164-4ec7-4b61-9924-b1027e965bf0")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 187.96 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1520,7 +1520,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -1538,7 +1538,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df9dda3e-4bd7-408e-be78-7df9c0e49fe7")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 116.84 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1596,7 +1596,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/aa6b2b7f-e067-4903-af41-a51929953e3c"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)

@@ -1710,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec50d47-c6dd-41ac-bd89-b7439a5b0ffa")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 200.66 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +1774,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1791,7 +1791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "261bc2b6-bd3d-4a61-8493-f654f67150d7")
-		(property "Reference" "R40"
+		(property "Reference" "R9"
 			(at 171.45 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,7 +1852,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "R40")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1870,7 +1870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b2749f-b2cb-4a50-81c6-cba7f1841c13")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR011"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1929,7 +1929,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR043")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1946,7 +1946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f169086-e225-475e-8b67-a0f2d74ab859")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 171.45 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,7 +2009,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2026,7 +2026,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad830ea8-a12f-4286-838b-e2d1178b8650")
-		(property "Reference" "C29"
+		(property "Reference" "C14"
 			(at 193.802 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2089,7 +2089,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "C29")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49dcb9d-0a61-4017-9aaa-d7653a59bf5f")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR09"
 			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2166,7 +2166,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR041")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2184,7 +2184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb178db5-c156-4745-a2a7-52369193e9e0")
-		(property "Reference" "TP17"
+		(property "Reference" "TP1"
 			(at 181.61 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2205,7 +2205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kiC:Pin_D1.5mmx1mm"
+		(property "Footprint" "Library:connector_pin1"
 			(at 182.88 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2243,7 +2243,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "TP17")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2260,7 +2260,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce0c3106-33c0-4c10-9e6e-9172d5f1919e")
-		(property "Reference" "R39"
+		(property "Reference" "R8"
 			(at 171.45 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2321,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "R39")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d12fc2a1-fee5-4643-8cfc-5f1e3a410d17")
-		(property "Reference" "J18"
+		(property "Reference" "J2"
 			(at 144.78 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,13 +2406,13 @@
 		(pin "5"
 			(uuid "2ec5b429-5231-4fb0-ba15-885322f2f27b")
 		)
-		(pin "6"
+		(pin "SH"
 			(uuid "943704b9-1461-4197-8764-f42c6daa70d7")
 		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "J18")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4c9f17b-0f0f-4b06-9187-f8cf9b840688")
-		(property "Reference" "C30"
+		(property "Reference" "C15"
 			(at 220.472 87.122 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2492,7 +2492,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "C30")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -2510,7 +2510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8a715c-3750-4037-8ec3-d5ada0498ef2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR010"
 			(at 200.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2569,7 +2569,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR042")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
