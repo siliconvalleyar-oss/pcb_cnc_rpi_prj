@@ -12,15 +12,15 @@ description: Proyecto CNC con PIC32MX795F512L, drivers A4988, Zigbee MRF24J40, O
 - `mcu.kicad_sch` — PIC32MX795F512L
 - `power.kicad_sch` — alimentacion (3.3V, 5V, 12V)
 - `ft232.kicad_sch` — FT232BM (USB-UART)
-  - `usb_conector_Ft232.kicad_sch` — conector USB
+  - `usb_conector_Ft232.kicad_sch` — conector USB (J4, J5, J15)
   - `osc_ft232.kicad_sch` — cristal FT232
   - `power_ft232.kicad_sch` — alimentacion FT232
-  - `tp_ft232.kicad_sch` — test points FT232
-- `pololu.kicad_sch` — drivers A4988 x5
+  - `tp_ft232.kicad_sch` — test points FT232 (J6-J16, J18)
+- `pololu.kicad_sch` — drivers A4988 x5 (A1-A5), conector J17
 - `oled.kicad_sch` — display OLED I2C
 - `zigbee.kicad_sch` — modulo MRF24J40MA
 - `oscilator.kicad_sch` — cristal principal
-- `Usb_pic32.kicad_sch` — USB PIC32
+- `Usb_pic32.kicad_sch` — USB PIC32 (J18, TP17)
 
 ### Clases de red (net classes)
 | Clase      | Track Width | Clearance | Nets             |
@@ -56,6 +56,8 @@ description: Proyecto CNC con PIC32MX795F512L, drivers A4988, Zigbee MRF24J40, O
 - **U4 (MRF24J40MA Zigbee)**: posicion (110, 35)
   - Keepout zones: (93.56, 27.723) a (113.56, 44.723)
   - Mantener 5mm de clearance con bordes del board
+- **J2 (USB Mini-B)**: posicion (61.1975, 29.268) — desbloqueado
+- **U3 (LQFP-32)**: posicion (62, 40, rot90) — desbloqueado
 
 ### Formato de texto en PCB
 
@@ -128,16 +130,119 @@ Cuando se convierten labels a hierarchical labels:
 4. Cambiar justify de `(justify right bottom)` a `(justify left)` o `(justify right)` segun orientacion
 5. **Eliminar** cualquier `(global_label ...)` que este en la misma posicion (conflicto)
 
+### Sheet pins en el padre
+- Los sheet pins en el padre deben coincidir EXACTAMENTE con los hierarchical labels del hijo
+- Formato: `(pin "nombre" input (at X Y angle) (uuid "...") (effects ...))`
+- Los pins se colocan en los bordes del sheet box
+- El sheet box debe ser lo suficientemente grande para contener todos los pins
+
+### Pololu sheet — 5 drivers A4988
+Cada Pololu (A1-A5) tiene 5 signals individuales:
+- `reset_N`, `sleep_N`, `enable_N`, `step_N`, `dir_N` (donde N = 1-5)
+
+**Posiciones de los Pololos:**
+| Ref | Centro X | Pin X (left) | Label X |
+|-----|----------|-------------|---------|
+| A1  | 78.74    | 68.58       | 63.50   |
+| A2  | 119.38   | 109.22      | 104.14  |
+| A3  | 153.67   | 143.51      | 138.43  |
+| A4  | 193.04   | 182.88      | 177.80  |
+| A5  | 227.33   | 217.17      | 212.09  |
+
+**Pin offsets del Pololu A4988 (relativo al centro):**
+- RESET:  (-10.16, +10.16) → pin 13
+- SLEEP:  (-10.16, +7.62)  → pin 14
+- ENABLE: (-10.16, +2.54)  → pin 9
+- STEP:   (-10.16, 0)      → pin 15
+- DIR:    (-10.16, -2.54)  → pin 16
+
+**Formato del hierarchical label:**
+```
+(hierarchical_label "reset_1"
+  (shape input)
+  (at 63.50 74.93 180)
+  (effects
+    (font
+      (size 1.27 1.27)
+    )
+    (justify right)
+  )
+  (uuid "...")
+)
+```
+
+**Formato del wire:**
+```
+(wire
+  (pts
+    (xy 63.50 74.93) (xy 68.58 74.93)
+  )
+  (stroke
+    (width 0)
+    (type default)
+  )
+  (uuid "...")
+)
+```
+
+**Sheet box en el padre:**
+- Posicion: (96.52, 166.37)
+- Size: (54.61, 66.04) — 25 pins x 2.54mm + margen
+- 25 sheet pins en el borde izquierdo (x=96.52)
+
 ### Errores comunes en KiCad 10 PCB
 - **`knockout`**: NO es valido en PCB text, solo en esquematicos. Causa error de parse.
 - **Duplicate UUIDs**: Causa warning en DRC pero no bloquea
 - **`fp_text` vs `fp_text_property`**: Usar `fp_text` para reference/value, no `fp_text_property`
 
+### Footprints del proyecto
+- **Library** (custom): `/Users/bee/Documents/KiCad/Ohers_&_Olds/rpi_z_tft/Library.pretty`
+- **fp-lib-table**: una sola libreria "Library"
+- Footprints disponibles en Library:
+  - `connector_pin1` — pin de prueba individual
+  - `PinHeader_1x06_P2.54mm_Vertical` — header 6 pines
+  - `SW_SPST_CK_RS282G05A3` — switch SMD
+  - `SW_Push_1P1T_NO_6x6mm_H9.5mm` — pushbutton (NO usar, reemplazado)
+
+### Asignacion de footprints
+| Componente | Footprint anterior | Footprint actual |
+|------------|-------------------|------------------|
+| J6-J16 (test points) | kiC:pad_0508 | Library:connector_pin1 |
+| J18 (tp_ft232) | kiC:pad_0508 | Library:connector_pin1 |
+| J4, J15 (usb_conector_Ft232) | kiC:Pin_D1.5mmx1mm | Library:connector_pin1 |
+| TP17 (Usb_pic32) | kiC:Pin_D1.5mmx1mm | Library:connector_pin1 |
+| J17 (pololu) | kiC:PinHeader_1x06_P2.54mm_Vertical | Library:PinHeader_1x06_P2.54mm_Vertical |
+| SW1-SW5 (buttons) | kiC:SW_Push_1P1T_NO_6x6mm_H9.5mm | Button_Switch_SMD:SW_SPST_CK_RS282G05A3 |
+| J5 (USB) | pin "6" en schematic | pin "SH" (match footprint) |
+| J18 (USB) | pin "6" en schematic | pin "SH" (match footprint) |
+
+### USB Mini-B — pin naming
+- El footprint `USB_Mini-B_Wuerth_65100516121_Horizontal` tiene pads 1-5 + "SH" (shield)
+- El symbol `USB_B_Mini` tiene pin "6" para shield
+- **Fix**: Renombrar pin `"6"` → `"SH"` en el schematic para matchear el footprint
+
+## Lock/Unlock en PCB Editor
+- **Selection Filter** (esquina inferior derecha) → marcar **"Locked Items"**
+- Con "Locked Items" habilitado: click derecho → Properties → desmarcar "Locked"
+- O seleccionar + presionar `L` para toggle lock/unlock
+- Sin "Locked Items" habilitado, no se pueden seleccionar componentes bloqueados
+
 ## Git workflow
 - Remote: `leoamayamarketing-bit/pcb_cnc_rpi_prj` (403 permission denied)
 - Branch actual: `kicad_v10`
-- Commits recientes: `42a93b5`, `56e6edb`, `982b61f`
+- **Version tagging**: usar formato `v1.0.X` (sumar +0.0.1 cada release)
+- Commits recientes:
+  - `4be5f93` — feat: 25 hierarchical labels for 5 Pololus + fix footprints + USB pin6→SH
+  - `42a93b5`, `56e6edb`, `982b61f`, `2467753`
 - **Push bloqueado**: 403 permission denied para el remote actual
+
+### Comando para commit + tag
+```bash
+git add <files>
+git commit -m "tipo: descripcion"
+git tag -a v1.0.X -m "descripcion del tag"
+git push origin kicad_v10 --tags
+```
 
 ## DRC conocido
 - 5 errores de short circuit
@@ -150,6 +255,12 @@ Cuando se convierten labels a hierarchical labels:
 - `cnc_pic32.kicad_pcb` — PCB layout
 - `cnc_pic32.kicad_sch` — esquematico raiz
 - `cnc_pic32.kicad_pro` — configuracion del proyecto
+- `pololu.kicad_sch` — 5 drivers A4988 + 25 hierarchical labels
+- `tp_ft232.kicad_sch` — test points FT232
+- `usb_conector_Ft232.kicad_sch` — USB FT232
+- `Usb_pic32.kicad_sch` — USB PIC32
+- `buttons.kicad_sch` — switches
 - `docs/DOCUMENTACION.md` — documentacion del proyecto
 - `docs/TODO.md` — tareas pendientes
 - `DRC.rpt` — reporte de DRC
+- `VERSION` — archivo de version

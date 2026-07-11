@@ -1870,7 +1870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61b2749f-b2cb-4a50-81c6-cba7f1841c13")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -1929,7 +1929,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2107,7 +2107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b49dcb9d-0a61-4017-9aaa-d7653a59bf5f")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -2166,7 +2166,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2351,6 +2351,7 @@
 		)
 		(property "Value" "USB_B_Mini"
 			(at 144.78 83.82 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2359,7 +2360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal"
+		(property "Footprint" "Library:USB_Mini-B_Wuerth_65100516121_Horizontal"
 			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2406,7 +2407,7 @@
 		(pin "5"
 			(uuid "2ec5b429-5231-4fb0-ba15-885322f2f27b")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "943704b9-1461-4197-8764-f42c6daa70d7")
 		)
 		(instances
@@ -2510,7 +2511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df8a715c-3750-4037-8ec3-d5ada0498ef2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR012"
 			(at 200.66 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2569,7 +2570,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/71987749-cd9a-4512-bfc9-6de6f65225ef"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

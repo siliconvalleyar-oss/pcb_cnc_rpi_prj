@@ -3048,7 +3048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "065f2ee3-4e6e-451d-8895-8e0cd4755420")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 86.36 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3107,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3376,7 +3376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f36762-2f47-4f8d-9ada-da3419b32d93")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 209.55 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3436,7 +3436,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3454,7 +3454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "230db71d-7ce2-403d-902f-12f6f81af98d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 123.19 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3513,7 +3513,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3531,7 +3531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dda0a09-56e8-437a-bcbe-a30a49b33d01")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 194.31 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3590,7 +3590,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4400,7 +4400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab530389-d13a-47c6-8940-400170f1905b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 139.7 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +4459,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4807,7 +4807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf8b5323-0b35-432a-959b-68b3b6eb1d5c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 144.78 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -4866,7 +4866,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4884,7 +4884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4db7ec0-9ea3-49cc-a09b-b15b59bdbc0b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 97.79 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4943,7 +4943,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5120,7 +5120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6926807-5ebd-4996-992b-5bb241ff5052")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 176.53 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5180,7 +5180,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5198,7 +5198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbfd4e4c-da26-4aa0-a4ee-8b3b05ba492c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 109.22 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5257,7 +5257,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)

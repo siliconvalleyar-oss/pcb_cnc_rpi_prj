@@ -1773,7 +1773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd787da-a754-4e04-bad8-66f125a7e04a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 123.19 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -1832,7 +1832,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/13c6ea59-7a61-4b45-80a4-2330f6dead08"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1930,7 +1930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5325cee1-5365-437e-9758-a2238d1c10c8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 173.99 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -1989,7 +1989,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/13c6ea59-7a61-4b45-80a4-2330f6dead08"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2097,6 +2097,7 @@
 		)
 		(property "Value" "USB_B_Mini"
 			(at 118.11 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2105,7 +2106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal"
+		(property "Footprint" "Library:USB_Mini-B_Wuerth_65100516121_Horizontal"
 			(at 121.92 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -2152,7 +2153,7 @@
 		(pin "5"
 			(uuid "38adac56-2dcd-40d5-9c39-8cea3427259b")
 		)
-		(pin "SH"
+		(pin "6"
 			(uuid "1cc8bbba-6710-4ddf-a482-ab470b4ec98e")
 		)
 		(instances
@@ -2492,7 +2493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f10548a7-d3f0-4e53-842b-0a2d46e1770c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 187.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2551,7 +2552,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/13c6ea59-7a61-4b45-80a4-2330f6dead08"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
