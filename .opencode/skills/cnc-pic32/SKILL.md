@@ -298,6 +298,32 @@ git tag -a v1.X.Y -m "descripcion del tag"
 - [ ] Agregar GND pour pour plan
 - [ ] Verificar clearance final tras routing
 
+## Git / Versionado
+
+**Todo push debe llevar su tag.** No se pushea sin tag.
+
+### Flujo de versionado
+1. Obtener último tag publicado (ej: `v1.0.0`)
+2. Archivo `VERSION` debe coincidir con ese tag (sin `v`)
+3. Siguiente versión: `tag + 0.0.1` (ej: `v1.0.0` → `1.0.1`)
+4. Actualizar `VERSION`, commit, tag, push
+
+### Reglas
+- **Tag y VERSION siempre coinciden** (tag con `v`, VERSION sin `v`)
+- **No eliminar tags publicados.** Si hay error, crear nuevo tag
+- **Cada commit significativo lleva tag.** No saltar números
+- **Ciclo patch 0-9 obligatorio.** `v1.0.9` → `v1.1.0` (nunca `v1.1.1`)
+- **No retroceder versión.** Tag publicado es inmutable
+- **Conventional commits**: `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`
+
+### Comando para commit + tag + push
+```bash
+git add <files>
+git commit -m "tipo: descripcion"
+git tag -a v1.X.Y -m "descripcion del tag"
+git push origin kicad_v10 --tags
+```
+
 ## Archivos clave
 - `cnc_pic32.kicad_pcb` — PCB layout
 - `cnc_pic32.kicad_sch` — esquematico raiz
