@@ -281,14 +281,17 @@ git tag -a v1.X.Y -m "descripcion del tag"
 
 ### Freerouting workflow
 1. En KiCad PCB Editor: `File → Export → Specctra DSN...`
-2. Ejecutar Freerouting con el archivo DSN
+2. Ejecutar Freerouting con el archivo DSN: `./scripts/run_autoroute.sh freerouting.dsn`
 3. Después del routing, importar de vuelta a KiCad
 4. Ajustar differential pairs USB manualmente en KiCad
 
-### Limitaciones Freerouting
+### Limitaciones Freerouting v2.2.4
+- **NO soporta `--router.layers.routable`** — flag documentado en GitHub pero no implementado en v2.2.4. El campo `layers` (`LayerSettings[]`) no existe en el jar compilado; usa `isLayerActive` (`boolean[]`) que es `transient` y no se puede configurar por CLI ni JSON.
+- **Solución**: `scripts/run_autoroute.sh` crea un DSN temporal eliminando las capas internas (In1.Cu, In2.Cu) antes de pasárselo a FreeRouting. KiCad reconstruye el stackup completo al importar el SES.
 - No tiene "bus routing" — cada net se rutea individualmente
 - No hace matched-length automáticamente
 - Para USB differential pairs: usar `Route → Interactive Differential Pair Tuning` en KiCad
+- **Capas del PCB**: 4 capas de cobre (F.Cu, In1.Cu, In2.Cu, B.Cu) — el autorouting solo ruteará en F.Cu y B.Cu
 
 ## Tareas pendientes
 - [ ] Definir reglas de bus routing (USB, I2C, SPI) para Freerouting

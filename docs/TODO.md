@@ -4,7 +4,8 @@
 - [x] Definir clases de red (net classes): power, power5V, power3V3, motor, usb_differential, signal, rf
 - [x] Eliminar referencias duplicadas C7 y JP1 (huérfanos en PCB)
 - [x] Generar DSN para Freerouting
-- [ ] Rutar con Freerouting
+- [x] Corregir script run_autoroute.sh para restringir a Top/Bottom (v2.2.4 no soporta --router.layers.routable)
+- [ ] Rutar con Freerouting (usar ./scripts/run_autoroute.sh)
 - [ ] Definir reglas de bus routing para Freerouting (USB, I2C, SPI)
 - [ ] Ajustar differential pairs USB manualmente en KiCad
 - [ ] Rutar pistas de potencia (12V, 5V, GND) con el ancho asignado

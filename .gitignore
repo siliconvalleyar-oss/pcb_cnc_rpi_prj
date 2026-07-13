@@ -162,6 +162,11 @@ cnc_pic32_Volds.net
 cnc_pic32-backups/
 *.o
 
+# -------------------------------
+# 📦 Archivos binarios descargados
+# -------------------------------
+*.jar
+
 .history/
 report.txt
 
@@ -181,3 +186,5 @@ example/
 
 
 session-ses*.md
+assets/
+freerouting-2.2.4.jar
