@@ -1154,7 +1154,7 @@
 	)
 	(hierarchical_label "sda"
 		(shape input)
-		(at 146.05 81.28 180)
+		(at 146.05 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1176,7 +1176,7 @@
 	)
 	(hierarchical_label "scl"
 		(shape input)
-		(at 146.05 78.74 180)
+		(at 146.05 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1242,7 +1242,7 @@
 	)
 	(hierarchical_label "RG7"
 		(shape input)
-		(at 146.05 83.82 180)
+		(at 146.05 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
