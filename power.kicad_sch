@@ -568,12 +568,6 @@
 		(uuid "273d9afe-98e1-441c-8d90-ac777cda7673")
 	)
 	(junction
-		(at 72.39 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39b8623b-a711-49f4-bc52-1775bd32f848")
-	)
-	(junction
 		(at 55.88 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -698,12 +692,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1117bcc-d6c4-4b22-b43a-2785cf7b51c8")
-	)
-	(junction
-		(at 72.39 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "caf59fe2-5742-4a6f-a41f-f85fde93905f")
 	)
 	(junction
 		(at 187.96 60.96)
@@ -833,7 +821,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 90.17 106.68)
+			(xy 55.88 106.68) (xy 90.17 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 99.06) (xy 90.17 99.06)
+			(xy 55.88 99.06) (xy 90.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1033,16 +1021,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 99.06) (xy 72.39 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d915cb98-d39d-44e1-946c-37d9c02a18e8")
-	)
-	(wire
-		(pts
 			(xy 73.66 60.96) (xy 91.44 60.96)
 		)
 		(stroke
@@ -1050,16 +1028,6 @@
 			(type default)
 		)
 		(uuid "de430c03-8755-49f8-b51e-b574caefd126")
-	)
-	(wire
-		(pts
-			(xy 55.88 106.68) (xy 72.39 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f156b2f2-992b-4e7c-ac0b-90b462d8a8fa")
 	)
 	(wire
 		(pts
@@ -2148,88 +2116,6 @@
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 72.39 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97ed0c29-1f8f-4cb8-8534-bde57661fed7")
-		(property "Reference" "C30"
-			(at 76.2 101.5999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 76.2 104.1399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 73.3552 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c4b63117-2516-40e2-9d75-400f93a936e2")
-		)
-		(pin "2"
-			(uuid "a6f0b0cf-8b00-4574-adf1-e478b3b03e97")
-		)
-		(instances
-			(project "cnc_pic32"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
-					(reference "C30")
 					(unit 1)
 				)
 			)

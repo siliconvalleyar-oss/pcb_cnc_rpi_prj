@@ -514,16 +514,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 115.57) (xy 134.62 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "713c75c0-e976-455f-a664-9589c008acf3")
-	)
-	(wire
-		(pts
 			(xy 123.19 102.87) (xy 135.89 102.87)
 		)
 		(stroke
@@ -531,16 +521,6 @@
 			(type default)
 		)
 		(uuid "8152c835-5071-47b3-9229-aa23e3fd1954")
-	)
-	(wire
-		(pts
-			(xy 128.27 119.38) (xy 134.62 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853ce152-3935-4274-b927-a22c348aa1b2")
 	)
 	(wire
 		(pts
@@ -601,6 +581,96 @@
 			(type default)
 		)
 		(uuid "efa38de5-d8d6-43cf-99bb-458e5d291889")
+	)
+	(label "FT_TXD_EN"
+		(at 15.9235 7.1757 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1345638f-d6e9-4589-8be5-1c798e64c142")
+	)
+	(label "FT_TXD_EN"
+		(at 21.0035 12.2557 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3861a2d8-7075-42ba-8db1-ab63aecd63c1")
+	)
+	(label "FT_RESET"
+		(at 66.7235 12.2557 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "842db888-b29b-4746-8041-e434656439c8")
+	)
+	(label "FT_PWR_EN"
+		(at 15.9235 9.7157 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90d701ec-9008-44d8-be0c-daaa58b06d67")
+	)
+	(label "FT_PWR_EN"
+		(at 10.8435 4.6357 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce866177-612b-4e03-a2fa-9079c67f364e")
+	)
+	(label "FT_RESET"
+		(at 56.5635 2.0957 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db0d6c0b-dae3-4a5c-b381-f07c124a2170")
+	)
+	(label "FT_PWR_EN"
+		(at 21.0035 14.7957 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e448514f-5fde-4d54-b094-dec984fb65d8")
+	)
+	(label "FT_RESET"
+		(at 61.6435 7.1757 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7dcc85a-01d8-4e4f-9fe1-bf6a8780200e")
+	)
+	(label "FT_TXD_EN"
+		(at 10.8435 2.0957 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f44c2914-b232-411a-9e8a-86f45a993984")
 	)
 	(global_label "TXD"
 		(shape input)
@@ -698,17 +768,6 @@
 			)
 		)
 	)
-	(hierarchical_label "FT_CTS"
-		(shape input)
-		(at 134.62 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06a9f814-3100-4c91-84c4-9f458f62145e")
-	)
 	(hierarchical_label "FT_DRS"
 		(shape input)
 		(at 135.89 102.87 0)
@@ -763,17 +822,6 @@
 			(justify left)
 		)
 		(uuid "4257ee63-c97c-42c3-8e7b-58bb8575e1b6")
-	)
-	(hierarchical_label "FT_RST"
-		(shape input)
-		(at 134.62 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cf5abe4-1f12-42a9-a047-ad2f21fd4a60")
 	)
 	(hierarchical_label "FT_RI"
 		(shape input)
