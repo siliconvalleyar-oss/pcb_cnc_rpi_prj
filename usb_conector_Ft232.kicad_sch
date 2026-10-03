@@ -1728,6 +1728,26 @@
 		)
 		(uuid "fe1ea315-fe64-440d-860a-0298c1a5d09d")
 	)
+	(label "D+"
+		(at 129.54 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dfd7dd4-2397-46d7-b6cc-f66cec026faa")
+	)
+	(label "D--"
+		(at 129.54 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2c603ef-7169-485b-a3be-bf8015fc8ba0")
+	)
 	(hierarchical_label "+5v"
 		(shape input)
 		(at 161.29 74.93 0)
