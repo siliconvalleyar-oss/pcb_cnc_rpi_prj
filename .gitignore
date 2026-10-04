@@ -8,6 +8,7 @@
 *-backups/
 *_backups/
 *.bak
+*.bkp
 *.tmp
 *.bck
 *~
@@ -184,6 +185,8 @@ libraries_kicad7/
 
 example/
 
+altium/
+tmp/
 
 session-ses*.md
 assets/

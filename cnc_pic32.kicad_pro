@@ -560,7 +560,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.382,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -896,7 +896,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "U3-4,U6,Q1-3,L2,R2-5,R16-30,JP1-2,JP9-10,J3-14,J22,J26,D1-2,C16-26,C30,C37-38,Y2,#PWR20-40,#PWR83-87",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -911,6 +911,10 @@
     [
       "8e42f8aa-f00a-41b2-96fb-3753b4f2b509",
       "power"
+    ],
+    [
+      "b01f78f3-119a-4ae1-be96-b2707bed7964",
+      "MA240011"
     ],
     [
       "71987749-cd9a-4512-bfc9-6de6f65225ef",
