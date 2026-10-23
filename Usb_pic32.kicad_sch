@@ -1416,16 +1416,18 @@
 		(uuid "a5ba03b1-6f5b-4eca-8c4e-2195bad1af91")
 	)
 	(junction
-		(at 144.78 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b97dcf4b-9399-4d34-895e-b8e72f950dbc")
-	)
-	(junction
 		(at 181.61 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd9b0334-8697-4b38-a894-0058b0ed9a7b")
+	)
+	(no_connect
+		(at 142.24 107.95)
+		(uuid "31fbc068-6a17-48d2-8bd5-45177d79b1c7")
+	)
+	(no_connect
+		(at 152.4 99.06)
+		(uuid "4e7b5a9c-1a35-416f-863e-b71ae04d3205")
 	)
 	(wire
 		(pts
@@ -1596,16 +1598,6 @@
 			(type default)
 		)
 		(uuid "a8134be5-4da6-4e33-8921-d94ac567af57")
-	)
-	(wire
-		(pts
-			(xy 142.24 107.95) (xy 144.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90ef250-a2a4-48c0-8017-917743bb2814")
 	)
 	(wire
 		(pts
@@ -2049,7 +2041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 171.45 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -2118,7 +2110,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "4.7uf"
 			(at 194.818 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2268,7 @@
 			)
 		)
 		(property "Value" "100nf"
-			(at 188.468 83.058 0)
+			(at 180.34 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2525,7 +2517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "4.7uf"
 			(at 221.488 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)

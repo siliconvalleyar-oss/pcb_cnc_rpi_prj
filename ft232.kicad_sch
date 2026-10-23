@@ -2837,6 +2837,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -4097,6 +4263,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "DTR		RTS	->	EN		IO9\n\n1		1		1		1\n0		0		1		1\n1		0		0		1\n0		1		1		0\n"
 		(exclude_from_sim no)
@@ -4107,6 +4388,12 @@
 			)
 		)
 		(uuid "13c7dae3-ccb1-4404-8a68-a27504b54b6a")
+	)
+	(junction
+		(at 232.41 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123cf245-0b3e-43a9-be08-6b41546716f0")
 	)
 	(junction
 		(at 129.54 209.55)
@@ -4316,6 +4603,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 96.52) (xy 232.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ef4579-e39b-435b-bc34-af3ea2dbff7e")
+	)
+	(wire
+		(pts
 			(xy 184.15 114.3) (xy 198.12 114.3)
 		)
 		(stroke
@@ -4423,16 +4720,6 @@
 			(type default)
 		)
 		(uuid "10746479-3dd8-4439-95c7-f445841d3672")
-	)
-	(wire
-		(pts
-			(xy 303.53 85.09) (xy 308.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11dc640f-4424-4a11-8eb6-0bf1c308e5a3")
 	)
 	(wire
 		(pts
@@ -4856,13 +5143,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 85.09) (xy 308.61 88.9)
+			(xy 237.49 91.44) (xy 237.49 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59fd4208-af9a-4261-b624-295c951953c8")
+		(uuid "5a7f62c7-4b29-4f6e-bc4c-15312c522206")
 	)
 	(wire
 		(pts
@@ -5246,6 +5533,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 96.52) (xy 232.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95924138-8023-4eff-8416-6cf965eeada0")
+	)
+	(wire
+		(pts
 			(xy 247.65 154.94) (xy 243.84 154.94)
 		)
 		(stroke
@@ -5453,16 +5750,6 @@
 			(type default)
 		)
 		(uuid "bb48578a-569c-4a69-b457-22e1f7bd23fa")
-	)
-	(wire
-		(pts
-			(xy 111.76 222.25) (xy 115.57 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf2924e-4ef0-4d74-8b54-54ce1fa2b81e")
 	)
 	(wire
 		(pts
@@ -6294,7 +6581,7 @@
 		)
 		(uuid "aa1d1491-2504-449c-8a4a-e837f42423eb")
 	)
-	(label "FT_USB_BM"
+	(label "FT_USB_DM"
 		(at 337.82 76.2 0)
 		(effects
 			(font
@@ -6364,7 +6651,7 @@
 		)
 		(uuid "c3f8ca61-58db-4d22-96f1-d2ec71674725")
 	)
-	(label "FT_USB_BM"
+	(label "FT_USB_DM"
 		(at 250.19 119.38 0)
 		(effects
 			(font
@@ -7598,14 +7885,15 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 267.97 109.22 0)
+		(property "Value" "GND"
+			(at 270.51 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8936,8 +9224,8 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 247.65 106.68 90)
+		(property "Value" "GND"
+			(at 247.65 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9856,7 +10144,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 308.61 88.9 0)
+		(at 313.69 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9867,7 +10155,7 @@
 		(fields_autoplaced yes)
 		(uuid "7585dc8c-3550-4511-bc43-2794fffc28f4")
 		(property "Reference" "#PWR084"
-			(at 308.61 95.25 0)
+			(at 313.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9878,7 +10166,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 93.98 0)
+			(at 313.69 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9888,7 +10176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 88.9 0)
+			(at 313.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +10187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 88.9 0)
+			(at 313.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +10198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 88.9 0)
+			(at 313.69 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10162,7 +10450,7 @@
 	)
 	(symbol
 		(lib_id "power:GND1")
-		(at 111.76 222.25 0)
+		(at 115.57 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10173,7 +10461,7 @@
 		(fields_autoplaced yes)
 		(uuid "841600e8-7e05-41fb-90d9-e405c314cc36")
 		(property "Reference" "#PWR022"
-			(at 111.76 228.6 0)
+			(at 115.57 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10183,18 +10471,19 @@
 				)
 			)
 		)
-		(property "Value" "GND1"
-			(at 111.76 227.33 0)
+		(property "Value" "GND"
+			(at 118.11 223.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 222.25 0)
+			(at 115.57 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10205,7 +10494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 222.25 0)
+			(at 115.57 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10216,7 +10505,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 222.25 0)
+			(at 115.57 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11199,6 +11488,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 237.49 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a99899-4b99-478a-bc49-b054228e19d9")
+		(property "Reference" "#FLG03"
+			(at 237.49 89.535 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 237.49 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 237.49 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3eb527fa-b0b0-400c-bbae-ae269f356546")
+		)
+		(instances
+			(project "cnc_pic32"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 300.99 87.63 0)
 		(unit 1)
@@ -11762,10 +12129,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c8d75a9d-e0c4-4d0c-8e5d-4e3e011c55b0")
 		(property "Reference" "R23"
-			(at 228.6 96.52 0)
+			(at 227.838 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11776,7 +12142,7 @@
 			)
 		)
 		(property "Value" "1K5"
-			(at 228.6 99.06 0)
+			(at 228.092 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12483,6 +12849,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 308.61 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb6c090-de8e-4d78-958b-8edde934544e")
+		(property "Reference" "JP24"
+			(at 308.61 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 308.61 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 308.61 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8a20719-8026-4476-81de-8d34d41a62c2")
+		)
+		(pin "2"
+			(uuid "15e1c66d-4d12-4b5a-8186-96371adf47f6")
+		)
+		(instances
+			(project "cnc_pic32"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd"
+					(reference "JP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 233.68 208.28 0)
 		(unit 1)
@@ -12536,7 +12982,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "Two pin crystal 6mhz"
 			(at 233.68 208.28 0)
 			(hide yes)
 			(show_name no)
