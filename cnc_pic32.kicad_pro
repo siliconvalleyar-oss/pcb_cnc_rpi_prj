@@ -163,7 +163,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -912,6 +912,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part",
+          "name": "Manufacturer Part",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -968,7 +974,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "U5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -987,6 +993,10 @@
     [
       "b01f78f3-119a-4ae1-be96-b2707bed7964",
       "MA240011"
+    ],
+    [
+      "3da96f60-6562-4588-a905-3eaf5a84a8ba",
+      "microSD"
     ],
     [
       "71987749-cd9a-4512-bfc9-6de6f65225ef",

@@ -1248,145 +1248,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1503,11 +1364,13 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 135.89 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0779702-08d7-4656-9c3b-8d2b6cc69d8e")
+	(no_connect
+		(at 146.05 76.2)
+		(uuid "1c399817-d2a7-470e-964f-c0b74b79f498")
+	)
+	(no_connect
+		(at 146.05 81.28)
+		(uuid "81d2e8f6-fc5a-460f-b94b-648a9f64cc78")
 	)
 	(wire
 		(pts
@@ -1518,26 +1381,6 @@
 			(type default)
 		)
 		(uuid "0002c416-c9a1-4133-8627-0a7e4d9ad7ea")
-	)
-	(wire
-		(pts
-			(xy 135.89 81.28) (xy 135.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "082c7bf2-b218-416e-bce9-89767553ad11")
-	)
-	(wire
-		(pts
-			(xy 134.62 76.2) (xy 135.89 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0852d1eb-b454-4bae-9578-f8e2fa7e447a")
 	)
 	(wire
 		(pts
@@ -1588,16 +1431,6 @@
 			(type default)
 		)
 		(uuid "5333c034-66a4-465a-9130-8470dcf7c872")
-	)
-	(wire
-		(pts
-			(xy 146.05 81.28) (xy 135.89 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55bbafb5-291f-4529-a46a-ac94f6716f03")
 	)
 	(wire
 		(pts
@@ -1659,16 +1492,6 @@
 		)
 		(uuid "ecf2b8cf-feae-49a0-9384-2253c88516fb")
 	)
-	(wire
-		(pts
-			(xy 135.89 76.2) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc686419-6d3e-42d1-b281-6c3ded80b029")
-	)
 	(label "SDA"
 		(at 95.25 118.11 0)
 		(effects
@@ -1709,27 +1532,7 @@
 		)
 		(uuid "adc15573-e267-4f8b-8383-a26298b0c6aa")
 	)
-	(label "SDA"
-		(at 140.97 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b307b5ec-0746-4405-a0a4-ec3dd70f428a")
-	)
-	(label "SCL"
-		(at 139.7 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5c9bb31-3d92-4155-96e2-8e76ba14233a")
-	)
-	(hierarchical_label "scl"
+	(hierarchical_label "scl_i2c_1"
 		(shape input)
 		(at 90.17 110.49 180)
 		(effects
@@ -1773,6 +1576,28 @@
 		)
 		(uuid "1e7aaf12-944e-4264-b30f-1496ca1c9272")
 	)
+	(hierarchical_label "scl_i2c_2"
+		(shape input)
+		(at 139.7 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21ed589a-34f3-472e-8627-b9afba3df464")
+	)
+	(hierarchical_label "sda_i2c_2"
+		(shape input)
+		(at 140.97 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "591c098a-7482-4aa0-bd52-2c5349b62664")
+	)
 	(hierarchical_label "DIN"
 		(shape input)
 		(at 194.31 82.55 0)
@@ -1795,7 +1620,7 @@
 		)
 		(uuid "63a89169-8252-4c2c-adf7-1dd23ba2e439")
 	)
-	(hierarchical_label "sda"
+	(hierarchical_label "sda_i2c_1"
 		(shape input)
 		(at 90.17 118.11 180)
 		(effects
@@ -1823,9 +1648,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "14b0a436-d5a1-40d3-ab6b-cf8331ea2c0c")
 		(property "Reference" "J21"
@@ -1904,85 +1729,6 @@
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
 					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 134.62 76.2 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1be7b660-a2cf-4d4d-8e6f-942c09eaf0b8")
-		(property "Reference" "#PWR082"
-			(at 138.43 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 130.81 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 134.62 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0276528f-0047-4a39-84bf-1c3736508984")
-		)
-		(instances
-			(project "cnc_pic32"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/907034bd-da52-4a91-8e77-55c555a9b713"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -2229,9 +1975,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42aff506-614a-469e-b48b-1bf2272a2cbe")
@@ -2255,7 +2001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Adafruit_SSD1306_No_Mounting_Holes_pads"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2405,9 +2151,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "618c7e1e-cd2b-48fa-a7b0-8e432ae1f97f")
@@ -2421,7 +2167,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "OLED SSD1306"
 			(at 158.115 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
