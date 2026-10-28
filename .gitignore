@@ -8,6 +8,7 @@
 *-backups/
 *_backups/
 *.bak
+*.bkp
 *.tmp
 *.bck
 *~
@@ -19,7 +20,7 @@
 # -------------------------------
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*.kicad_pcb~ 
+*.kicad_pcb~
 *.kicad_sch~
 *.kicad_prl-bak
 fp-info-cache
@@ -162,10 +163,32 @@ cnc_pic32_Volds.net
 cnc_pic32-backups/
 *.o
 
+# -------------------------------
+# 📦 Archivos binarios descargados
+# -------------------------------
+*.jar
+
 .history/
+report.txt
 
-# Proyecto ejemplo (solo referencia, no se modifica)
-example.kicad_pcb
+# Lock files
+~*.lck
 
-# Librerias externas para KiCad 7 (solo referencia local)
+# Lock files
+~*.lck
+
+# Footprint library (custom, not system)
+footprints/
+
+# Libraries for conversion (not project files)
 libraries_kicad7/
+
+example/
+
+altium/
+tmp/
+cnc_pic32-backups/
+
+session-ses*.md
+assets/
+freerouting-2.2.4.jar

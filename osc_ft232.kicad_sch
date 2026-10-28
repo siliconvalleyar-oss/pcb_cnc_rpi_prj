@@ -1,6 +1,7 @@
 (kicad_sch
-	(version 20220115)
+	(version 20260306)
 	(generator "eeschema")
+	(generator_version "10.0")
 	(uuid "f85a65b2-25fb-448a-a9c2-5cc146f9ad0d")
 	(paper "A4")
 	(lib_symbols
@@ -11,10 +12,15 @@
 			(pin_names
 				(offset 0.254)
 			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,6 +30,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,6 +41,8 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -42,6 +52,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -51,6 +63,8 @@
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -60,6 +74,8 @@
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -69,6 +85,8 @@
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -147,10 +165,15 @@
 				(offset 1.016)
 				(hide yes)
 			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
 				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -160,6 +183,8 @@
 			)
 			(property "Value" "Crystal_GND24"
 				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -169,6 +194,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -178,6 +205,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -187,6 +216,8 @@
 			)
 			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -196,6 +227,8 @@
 			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -205,6 +238,8 @@
 			)
 			(property "ki_fp_filters" "Crystal*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -402,10 +437,15 @@
 			(pin_names
 				(offset 0)
 			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -415,6 +455,8 @@
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -423,6 +465,8 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -432,6 +476,8 @@
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -441,6 +487,8 @@
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -450,6 +498,8 @@
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
@@ -650,10 +700,16 @@
 		(at 160.02 96.52 0)
 		(unit 1)
 		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
 		(uuid "3af1eaa9-e124-4542-a35e-3b66d8437288")
-		(property "Reference" "C17"
+		(property "Reference" "C22"
 			(at 163.83 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,6 +719,8 @@
 		)
 		(property "Value" "15p"
 			(at 163.83 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,6 +731,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 160.9852 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -682,6 +742,8 @@
 		(property "Datasheet" ""
 			(at 160.02 96.52 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,6 +752,8 @@
 		)
 		(property "Description" ""
 			(at 160.02 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +769,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "C17")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -716,11 +780,17 @@
 		(at 148.59 104.14 0)
 		(unit 1)
 		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
 		(uuid "52242a5c-d4b9-4b2c-ad4c-6ea02bbee2e5")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 148.59 110.49 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -729,6 +799,8 @@
 		)
 		(property "Value" "GND"
 			(at 148.59 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -738,6 +810,8 @@
 		(property "Footprint" ""
 			(at 148.59 104.14 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -747,6 +821,8 @@
 		(property "Datasheet" ""
 			(at 148.59 104.14 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -755,6 +831,8 @@
 		)
 		(property "Description" ""
 			(at 148.59 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +845,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -778,11 +856,17 @@
 		(at 153.67 77.47 0)
 		(unit 1)
 		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
 		(uuid "6a0d6a81-731a-478e-8c63-6b28cfad7d36")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 153.67 83.82 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -791,6 +875,8 @@
 		)
 		(property "Value" "GND"
 			(at 153.67 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,6 +886,8 @@
 		(property "Footprint" ""
 			(at 153.67 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,6 +897,8 @@
 		(property "Datasheet" ""
 			(at 153.67 77.47 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,6 +907,8 @@
 		)
 		(property "Description" ""
 			(at 153.67 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +921,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -840,10 +932,16 @@
 		(at 135.89 96.52 0)
 		(unit 1)
 		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
 		(uuid "8bbd0353-5cc8-420e-88df-4a6e45aa2fa3")
-		(property "Reference" "C16"
+		(property "Reference" "C21"
 			(at 139.7 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,6 +951,8 @@
 		)
 		(property "Value" "15p"
 			(at 139.7 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,6 +963,8 @@
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.8552 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,6 +974,8 @@
 		(property "Datasheet" ""
 			(at 135.89 96.52 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,6 +984,8 @@
 		)
 		(property "Description" ""
 			(at 135.89 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +1001,7 @@
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/22a12b0c-67ed-4f76-a580-7ac736b63dbd/c46be0f3-d253-4db4-864e-55347475c86f"
-					(reference "C16")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -906,10 +1012,16 @@
 		(at 148.59 92.71 0)
 		(unit 1)
 		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
+		(dnp no)
 		(uuid "c446813f-10b5-4e75-8817-b949d77cb406")
 		(property "Reference" "Y2"
 			(at 160.02 88.5191 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,6 +1030,8 @@
 		)
 		(property "Value" "6MHZ"
 			(at 140.462 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,6 +1041,8 @@
 		(property "Footprint" "Crystal:Crystal_SMD_0603-4Pin_6.0x3.5mm"
 			(at 148.59 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,6 +1052,8 @@
 		(property "Datasheet" ""
 			(at 148.59 92.71 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,6 +1062,8 @@
 		)
 		(property "Description" ""
 			(at 148.59 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

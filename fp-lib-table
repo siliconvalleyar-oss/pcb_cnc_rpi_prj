@@ -1,3 +1,6 @@
 (fp_lib_table
-  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/footprints/custom")(options "")(descr "Libreria custom para footprints de KiCad 10"))
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "/Users/bee/Documents/KiCad/Ohers_&_Olds/rpi_z_tft/Library.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "/mnt/disk/kicad/libraries_kicad/footprints.pretty") (options "") (descr ""))
+	(lib (name "kiC") (type "KiCad") (uri "/mnt/disk/kicad/Library.pretty") (options "") (descr ""))
 )
