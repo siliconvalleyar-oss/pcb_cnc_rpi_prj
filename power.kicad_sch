@@ -2517,7 +2517,7 @@
 		(uuid "247ebe34-2afe-4c54-a4ec-76ad81d52bd5")
 	)
 	(junction
-		(at 142.24 181.61)
+		(at 191.77 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24b7e659-ce78-4695-8b6f-cb97ecf74529")
@@ -2529,7 +2529,7 @@
 		(uuid "273d9afe-98e1-441c-8d90-ac777cda7673")
 	)
 	(junction
-		(at 119.38 196.85)
+		(at 168.91 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0f2509-8d36-47f4-bf75-1deeaca15074")
@@ -2541,7 +2541,7 @@
 		(uuid "31d1970a-af6b-4970-be73-98a672ca376b")
 	)
 	(junction
-		(at 142.24 196.85)
+		(at 191.77 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31da89d7-6daa-43ab-81b4-211f2fc0d7d9")
@@ -2553,7 +2553,7 @@
 		(uuid "3a3311f2-5419-416b-88f7-d2db871806e5")
 	)
 	(junction
-		(at 165.1 181.61)
+		(at 214.63 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3ce850c3-3b59-4fa5-9f9b-494d76f8f459")
@@ -2589,13 +2589,13 @@
 		(uuid "5d0bfd62-aa7e-4957-ae94-56e4f5c6f4d6")
 	)
 	(junction
-		(at 130.81 196.85)
+		(at 180.34 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60040292-775d-4be7-8ca8-6305166d6ac0")
 	)
 	(junction
-		(at 130.81 181.61)
+		(at 180.34 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "600c4c84-c419-4e62-ad69-ef667b2c2eea")
@@ -2691,13 +2691,13 @@
 		(uuid "b1117bcc-d6c4-4b22-b43a-2785cf7b51c8")
 	)
 	(junction
-		(at 153.67 181.61)
+		(at 203.2 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2362c23-65d8-4ae5-a0b6-5babbb33ef50")
 	)
 	(junction
-		(at 153.67 196.85)
+		(at 203.2 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcccca55-ab3b-42cc-9ca1-a0c84e62f76d")
@@ -2727,7 +2727,7 @@
 		(uuid "d2b43c00-3a13-49d7-a592-71f7dbc240c5")
 	)
 	(junction
-		(at 165.1 196.85)
+		(at 214.63 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d47597b9-3bad-4c41-b6fa-7d88a03f5eef")
@@ -2739,7 +2739,7 @@
 		(uuid "d5a600fb-31ef-49b3-ad09-eca8c134b4ba")
 	)
 	(junction
-		(at 205.74 196.85)
+		(at 255.27 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8f47266-1d28-4c9c-b0bb-993e52ada952")
@@ -2751,13 +2751,13 @@
 		(uuid "ea28625a-b4e4-4c74-87eb-a5ed50a2a54b")
 	)
 	(junction
-		(at 176.53 181.61)
+		(at 226.06 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef7cb3d1-7bf1-4f58-9c5a-99122965568f")
 	)
 	(junction
-		(at 217.17 181.61)
+		(at 266.7 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65ff327-6537-415f-a1f1-d71bb58ac739")
@@ -2796,7 +2796,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 185.42) (xy 130.81 181.61)
+			(xy 180.34 189.23) (xy 180.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2816,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 181.61) (xy 142.24 181.61)
+			(xy 180.34 185.42) (xy 191.77 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 196.85) (xy 153.67 196.85)
+			(xy 168.91 200.66) (xy 203.2 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2876,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 196.85) (xy 205.74 193.04)
+			(xy 255.27 200.66) (xy 255.27 196.85)
 		)
 		(stroke
 			(width 0)
@@ -2906,7 +2906,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 177.8) (xy 217.17 181.61)
+			(xy 266.7 181.61) (xy 266.7 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2936,7 +2936,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 185.42) (xy 142.24 181.61)
+			(xy 191.77 189.23) (xy 191.77 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2976,7 +2976,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 193.04) (xy 142.24 196.85)
+			(xy 191.77 196.85) (xy 191.77 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3016,7 +3016,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 200.66) (xy 205.74 196.85)
+			(xy 255.27 204.47) (xy 255.27 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3076,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 181.61) (xy 153.67 181.61)
+			(xy 191.77 185.42) (xy 203.2 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3106,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 193.04) (xy 165.1 196.85)
+			(xy 214.63 196.85) (xy 214.63 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3116,7 +3116,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 181.61) (xy 176.53 181.61)
+			(xy 203.2 185.42) (xy 226.06 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3206,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 193.04) (xy 119.38 196.85)
+			(xy 168.91 196.85) (xy 168.91 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3226,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 181.61) (xy 217.17 185.42)
+			(xy 266.7 185.42) (xy 266.7 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3236,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 196.85) (xy 153.67 193.04)
+			(xy 203.2 200.66) (xy 203.2 196.85)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3246,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 193.04) (xy 176.53 196.85)
+			(xy 226.06 196.85) (xy 226.06 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 181.61) (xy 153.67 185.42)
+			(xy 203.2 185.42) (xy 203.2 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3316,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 196.85) (xy 205.74 196.85)
+			(xy 266.7 200.66) (xy 255.27 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3396,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 181.61) (xy 165.1 185.42)
+			(xy 214.63 185.42) (xy 214.63 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3406,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 185.42) (xy 205.74 181.61)
+			(xy 255.27 189.23) (xy 255.27 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3426,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 193.04) (xy 217.17 196.85)
+			(xy 266.7 196.85) (xy 266.7 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3436,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 196.85) (xy 165.1 196.85)
+			(xy 203.2 200.66) (xy 214.63 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3486,7 +3486,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 181.61) (xy 217.17 181.61)
+			(xy 255.27 185.42) (xy 266.7 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 201.93) (xy 119.38 196.85)
+			(xy 168.91 205.74) (xy 168.91 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3586,7 +3586,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 193.04) (xy 130.81 196.85)
+			(xy 180.34 196.85) (xy 180.34 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 185.42) (xy 119.38 181.61)
+			(xy 168.91 189.23) (xy 168.91 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3696,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 181.61) (xy 130.81 181.61)
+			(xy 168.91 185.42) (xy 180.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3796,7 +3796,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 185.42) (xy 176.53 181.61)
+			(xy 226.06 189.23) (xy 226.06 185.42)
 		)
 		(stroke
 			(width 0)
@@ -3806,7 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 196.85) (xy 165.1 196.85)
+			(xy 226.06 200.66) (xy 214.63 200.66)
 		)
 		(stroke
 			(width 0)
@@ -3936,7 +3936,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 119.38 189.23 0)
+		(at 168.91 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3946,7 +3946,7 @@
 		(dnp no)
 		(uuid "07709af7-3324-4f62-9a05-24af5b1674f7")
 		(property "Reference" "C48"
-			(at 123.19 187.0709 0)
+			(at 172.72 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3957,7 +3957,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 111.252 173.99 0)
+			(at 160.782 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3968,7 +3968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 120.3452 193.04 0)
+			(at 169.8752 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3979,7 +3979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 189.23 0)
+			(at 168.91 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +3990,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 119.38 189.23 0)
+			(at 168.91 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,7 +4737,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 176.53 189.23 0)
+		(at 226.06 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4747,7 +4747,7 @@
 		(dnp no)
 		(uuid "40e774d3-1e1b-4b59-80cc-f4d3cb5fdffa")
 		(property "Reference" "C41"
-			(at 180.34 187.0709 0)
+			(at 229.87 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,7 +4758,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 173.482 202.692 0)
+			(at 223.012 206.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4769,7 +4769,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 177.4952 193.04 0)
+			(at 227.0252 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4780,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 189.23 0)
+			(at 226.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4791,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 176.53 189.23 0)
+			(at 226.06 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4818,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 200.66 0)
+		(at 255.27 204.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4828,7 +4828,7 @@
 		(dnp no)
 		(uuid "40e997cc-63d6-47c8-b505-61010bf49922")
 		(property "Reference" "#PWR091"
-			(at 205.74 207.01 0)
+			(at 255.27 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4839,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 204.216 203.708 0)
+			(at 253.746 207.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4849,7 +4849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 200.66 0)
+			(at 255.27 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 200.66 0)
+			(at 255.27 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 200.66 0)
+			(at 255.27 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5547,7 +5547,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 176.53 181.61 0)
+		(at 226.06 185.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5558,7 +5558,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a8dbc1f-44b8-4e09-8531-9e2e5678adc2")
 		(property "Reference" "#PWR0118"
-			(at 176.53 185.42 0)
+			(at 226.06 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,7 +5569,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 176.53 176.53 0)
+			(at 226.06 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5579,7 +5579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 181.61 0)
+			(at 226.06 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 181.61 0)
+			(at 226.06 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5601,7 +5601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 176.53 181.61 0)
+			(at 226.06 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6017,7 +6017,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 201.93 0)
+		(at 168.91 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6027,7 +6027,7 @@
 		(dnp no)
 		(uuid "7d76d2b6-c931-458c-ab58-b3da1af9a167")
 		(property "Reference" "#PWR089"
-			(at 119.38 208.28 0)
+			(at 168.91 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,7 +6038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.856 204.978 0)
+			(at 167.386 208.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6048,7 +6048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 201.93 0)
+			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 201.93 0)
+			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +6070,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 201.93 0)
+			(at 168.91 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6332,7 +6332,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 217.17 189.23 0)
+		(at 266.7 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6342,7 +6342,7 @@
 		(dnp no)
 		(uuid "8f9369b4-4f20-4375-9f1b-974ce209d1d4")
 		(property "Reference" "C43"
-			(at 220.98 187.0709 0)
+			(at 270.51 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6353,7 +6353,7 @@
 			)
 		)
 		(property "Value" "EFVH035ADA100M0454"
-			(at 213.868 199.898 0)
+			(at 263.398 203.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6364,7 +6364,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_4x5.4"
-			(at 218.1352 193.04 0)
+			(at 267.6652 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6375,7 +6375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 189.23 0)
+			(at 266.7 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6386,7 +6386,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 4.7uf @ 6.3V"
-			(at 217.17 189.23 0)
+			(at 266.7 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,7 +6654,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 153.67 189.23 0)
+		(at 203.2 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6664,7 +6664,7 @@
 		(dnp no)
 		(uuid "9a91aa11-f5ee-4bd1-bc3b-c00d7dbe7fd5")
 		(property "Reference" "C39"
-			(at 157.48 187.0709 0)
+			(at 207.01 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6675,7 +6675,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 150.114 202.692 0)
+			(at 199.644 206.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6686,7 +6686,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 154.6352 193.04 0)
+			(at 204.1652 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6697,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 189.23 0)
+			(at 203.2 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6708,7 +6708,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 153.67 189.23 0)
+			(at 203.2 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6975,7 +6975,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 142.24 189.23 0)
+		(at 191.77 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6985,7 +6985,7 @@
 		(dnp no)
 		(uuid "adc78e81-d845-4c3d-b4db-c166b21b395c")
 		(property "Reference" "C50"
-			(at 146.05 187.0709 0)
+			(at 195.58 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6996,7 +6996,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 134.874 199.898 0)
+			(at 184.404 203.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7007,7 +7007,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 143.2052 193.04 0)
+			(at 192.7352 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +7018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 189.23 0)
+			(at 191.77 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7029,7 +7029,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 142.24 189.23 0)
+			(at 191.77 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7056,7 +7056,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 217.17 177.8 0)
+		(at 266.7 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7067,7 +7067,7 @@
 		(fields_autoplaced yes)
 		(uuid "b33d228c-69f2-4c7a-b2f3-9fcd9ff6efd8")
 		(property "Reference" "#PWR090"
-			(at 217.17 181.61 0)
+			(at 266.7 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7078,7 +7078,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 217.17 172.72 0)
+			(at 266.7 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7088,7 +7088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 177.8 0)
+			(at 266.7 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7099,7 +7099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 177.8 0)
+			(at 266.7 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 217.17 177.8 0)
+			(at 266.7 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7462,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 165.1 189.23 0)
+		(at 214.63 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7472,7 +7472,7 @@
 		(dnp no)
 		(uuid "c373be5b-e0da-4a57-8998-e303476f772b")
 		(property "Reference" "C40"
-			(at 168.91 187.0709 0)
+			(at 218.44 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7483,7 +7483,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 161.29 199.136 0)
+			(at 210.82 202.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 166.0652 193.04 0)
+			(at 215.5952 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 189.23 0)
+			(at 214.63 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7516,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 165.1 189.23 0)
+			(at 214.63 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7625,7 +7625,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 205.74 189.23 0)
+		(at 255.27 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7635,7 +7635,7 @@
 		(dnp no)
 		(uuid "cc3ca341-7e10-4c43-8162-f925765966ef")
 		(property "Reference" "C42"
-			(at 209.55 187.0709 0)
+			(at 259.08 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7646,7 +7646,7 @@
 			)
 		)
 		(property "Value" "EFVH035ADA100M0454"
-			(at 199.898 193.802 0)
+			(at 249.428 197.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7657,7 +7657,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_4x5.4"
-			(at 206.7052 193.04 0)
+			(at 256.2352 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7668,7 +7668,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 189.23 0)
+			(at 255.27 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7679,7 +7679,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 4.7uf @ 6.3V"
-			(at 205.74 189.23 0)
+			(at 255.27 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8023,7 +8023,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 130.81 189.23 0)
+		(at 180.34 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8033,7 +8033,7 @@
 		(dnp no)
 		(uuid "ecdce289-582f-40f9-9b7e-454c1c136b2f")
 		(property "Reference" "C49"
-			(at 134.62 187.0709 0)
+			(at 184.15 190.8809 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8044,7 +8044,7 @@
 			)
 		)
 		(property "Value" "RVT100UF35V67RV0034"
-			(at 125.222 179.07 0)
+			(at 174.752 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8055,7 +8055,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x5.4"
-			(at 131.7752 193.04 0)
+			(at 181.3052 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,7 +8066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 189.23 0)
+			(at 180.34 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,7 +8077,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor 100uf  @35v"
-			(at 130.81 189.23 0)
+			(at 180.34 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

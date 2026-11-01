@@ -212,8 +212,10 @@
       ],
       "track_widths": [
         0.0,
-        0.127,
-        0.254,
+        0.2,
+        0.3,
+        0.382,
+        0.4,
         0.508,
         0.762,
         1.0,
@@ -259,8 +261,28 @@
           "drill": 0.3
         },
         {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.762,
           "drill": 0.508
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         },
         {
           "diameter": 1.0,
@@ -305,7 +327,7 @@
       "version": 0
     },
     "sheet_component_classes": {
-      "enabled": false
+      "enabled": true
     }
   },
   "cvpcb": {
@@ -562,9 +584,27 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.382,
         "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 128, 0, 0.302)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 128, 0, 0.302)",
+        "track_width": 1.5,
+        "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6
+        "wire_width": 8
       },
       {
         "bus_width": 12,
@@ -576,7 +616,7 @@
         "microvia_drill": 0.1,
         "name": "V+_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -594,28 +634,13 @@
         "microvia_drill": 0.1,
         "name": "V_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.2,
         "via_drill": 0.7,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 1.0,
-        "name": "bus",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
-        "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3
       },
       {
         "bus_width": 12,
@@ -627,7 +652,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
         "tuning_profile": "",
@@ -645,9 +670,9 @@
         "microvia_drill": 0.1,
         "name": "power3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
+        "track_width": 0.635,
         "tuning_profile": "",
         "via_diameter": 0.9,
         "via_drill": 0.5,
@@ -663,7 +688,7 @@
         "microvia_drill": 0.1,
         "name": "power5V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -681,7 +706,7 @@
         "microvia_drill": 0.1,
         "name": "rf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.62,
         "tuning_profile": "",
@@ -699,9 +724,9 @@
         "microvia_drill": 0.1,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.382,
+        "track_width": 0.54,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -725,6 +750,10 @@
       {
         "netclass": "power3V3",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "power3V3",
+        "pattern": "+3.3V"
       },
       {
         "netclass": "power3V3",
@@ -757,6 +786,18 @@
       {
         "netclass": "rf",
         "pattern": "RF"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "*_GND"
       }
     ]
   },
@@ -974,7 +1015,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "#PWR74,#PWR92,R7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

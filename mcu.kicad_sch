@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "dba61505-03ed-45dc-a9dd-b6ca98f1be29")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Raspberry_Pi_4"
 			(exclude_from_sim no)
@@ -1092,7 +1092,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 148.59) (xy 193.04 157.48)
+			(xy 160.02 128.27) (xy 160.02 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 87.63) (xy 229.87 97.79)
+			(xy 196.85 67.31) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1112,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 97.79) (xy 226.06 97.79)
+			(xy 196.85 77.47) (xy 193.04 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 100.33) (xy 234.95 97.79)
+			(xy 201.93 80.01) (xy 201.93 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 100.33) (xy 234.95 100.33)
+			(xy 193.04 80.01) (xy 201.93 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1142,7 @@
 	)
 	(hierarchical_label "GPIO_26"
 		(shape bidirectional)
-		(at 160.02 140.97 180)
+		(at 127 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1153,7 +1153,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape bidirectional)
-		(at 226.06 138.43 0)
+		(at 193.04 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 	)
 	(hierarchical_label "PWM1"
 		(shape bidirectional)
-		(at 160.02 100.33 180)
+		(at 127 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1175,7 +1175,7 @@
 	)
 	(hierarchical_label "GPIO_25"
 		(shape bidirectional)
-		(at 160.02 138.43 180)
+		(at 127 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 	)
 	(hierarchical_label "GPIO_1"
 		(shape bidirectional)
-		(at 226.06 107.95 0)
+		(at 193.04 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 	)
 	(hierarchical_label "MRX"
 		(shape bidirectional)
-		(at 160.02 107.95 180)
+		(at 127 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1208,7 +1208,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape bidirectional)
-		(at 226.06 135.89 0)
+		(at 193.04 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 	)
 	(hierarchical_label "CE1"
 		(shape bidirectional)
-		(at 226.06 130.81 0)
+		(at 193.04 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1230,7 +1230,7 @@
 	)
 	(hierarchical_label "MTX"
 		(shape bidirectional)
-		(at 160.02 105.41 180)
+		(at 127 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1241,7 @@
 	)
 	(hierarchical_label "GPIO_18"
 		(shape bidirectional)
-		(at 160.02 118.11 180)
+		(at 127 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1252,7 +1252,7 @@
 	)
 	(hierarchical_label "CE0"
 		(shape bidirectional)
-		(at 226.06 133.35 0)
+		(at 193.04 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1263,7 +1263,7 @@
 	)
 	(hierarchical_label "GPIO_22"
 		(shape bidirectional)
-		(at 160.02 130.81 180)
+		(at 127 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1274,7 +1274,7 @@
 	)
 	(hierarchical_label "GPIO_23"
 		(shape bidirectional)
-		(at 160.02 133.35 180)
+		(at 127 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1285,7 +1285,7 @@
 	)
 	(hierarchical_label "GPIO_21"
 		(shape bidirectional)
-		(at 160.02 125.73 180)
+		(at 127 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1296,7 +1296,7 @@
 	)
 	(hierarchical_label "GPIO_19"
 		(shape bidirectional)
-		(at 160.02 120.65 180)
+		(at 127 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1307,7 +1307,7 @@
 	)
 	(hierarchical_label "GPIO_4"
 		(shape bidirectional)
-		(at 226.06 120.65 0)
+		(at 193.04 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1318,7 +1318,7 @@
 	)
 	(hierarchical_label "PWM0"
 		(shape bidirectional)
-		(at 160.02 97.79 180)
+		(at 127 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1329,7 +1329,7 @@
 	)
 	(hierarchical_label "GPIO_16"
 		(shape bidirectional)
-		(at 160.02 113.03 180)
+		(at 127 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1340,7 +1340,7 @@
 	)
 	(hierarchical_label "GPIO_20"
 		(shape bidirectional)
-		(at 160.02 123.19 180)
+		(at 127 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1351,7 +1351,7 @@
 	)
 	(hierarchical_label "GPIO_6"
 		(shape bidirectional)
-		(at 226.06 125.73 0)
+		(at 193.04 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1362,7 +1362,7 @@
 	)
 	(hierarchical_label "GPIO_5"
 		(shape bidirectional)
-		(at 226.06 123.19 0)
+		(at 193.04 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
-		(at 226.06 140.97 0)
+		(at 193.04 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 	)
 	(hierarchical_label "GPIO2_SDA"
 		(shape bidirectional)
-		(at 226.06 113.03 0)
+		(at 193.04 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +1395,7 @@
 	)
 	(hierarchical_label "GPIO3_SCL"
 		(shape bidirectional)
-		(at 226.06 115.57 0)
+		(at 193.04 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1406,7 @@
 	)
 	(hierarchical_label "GPIO_27"
 		(shape bidirectional)
-		(at 160.02 143.51 180)
+		(at 127 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1417,7 +1417,7 @@
 	)
 	(hierarchical_label "GPIO_17"
 		(shape bidirectional)
-		(at 160.02 115.57 180)
+		(at 127 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1428,7 +1428,7 @@
 	)
 	(hierarchical_label "GPIO_0"
 		(shape bidirectional)
-		(at 226.06 105.41 0)
+		(at 193.04 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 	)
 	(hierarchical_label "GPIO_24"
 		(shape bidirectional)
-		(at 160.02 135.89 180)
+		(at 127 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Raspberry_Pi_4")
-		(at 193.04 120.65 0)
+		(at 160.02 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1461,7 +1461,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f7bbbb0-6fc3-478f-95c0-9a03a4b4159a")
 		(property "Reference" "J1"
-			(at 193.04 90.17 0)
+			(at 160.02 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1471,7 +1471,7 @@
 			)
 		)
 		(property "Value" "Raspberry_Pi_4"
-			(at 193.04 92.71 0)
+			(at 160.02 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1481,7 +1481,7 @@
 			)
 		)
 		(property "Footprint" "kiC:Rpi_PinHeader_2x20_P2.54mm_Vertical"
-			(at 263.144 168.148 0)
+			(at 230.124 147.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1493,7 +1493,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/rpi4/raspberry-pi-4-datasheet.pdf"
-			(at 208.788 152.908 0)
+			(at 175.768 132.588 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1505,7 @@
 			)
 		)
 		(property "Description" "Raspberry Pi 4 Model B"
-			(at 208.788 150.368 0)
+			(at 175.768 130.048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1647,7 +1647,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 234.95 97.79 0)
+		(at 201.93 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1658,7 +1658,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fc9368b-29c8-46dd-a69e-bebda3a51ad1")
 		(property "Reference" "#PWR06"
-			(at 234.95 101.6 0)
+			(at 201.93 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1669,7 +1669,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 234.95 92.71 0)
+			(at 201.93 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1679,7 +1679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 97.79 0)
+			(at 201.93 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1690,7 +1690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 97.79 0)
+			(at 201.93 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1701,7 +1701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 97.79 0)
+			(at 201.93 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1724,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 229.87 87.63 0)
+		(at 196.85 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1735,7 +1735,7 @@
 		(fields_autoplaced yes)
 		(uuid "d607c7e8-5cd9-48cf-bb10-709b21c5ce8d")
 		(property "Reference" "#PWR08"
-			(at 229.87 91.44 0)
+			(at 196.85 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1746,7 +1746,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 229.87 82.55 0)
+			(at 196.85 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 87.63 0)
+			(at 196.85 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +1767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 87.63 0)
+			(at 196.85 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 229.87 87.63 0)
+			(at 196.85 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1802,7 +1802,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 157.48 0)
+		(at 160.02 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1813,7 +1813,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb6f2f3c-bd6e-4836-9201-a9f553c856dc")
 		(property "Reference" "#PWR07"
-			(at 193.04 163.83 0)
+			(at 160.02 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 162.56 0)
+			(at 160.02 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1834,7 +1834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 157.48 0)
+			(at 160.02 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +1845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 157.48 0)
+			(at 160.02 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1856,7 +1856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 157.48 0)
+			(at 160.02 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
