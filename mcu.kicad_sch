@@ -1637,7 +1637,7 @@
 			(uuid "33d15a40-b957-4808-8464-363a2d17c979")
 		)
 		(instances
-			(project "cnc_pic32"
+			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
 					(reference "J1")
 					(unit 1)
@@ -1714,7 +1714,7 @@
 			(uuid "f6875382-2a01-4df1-abdf-a4f330e67709")
 		)
 		(instances
-			(project "cnc_pic32"
+			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
 					(reference "#PWR06")
 					(unit 1)
@@ -1792,7 +1792,7 @@
 			(uuid "3f135e8a-29fb-4037-b9ad-94d022af9fbd")
 		)
 		(instances
-			(project "cnc_pic32"
+			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
 					(reference "#PWR08")
 					(unit 1)
@@ -1870,7 +1870,7 @@
 			(uuid "8b4d485c-486e-4b50-b44b-6a0079f8b082")
 		)
 		(instances
-			(project "cnc_pic32"
+			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
 					(reference "#PWR07")
 					(unit 1)
