@@ -2000,12 +2000,6 @@
 		(uuid "1663fddb-a4c9-457c-a2c7-9776cbea01f3")
 	)
 	(junction
-		(at 111.76 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1cbdd033-1ef0-403f-bc13-3dcd9ff47161")
-	)
-	(junction
 		(at 226.06 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2034,6 +2028,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0f2509-8d36-47f4-bf75-1deeaca15074")
+	)
+	(junction
+		(at 100.33 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f247a55-64ae-486d-a4a5-7ca7e2bb1247")
 	)
 	(junction
 		(at 66.04 142.24)
@@ -2192,12 +2192,6 @@
 		(uuid "a3e26db6-fd63-45b1-9e32-11b66fde2c77")
 	)
 	(junction
-		(at 100.33 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a833315c-63d5-439e-a480-3a38ab9fa341")
-	)
-	(junction
 		(at 73.66 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2348,16 +2342,6 @@
 			(type default)
 		)
 		(uuid "06ef2faa-7671-4eab-a0cb-501081713305")
-	)
-	(wire
-		(pts
-			(xy 100.33 93.98) (xy 111.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7e6723-8c5d-4d34-a34e-30b1727f07e1")
 	)
 	(wire
 		(pts
@@ -6126,7 +6110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 92.4052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6774,7 +6758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 105.1052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7541,6 +7525,84 @@
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed75f04c-fc36-4930-8d7d-3b8eaf53bd05")
+		(property "Reference" "#PWR09"
+			(at 100.33 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "839c8831-2e15-4ee8-9769-91e6e1a1e4d0")
+		)
+		(instances
+			(project "cnc_pic32"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)

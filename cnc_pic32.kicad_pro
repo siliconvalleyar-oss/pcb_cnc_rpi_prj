@@ -974,7 +974,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "#PWR9-11,#PWR49,U1,U5,U7,U9-11",
+    "used_designators": "J9,J25,JP3-8,C8-13,C27-28,C44,C46,#PWR9-10,#PWR67-68,#PWR78,#PWR81-82,#PWR88,#PWR93,#PWR110-111,#PWR119,U1,U5,U7",
     "variants": []
   },
   "sheets": [
@@ -989,6 +989,10 @@
     [
       "8e42f8aa-f00a-41b2-96fb-3753b4f2b509",
       "power"
+    ],
+    [
+      "2b1ea712-98e6-448c-86b3-6b50e1dd1880",
+      "mcp23017"
     ],
     [
       "3da96f60-6562-4588-a905-3eaf5a84a8ba",
@@ -1009,10 +1013,6 @@
     [
       "907034bd-da52-4a91-8e77-55c555a9b713",
       "Oled"
-    ],
-    [
-      "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "Radio"
     ]
   ],
   "text_variables": {},
