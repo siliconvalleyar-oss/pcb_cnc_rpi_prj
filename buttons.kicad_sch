@@ -970,6 +970,12 @@
 		(uuid "92a29fd1-5f89-41b4-9e46-72e5a0154890")
 	)
 	(junction
+		(at 328.93 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9626d31e-95ce-4349-ab5b-169067eb8228")
+	)
+	(junction
 		(at 228.6 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -992,12 +998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0b92e45-1650-4d34-91f4-0c4f3093a375")
-	)
-	(junction
-		(at 328.93 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd0641f1-030b-4768-a291-1fb11456f06f")
 	)
 	(junction
 		(at 330.2 181.61)
@@ -1317,7 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 139.7) (xy 328.93 139.7)
+			(xy 323.85 139.7) (xy 328.93 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1788,7 @@
 	)
 	(hierarchical_label "sw_limit_1"
 		(shape input)
-		(at 325.12 139.7 180)
+		(at 323.85 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)

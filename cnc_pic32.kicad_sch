@@ -18,8 +18,30 @@
 		(uuid "c97c91bb-f6a1-4e2a-bc8f-85b7ffc10bf4")
 	)
 	(no_connect
+		(at 257.81 187.96)
+		(uuid "69901708-23d7-4700-88d1-177d934c044e")
+	)
+	(no_connect
+		(at 257.81 190.5)
+		(uuid "ad84ca14-d4e3-4997-a935-037c15d3104e")
+	)
+	(no_connect
+		(at 233.68 205.74)
+		(uuid "dce2dedb-41e3-4f7b-a37c-cd010fe3f0dd")
+	)
+	(no_connect
 		(at 257.81 163.83)
 		(uuid "f111d63f-446e-465e-8222-241770afde9b")
+	)
+	(wire
+		(pts
+			(xy 83.82 120.65) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047c2c7e-982d-4610-979f-4e6d0fc75a5b")
 	)
 	(wire
 		(pts
@@ -30,6 +52,16 @@
 			(type default)
 		)
 		(uuid "052f7329-4213-4810-9630-4368b14d9062")
+	)
+	(wire
+		(pts
+			(xy 252.73 185.42) (xy 257.81 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07874994-76f3-44c7-b3c6-b92a752f9324")
 	)
 	(wire
 		(pts
@@ -83,7 +115,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 121.92)
+			(xy 80.01 120.65) (xy 80.01 121.92)
 		)
 		(stroke
 			(width 0)
@@ -233,13 +265,23 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 83.82 121.92)
+			(xy 85.09 120.65) (xy 85.09 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7e1d25a5-a7ad-43aa-ba44-6538eb19abb7")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 81.28 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9180abd1-2fde-4024-a162-5836eb5ed225")
 	)
 	(wire
 		(pts
@@ -250,6 +292,16 @@
 			(type default)
 		)
 		(uuid "9ff242ac-a32d-4f3c-9ef2-f00436856084")
+	)
+	(wire
+		(pts
+			(xy 252.73 180.34) (xy 257.81 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4449387-26a7-4e31-8054-3ef791a61a50")
 	)
 	(wire
 		(pts
@@ -293,6 +345,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 120.65) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5986269-7ed4-4b0d-b958-2b2deddd12d3")
+	)
+	(wire
+		(pts
 			(xy 142.24 167.64) (xy 154.94 167.64)
 		)
 		(stroke
@@ -330,6 +392,16 @@
 			(type default)
 		)
 		(uuid "d922c3a8-b9a1-4eb0-8c92-b262e5c88d83")
+	)
+	(wire
+		(pts
+			(xy 252.73 182.88) (xy 257.81 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1815e49-1064-47f9-8cd0-95196be99256")
 	)
 	(wire
 		(pts
@@ -380,6 +452,16 @@
 			(type default)
 		)
 		(uuid "f4e4452c-eff1-48d1-9905-616de7ce3bfe")
+	)
+	(wire
+		(pts
+			(xy 85.09 120.65) (xy 83.82 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe59dab-8708-4cbb-9849-f3b150efb871")
 	)
 	(wire
 		(pts
@@ -441,6 +523,16 @@
 		)
 		(uuid "1f9b1295-7f14-40e0-bc3c-d1aeb7bbef61")
 	)
+	(label "limit_3"
+		(at 252.73 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "257490d8-8936-414e-8828-db3403986d85")
+	)
 	(label "switch_a"
 		(at 184.15 184.15 270)
 		(effects
@@ -461,6 +553,16 @@
 		)
 		(uuid "333cfba1-99f3-4c84-bb53-a57e1dc50ff3")
 	)
+	(label "limit_2"
+		(at 252.73 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "34364781-4285-4ea7-913e-a8c0fadce93a")
+	)
 	(label "LED_c"
 		(at 257.81 156.21 180)
 		(effects
@@ -470,6 +572,16 @@
 			(justify right bottom)
 		)
 		(uuid "367bbba0-d8b8-46f0-ba14-555d5314f6ed")
+	)
+	(label "LED_e"
+		(at 96.52 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "427c22f2-7b98-44b0-b51a-54c45618d40d")
 	)
 	(label "M2"
 		(at 234.95 107.95 0)
@@ -571,6 +683,36 @@
 		)
 		(uuid "ae862d34-adba-47d8-bf1f-c307df7861ea")
 	)
+	(label "LED_d"
+		(at 257.81 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1769659-891c-4eb5-b55f-c4fbe587461b")
+	)
+	(label "LED_e"
+		(at 257.81 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bbd287cc-6685-428c-af95-9c11d5157fad")
+	)
+	(label "LED_d"
+		(at 93.98 93.98 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc0c4bba-3a87-43c4-92af-7f4ec05798fa")
+	)
 	(label "M3"
 		(at 234.95 105.41 0)
 		(effects
@@ -640,6 +782,16 @@
 			(justify left bottom)
 		)
 		(uuid "dacc65b9-e659-450b-a32a-de0f911a27ed")
+	)
+	(label "limit_1"
+		(at 252.73 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db56acd4-11f6-4e6b-8bb0-1760c340ff51")
 	)
 	(label "switch_d"
 		(at 256.54 168.91 180)
@@ -1557,6 +1709,76 @@
 				(justify left)
 			)
 		)
+		(pin "led4" input
+			(at 257.81 158.75 180)
+			(uuid "94b86623-ea63-4602-ab49-7057fe74b8f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "led5" input
+			(at 257.81 161.29 180)
+			(uuid "b413c911-b50d-4f5e-88d2-ca0530bf2561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sw_limit_1" input
+			(at 257.81 180.34 180)
+			(uuid "8ecd0dd5-0d31-4c47-bc5e-4b0be45658b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sw_limit_2" input
+			(at 257.81 182.88 180)
+			(uuid "204cb0c9-d8fa-4cfd-bbf3-d2c60b04f9e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sw_limit_3" input
+			(at 257.81 185.42 180)
+			(uuid "64982960-c855-4dc3-a121-9751e91672a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sw_limit_4" input
+			(at 257.81 187.96 180)
+			(uuid "ab588b87-9581-4f19-99dc-77ff115389fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "sw_limit_5" input
+			(at 257.81 190.5 180)
+			(uuid "7b9f0d2f-7185-40ad-903f-4310ef5cc316")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cnc_pic32"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
@@ -1833,7 +2055,7 @@
 			)
 		)
 		(pin "FLT_4" input
-			(at 81.28 121.92 90)
+			(at 80.01 121.92 90)
 			(uuid "d29e64a5-d29b-447e-8e8f-31708152626c")
 			(effects
 				(font
@@ -1843,7 +2065,7 @@
 			)
 		)
 		(pin "FLT_5" input
-			(at 83.82 121.92 90)
+			(at 85.09 121.92 90)
 			(uuid "cac3571f-42a1-4d03-8586-7428ecda9f6b")
 			(effects
 				(font
