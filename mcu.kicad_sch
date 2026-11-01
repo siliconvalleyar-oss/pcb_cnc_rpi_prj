@@ -1122,16 +1122,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 87.63) (xy 226.06 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83329fa2-0623-4f76-8842-050a3d071241")
-	)
-	(wire
-		(pts
 			(xy 234.95 100.33) (xy 234.95 97.79)
 		)
 		(stroke
@@ -1734,7 +1724,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 226.06 87.63 0)
+		(at 229.87 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1745,7 +1735,7 @@
 		(fields_autoplaced yes)
 		(uuid "d607c7e8-5cd9-48cf-bb10-709b21c5ce8d")
 		(property "Reference" "#PWR08"
-			(at 226.06 91.44 0)
+			(at 229.87 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1756,7 +1746,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 82.55 0)
+			(at 229.87 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1766,7 +1756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 87.63 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1777,7 +1767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 87.63 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 226.06 87.63 0)
+			(at 229.87 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
