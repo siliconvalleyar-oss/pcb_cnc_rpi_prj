@@ -520,142 +520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_names
@@ -994,26 +858,10 @@
 		(uuid "bdf2d528-6f23-467d-acf0-4e100c97a5c5")
 	)
 	(junction
-		(at 214.63 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0b92e45-1650-4d34-91f4-0c4f3093a375")
-	)
-	(junction
 		(at 330.2 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7db1cc9-62ce-4028-bfc9-de74cf0618ff")
-	)
-	(wire
-		(pts
-			(xy 198.12 96.52) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04982b5b-244f-4f2d-b47f-30eb129e3438")
 	)
 	(wire
 		(pts
@@ -1177,16 +1025,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 214.63 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "445ee5ed-2a3b-4db0-b8a3-6451351ce280")
-	)
-	(wire
-		(pts
 			(xy 143.51 182.88) (xy 143.51 180.34)
 		)
 		(stroke
@@ -1237,16 +1075,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 118.11) (xy 214.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f5c47e0-5b78-4808-bac7-5dfeaefe4a13")
-	)
-	(wire
-		(pts
 			(xy 133.35 157.48) (xy 133.35 144.78)
 		)
 		(stroke
@@ -1254,16 +1082,6 @@
 			(type default)
 		)
 		(uuid "4fe715bf-bcdd-4256-9acb-904ed0bb6520")
-	)
-	(wire
-		(pts
-			(xy 214.63 106.68) (xy 214.63 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e3de84-4477-472d-883f-6adb7f3d64a9")
 	)
 	(wire
 		(pts
@@ -1354,16 +1172,6 @@
 			(type default)
 		)
 		(uuid "8172f608-8a3d-409c-b5b4-9956dbcc10b7")
-	)
-	(wire
-		(pts
-			(xy 214.63 99.06) (xy 214.63 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cfa7cb-8366-4fa4-8cfe-46714343c417")
 	)
 	(wire
 		(pts
@@ -1577,26 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 199.39 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e8da03-1e8f-43b0-89d6-157df6c82806")
-	)
-	(wire
-		(pts
-			(xy 198.12 85.09) (xy 198.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d738a939-6eb2-497e-b1e4-8cd8349915df")
-	)
-	(wire
-		(pts
 			(xy 330.2 167.64) (xy 331.47 167.64)
 		)
 		(stroke
@@ -1685,30 +1473,6 @@
 		)
 		(uuid "fdca8be5-baa9-4f1c-b190-7273c7a7b74e")
 	)
-	(global_label "SW_PWR"
-		(shape input)
-		(at 220.98 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef88b62c-17b9-4a7a-822a-7aafae839208")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.5057 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(hierarchical_label "sw_limit_2"
 		(shape input)
 		(at 321.31 153.67 180)
@@ -1741,17 +1505,6 @@
 			(justify left)
 		)
 		(uuid "1d83e85f-1db1-471f-b581-6b3793212100")
-	)
-	(hierarchical_label "SW1_PWR"
-		(shape input)
-		(at 214.63 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "202c67dc-1bd1-4572-b092-2fcf772866af")
 	)
 	(hierarchical_label "SW5"
 		(shape input)
@@ -2288,84 +2041,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 207.01 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c50ecf1-e362-4061-ba9e-40e75dd4790c")
-		(property "Reference" "SW1"
-			(at 207.01 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "K2-1107ST-A4SW-06"
-			(at 207.01 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
-			(at 207.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Switch push C55200589"
-			(at 205.486 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0251942d-15a5-49d4-9655-0d1b9ff93475")
-		)
-		(pin "2"
-			(uuid "808e7069-ded1-402d-9beb-2bedcfdf238c")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3178,87 +2853,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 214.63 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "446a619d-38c8-4737-aa0d-b9c20c5d9327")
-		(property "Reference" "R13"
-			(at 217.17 109.2199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 217.17 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 212.852 110.49 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5b3c4be0-444e-497e-bf83-b7b7c895d99d")
-		)
-		(pin "2"
-			(uuid "0fc78d7f-3d08-4751-9ee9-d467456f3039")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 170.18 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -3904,83 +3498,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83743f61-b62b-41ff-b03d-3f1d820b7a9c")
-		(property "Reference" "#PWR016"
-			(at 214.63 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 118.11 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c653ef04-5c01-43c1-b670-93cd8f67deb9")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5095,84 +4612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 198.12 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6ab2670-1d02-43cb-a3b0-f98d3c4c2abe")
-		(property "Reference" "#PWR015"
-			(at 198.12 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 200.66 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f195e8e-d0aa-4b03-82f8-9dcce05ffcac")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_DIP_x01")
 		(at 339.09 167.64 0)
 		(unit 1)
@@ -5637,87 +5076,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9992532-643d-49c6-bae1-c592c70970a1")
-		(property "Reference" "R12"
-			(at 200.66 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k2"
-			(at 200.66 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 196.342 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc2f8afc-eea7-4d4f-81c8-915be8d64206")
-		)
-		(pin "2"
-			(uuid "380c366c-4b6b-4714-a993-557ce44296e7")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/c23451d0-70ea-4fb8-9f51-b04cd7803801"
-					(reference "R12")
 					(unit 1)
 				)
 			)

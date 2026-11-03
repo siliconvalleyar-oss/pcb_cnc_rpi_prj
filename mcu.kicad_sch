@@ -1112,6 +1112,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 80.01) (xy 127 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b999681-dfeb-4b0f-a26c-1416ee7401b1")
+	)
+	(wire
+		(pts
 			(xy 196.85 77.47) (xy 193.04 77.47)
 		)
 		(stroke
@@ -1129,6 +1139,16 @@
 			(type default)
 		)
 		(uuid "a1fffd9c-519d-421a-aed2-21948444b265")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e30089-df76-4481-9101-ee21ea6aadb5")
 	)
 	(wire
 		(pts
@@ -1164,7 +1184,7 @@
 	)
 	(hierarchical_label "PWM1"
 		(shape bidirectional)
-		(at 127 80.01 180)
+		(at 124.46 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1318,7 +1338,7 @@
 	)
 	(hierarchical_label "PWM0"
 		(shape bidirectional)
-		(at 127 77.47 180)
+		(at 124.46 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)

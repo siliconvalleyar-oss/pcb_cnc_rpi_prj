@@ -14517,6 +14517,7 @@
 		)
 		(property "Value" "Pololu_Breakout_A4988"
 			(at 90.17 117.094 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15868,6 +15869,7 @@
 		)
 		(property "Value" "Pololu_Breakout_A4988"
 			(at 81.534 41.402 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

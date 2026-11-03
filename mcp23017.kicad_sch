@@ -350,7 +350,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Expansion:MCP23017x-x-ML"
+		(symbol "Interface_Expansion:MCP23017x-x-SO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -366,7 +366,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP23017x-x-ML"
+			(property "Value" "MCP23017x-x-SO"
 				(at 11.176 24.638 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -376,7 +376,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+			(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
 				(at 5.08 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -400,7 +400,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA7/GPB7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA7/GPB7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017),  SOIC-28"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -422,7 +422,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "QFN*6x6mm*P0.65mm*"
+			(property "ki_fp_filters" "SOIC*7.5x17.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -433,7 +433,7 @@
 					)
 				)
 			)
-			(symbol "MCP23017x-x-ML_0_1"
+			(symbol "MCP23017x-x-SO_0_1"
 				(rectangle
 					(start -10.16 22.86)
 					(end 10.16 -22.86)
@@ -446,7 +446,79 @@
 					)
 				)
 			)
-			(symbol "MCP23017x-x-ML_1_1"
+			(symbol "MCP23017x-x-SO_1_1"
+				(pin bidirectional line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "GPB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "GPB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "GPB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "GPB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 12.7 -12.7 180)
 					(length 2.54)
@@ -457,7 +529,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -475,7 +547,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -493,7 +565,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,7 +583,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -529,7 +601,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -547,7 +619,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -566,7 +638,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -584,7 +656,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -602,7 +674,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -621,7 +693,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,7 +711,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -657,7 +729,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -675,7 +747,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -693,7 +765,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,7 +783,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -729,7 +801,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -747,7 +819,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -765,7 +837,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -783,7 +855,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -801,7 +873,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -819,7 +891,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -837,7 +909,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -855,7 +927,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -873,97 +945,7 @@
 							)
 						)
 					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "GPB0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "GPB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "GPB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "GPB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -25.4 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1248,20 +1230,22 @@
 		(uuid "ebfe292e-b821-4fe5-9e7b-65dfd68afaff")
 	)
 	(no_connect
-		(at 203.2 102.87)
-		(uuid "7aded20a-b0e3-4ce3-a674-ff0ac07340f6")
-	)
-	(no_connect
-		(at 203.2 105.41)
-		(uuid "95eb4b85-20cc-4b0f-9443-b7c4ad9ddba4")
-	)
-	(no_connect
 		(at 213.36 133.35)
 		(uuid "a1608747-8a14-451b-946c-25e43df43171")
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 187.96 110.49)
+			(xy 194.31 105.41) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0439dde7-eb86-449a-ba29-ce4c686f76d6")
+	)
+	(wire
+		(pts
+			(xy 203.2 110.49) (xy 175.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1271,7 +1255,17 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 110.49) (xy 187.96 109.22)
+			(xy 199.39 92.71) (xy 199.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d22f87-5f60-4e05-a935-5495d31d4c27")
+	)
+	(wire
+		(pts
+			(xy 175.26 110.49) (xy 175.26 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1308,6 +1302,16 @@
 			(type default)
 		)
 		(uuid "40673498-c9bb-4db5-badf-d917d4921b63")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 175.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a141e2-b527-4eb3-a681-6d442bb39060")
 	)
 	(wire
 		(pts
@@ -1381,6 +1385,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 92.71) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab27a68-d547-421a-89a5-e92ab72224b6")
+	)
+	(wire
+		(pts
+			(xy 203.2 105.41) (xy 194.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d0c8ae-8238-4ddc-b2de-73561684ca98")
+	)
+	(wire
+		(pts
 			(xy 193.04 128.27) (xy 203.2 128.27)
 		)
 		(stroke
@@ -1398,6 +1422,16 @@
 			(type default)
 		)
 		(uuid "daf40f0a-2b49-4a51-af80-626310aceae5")
+	)
+	(wire
+		(pts
+			(xy 199.39 102.87) (xy 203.2 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec5352d-ac65-48af-8c68-3dcf2edaab11")
 	)
 	(hierarchical_label "SDA_MCP23017"
 		(shape input)
@@ -1486,6 +1520,28 @@
 			(justify left)
 		)
 		(uuid "34b30911-e3e8-4cdc-bd9c-84cf8542078b")
+	)
+	(hierarchical_label "INT_B"
+		(shape input)
+		(at 194.31 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42cccdbc-0765-4eb1-a86e-79e5e5aa759b")
+	)
+	(hierarchical_label "INT_A"
+		(shape input)
+		(at 194.31 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6314ffb3-8e88-4999-939e-dd11813c06e1")
 	)
 	(hierarchical_label "GPA_0"
 		(shape input)
@@ -1596,6 +1652,168 @@
 			(justify left)
 		)
 		(uuid "f0234e8e-83ff-4da3-a3ab-18a4ec7c9466")
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017x-x-SO")
+		(at 215.9 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d7cc4e-3564-4117-9d18-8452fb1bd952")
+		(property "Reference" "U5"
+			(at 218.0433 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017x-x-SO"
+			(at 218.0433 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+			(at 220.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 220.98 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA7/GPB7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017),  SOIC-28"
+			(at 215.9 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "27"
+			(uuid "03cc39f7-2ebf-403f-a950-e4d911b0836f")
+		)
+		(pin "8"
+			(uuid "81cddb27-220f-42aa-9045-bd97f527d828")
+		)
+		(pin "26"
+			(uuid "e81b89bb-bccf-4003-8fa8-e15e647be5f6")
+		)
+		(pin "13"
+			(uuid "458ba2c0-790c-440b-a120-dfa6668df250")
+		)
+		(pin "17"
+			(uuid "f6e7febe-7cdb-40d3-b110-e2af28cc8b41")
+		)
+		(pin "6"
+			(uuid "23ade577-ef83-4ba3-b37b-2e4fb70f8b7a")
+		)
+		(pin "11"
+			(uuid "e22a72ba-6293-48c3-8eee-1bfa901191a0")
+		)
+		(pin "21"
+			(uuid "f9fc511c-a1b2-48e7-ac9e-338c08f651a1")
+		)
+		(pin "14"
+			(uuid "96bdf619-40a0-4cef-84bd-fdc33dfec0d9")
+		)
+		(pin "12"
+			(uuid "d98656d7-6c7f-4d00-9ab3-070642078008")
+		)
+		(pin "16"
+			(uuid "1f1dc0c2-3c70-4f38-b9c7-212590a700c5")
+		)
+		(pin "19"
+			(uuid "562489e6-e611-4f11-a518-94660c60f24f")
+		)
+		(pin "9"
+			(uuid "3aeb51c2-db50-48d1-b221-ee125be70b65")
+		)
+		(pin "20"
+			(uuid "c40921e9-07f7-4fef-a6f6-715abdc886dc")
+		)
+		(pin "10"
+			(uuid "ee508d75-a42b-42e8-bb53-7523fea44d60")
+		)
+		(pin "15"
+			(uuid "dec0287f-8cb1-46ac-ae71-bffcde931214")
+		)
+		(pin "25"
+			(uuid "8f901dd8-9749-4156-834c-4f161c0239e0")
+		)
+		(pin "28"
+			(uuid "18f9bf80-a7f9-46e8-80c2-51ae68d52e45")
+		)
+		(pin "23"
+			(uuid "cffc2c8a-efc1-45e3-bb3d-0993919e46a2")
+		)
+		(pin "22"
+			(uuid "4d5028e0-5f62-4a7f-9db2-761cafb0fb11")
+		)
+		(pin "2"
+			(uuid "7b741fee-cad9-4145-9ede-19d511952897")
+		)
+		(pin "7"
+			(uuid "0ea21e17-2283-4fa7-be3b-ffefb756c27d")
+		)
+		(pin "18"
+			(uuid "2c57ecb8-c15d-4fb3-a09f-559ad380a0a4")
+		)
+		(pin "24"
+			(uuid "e51e0545-dc4a-492b-b9c5-f8d70d626fbb")
+		)
+		(pin "5"
+			(uuid "8eb5d4d3-38b1-4c07-a991-1e126aa22de4")
+		)
+		(pin "1"
+			(uuid "6e79dd29-e7be-4c64-a8ec-e93b71e91ad7")
+		)
+		(pin "4"
+			(uuid "cc85a19c-6b3d-4e2d-869d-42c5766241f3")
+		)
+		(pin "3"
+			(uuid "ec8f27d3-e26b-4624-b437-d72fa3093638")
+		)
+		(instances
+			(project "cnc_rpi4"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/2b1ea712-98e6-448c-86b3-6b50e1dd1880"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -1759,7 +1977,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 187.96 105.41 0)
+		(at 175.26 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1770,7 +1988,7 @@
 		(fields_autoplaced yes)
 		(uuid "208f31d3-876e-4f5d-bb0a-f00983b2f7f6")
 		(property "Reference" "R7"
-			(at 190.5 104.1399 0)
+			(at 177.8 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1781,7 +1999,7 @@
 			)
 		)
 		(property "Value" "0.1r"
-			(at 190.5 106.6799 0)
+			(at 177.8 106.6799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +2011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 188.976 105.664 90)
+			(at 176.276 105.664 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1804,7 +2022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 105.41 0)
+			(at 175.26 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,7 +2033,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 187.96 105.41 0)
+			(at 175.26 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,6 +2214,171 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 194.31 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bebd301-fd28-4c67-a3fb-875787333767")
+		(property "Reference" "R13"
+			(at 186.182 98.806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1r"
+			(at 196.85 100.3299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 195.326 99.314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 194.31 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c75c4ed4-35cd-407c-a3f3-555746330edb")
+		)
+		(pin "1"
+			(uuid "241c66b3-cada-472b-ac57-20402589aa54")
+		)
+		(instances
+			(project "cnc_rpi4"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/2b1ea712-98e6-448c-86b3-6b50e1dd1880"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 199.39 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f08000f-785a-47a4-963b-110b1d5fb456")
+		(property "Reference" "R12"
+			(at 201.93 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1r"
+			(at 201.93 100.3299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 200.406 99.314 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 199.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "61a8a462-afdc-46e8-b3b1-5ffe9e55c097")
+		)
+		(pin "1"
+			(uuid "aa886ee9-4258-4387-87c6-da989a103553")
+		)
+		(instances
+			(project "cnc_rpi4"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/2b1ea712-98e6-448c-86b3-6b50e1dd1880"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 133.35 0)
 		(unit 1)
@@ -2074,7 +2457,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 187.96 101.6 0)
+		(at 175.26 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2085,7 +2468,7 @@
 		(fields_autoplaced yes)
 		(uuid "a460d051-f792-42ad-b090-9ebe6d665bbf")
 		(property "Reference" "#PWR074"
-			(at 187.96 105.41 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +2479,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 187.96 96.52 0)
+			(at 175.26 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2106,7 +2489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 101.6 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,7 +2500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 101.6 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2128,7 +2511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 101.6 0)
+			(at 175.26 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,182 +2528,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/2b1ea712-98e6-448c-86b3-6b50e1dd1880"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Expansion:MCP23017x-x-ML")
-		(at 215.9 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e981ad17-127f-4eeb-8a79-6c7b4dad2019")
-		(property "Reference" "U1"
-			(at 218.0433 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23017x-x-ML"
-			(at 218.0433 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
-			(at 220.98 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 220.98 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA7/GPB7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 215.9 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "c47023"
-			(at 215.9 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "15"
-			(uuid "f578a2ac-639c-4167-8037-a46e7cb81968")
-		)
-		(pin "10"
-			(uuid "f4b66e5b-446a-465a-81e0-64a334ed4851")
-		)
-		(pin "20"
-			(uuid "b42a3b9f-d16b-47fe-8f21-66139d149a35")
-		)
-		(pin "5"
-			(uuid "a472ccd8-60a8-4862-bbbc-37ff790f4839")
-		)
-		(pin "8"
-			(uuid "bd56daa9-8a8b-46bc-89ee-a486e7a78cb1")
-		)
-		(pin "7"
-			(uuid "a94a4e6a-0a69-4b07-9118-f672afba90c3")
-		)
-		(pin "16"
-			(uuid "b9f8cabc-5f1a-4d7f-a2a6-abbc13681e30")
-		)
-		(pin "22"
-			(uuid "eac9ae98-5194-48a4-8488-59692f50d66c")
-		)
-		(pin "9"
-			(uuid "3a68d712-47cb-43eb-8b1c-e0bb9ab71b30")
-		)
-		(pin "17"
-			(uuid "3e693498-3160-4464-a41e-06ee52418cd8")
-		)
-		(pin "18"
-			(uuid "d80f6a6b-1d21-464c-af41-1c016e00f4c4")
-		)
-		(pin "14"
-			(uuid "fc111e14-a64a-4945-a17e-6acc7a3dbef0")
-		)
-		(pin "2"
-			(uuid "6792b094-9509-4d34-9014-f56d40de1269")
-		)
-		(pin "21"
-			(uuid "a7dad4bd-3e09-4397-a22a-565791992d84")
-		)
-		(pin "29"
-			(uuid "ad73addd-6f2c-4f24-846b-f4ed678025f8")
-		)
-		(pin "19"
-			(uuid "365dfac4-b6ca-425f-b105-960099c5c42d")
-		)
-		(pin "28"
-			(uuid "84949b40-f1b1-4a06-b982-17b78c4fdbf4")
-		)
-		(pin "23"
-			(uuid "77f680a7-8900-4a54-89cc-844967f35c79")
-		)
-		(pin "24"
-			(uuid "c317d77f-dd01-4742-bcc8-af62be07959c")
-		)
-		(pin "25"
-			(uuid "cee093ce-4770-435f-a51e-470757b99e95")
-		)
-		(pin "6"
-			(uuid "92b92749-3c7a-41af-ac74-98109e09a39e")
-		)
-		(pin "13"
-			(uuid "880b3838-22c3-4d79-a475-08c08a2f7c36")
-		)
-		(pin "26"
-			(uuid "3e6d5b5c-19ae-497e-b8c5-5d9353a38c62")
-		)
-		(pin "12"
-			(uuid "fce99bda-2463-4f79-aae0-1e63225e3aee")
-		)
-		(pin "27"
-			(uuid "13a900fc-1d76-46b0-9f86-aebb627f206c")
-		)
-		(pin "3"
-			(uuid "cfc2be6c-1de2-45d3-9d0b-857d20e826a4")
-		)
-		(pin "11"
-			(uuid "3c2f6260-9667-4b59-b2ef-cb335b67a527")
-		)
-		(pin "1"
-			(uuid "7f9bbd32-51cf-45d4-9aa3-84d669b7867d")
-		)
-		(pin "4"
-			(uuid "220ae21b-deeb-408c-8f30-c5f0c20600a7")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/2b1ea712-98e6-448c-86b3-6b50e1dd1880"
-					(reference "U1")
 					(unit 1)
 				)
 			)
