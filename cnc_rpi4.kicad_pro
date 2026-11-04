@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.6,
+          "height": 0.9,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -598,13 +598,30 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 128, 0, 0.302)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 128, 0, 0.302)",
         "track_width": 1.5,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 8
+      },
+      {
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "NetClassBus",
+        "pcb_color": "rgb(255, 43, 171)",
+        "priority": 1,
+        "schematic_color": "rgb(223, 24, 120)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 2
       },
       {
         "bus_width": 12,
@@ -616,7 +633,7 @@
         "microvia_drill": 0.1,
         "name": "V+_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -634,7 +651,7 @@
         "microvia_drill": 0.1,
         "name": "V_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
@@ -652,7 +669,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
         "tuning_profile": "",
@@ -669,8 +686,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(255, 139, 0)",
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.635,
         "tuning_profile": "",
@@ -687,8 +704,8 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "power5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "pcb_color": "rgb(5, 255, 250)",
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -706,7 +723,7 @@
         "microvia_drill": 0.1,
         "name": "rf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.62,
         "tuning_profile": "",
@@ -724,20 +741,128 @@
         "microvia_drill": 0.1,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.54,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "name": "spiBus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(179, 107, 255)",
+        "tuning_profile": "",
+        "wire_width": 3
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/GPIO2_SDA": [
+        "NetClassBus"
+      ],
+      "/GPIO3_SCL": [
+        "NetClassBus"
+      ],
+      "/MCU/CE0": [
+        "NetClassBus"
+      ],
+      "/MCU/CE1": [
+        "NetClassBus"
+      ],
+      "/MCU/MISO": [
+        "NetClassBus"
+      ],
+      "/MCU/MOSI": [
+        "NetClassBus"
+      ],
+      "/MCU/SCLK": [
+        "NetClassBus"
+      ],
+      "/Oled/SCL": [
+        "NetClassBus"
+      ],
+      "/Oled/SDA": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC1_dir": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC1_enable": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC1_step": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC2_dir": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC2_enable": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC2_step": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC3_dir": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC3_enable": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC3_step": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC4_dir": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC4_enable": [
+        "NetClassBus"
+      ],
+      "/Pololu/IC4_step": [
+        "NetClassBus"
+      ],
+      "/Pololu/reset": [
+        "NetClassBus"
+      ],
+      "/Pololu/sleep": [
+        "NetClassBus"
+      ],
+      "/limit_1": [
+        "NetClassBus"
+      ],
+      "/limit_2": [
+        "NetClassBus"
+      ],
+      "/limit_3": [
+        "NetClassBus"
+      ],
+      "/microSD/CS": [
+        "spiBus"
+      ],
+      "/microSD/MISO": [
+        "spiBus"
+      ],
+      "/microSD/MOSI": [
+        "spiBus"
+      ],
+      "/microSD/SCK": [
+        "spiBus"
+      ],
+      "/switch_a": [
+        "NetClassBus"
+      ],
+      "/switch_b": [
+        "NetClassBus"
+      ],
+      "/switch_c": [
+        "NetClassBus"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "power",
@@ -798,6 +923,14 @@
       {
         "netclass": "GND",
         "pattern": "*_GND"
+      },
+      {
+        "netclass": "NetClassBus",
+        "pattern": "NetClassAssignBus"
+      },
+      {
+        "netclass": "spiBus",
+        "pattern": "spiBussNetsAssign"
       }
     ]
   },
@@ -1015,7 +1148,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "R12-13,R21-26,Q3-4,U5-6,C19,D14-15",
+    "used_designators": "C23-24,#PWR36,Y2-3",
     "variants": []
   },
   "sheets": [
@@ -1032,12 +1165,12 @@
       "power"
     ],
     [
-      "2b1ea712-98e6-448c-86b3-6b50e1dd1880",
-      "mcp23017"
-    ],
-    [
       "3da96f60-6562-4588-a905-3eaf5a84a8ba",
       "microSD"
+    ],
+    [
+      "77f4e5d0-8275-463d-bd32-54e54230af45",
+      "pic32"
     ],
     [
       "c23451d0-70ea-4fb8-9f51-b04cd7803801",
