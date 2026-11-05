@@ -194,6 +194,5 @@ assets/
 freerouting-2.2.4.jar
 production/
 fabrication-toolkit-options.json
-temp-freerouting.dsn
 *.dsn
-
+temp-freerouting.dsn

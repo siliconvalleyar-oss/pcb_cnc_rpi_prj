@@ -5168,6 +5168,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 234.95) (xy 241.3 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "685f084c-fe51-4024-8919-87839e9cbf93")
+	)
+	(wire
+		(pts
 			(xy 21.59 119.38) (xy 30.48 119.38)
 		)
 		(stroke
@@ -5278,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 229.87) (xy 241.3 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7481f4ca-c5fa-40dc-80fc-060db41b2a4e")
+	)
+	(wire
+		(pts
 			(xy 82.55 116.84) (xy 91.44 116.84)
 		)
 		(stroke
@@ -5285,6 +5305,16 @@
 			(type default)
 		)
 		(uuid "75103aea-7d03-46ec-b60e-83cd7feaf32b")
+	)
+	(wire
+		(pts
+			(xy 247.65 232.41) (xy 241.3 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775b74c1-534c-4f70-bb9c-ab6e0786a848")
 	)
 	(wire
 		(pts
@@ -6676,6 +6706,16 @@
 		)
 		(uuid "133f0622-849e-453f-a653-05d7c23f0e4c")
 	)
+	(label "IC3_MS1_DRV8825"
+		(at 57.15 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15923e15-1e53-4b5a-a601-c511cfe44259")
+	)
 	(label "IC4_dir"
 		(at 156.21 102.87 0)
 		(effects
@@ -6725,6 +6765,16 @@
 			(justify left bottom)
 		)
 		(uuid "1d567f33-5c97-4f4b-9c1b-fb752f35899c")
+	)
+	(label "IC3_MS3_DRV8825"
+		(at 57.15 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f17893b-0129-4474-8110-d9420e4f450e")
 	)
 	(label "IC4_enable"
 		(at 347.98 132.08 0)
@@ -6846,6 +6896,26 @@
 		)
 		(uuid "334d8967-c628-41ac-80af-4e2decac03e1")
 	)
+	(label "IC4_MS3_DRV8825"
+		(at 165.1 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "352ee1e2-041e-4265-9e10-f70711fa880b")
+	)
+	(label "IC5_MS1_DRV8825"
+		(at 160.02 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3571fd66-8198-4460-b1e9-4b29b7f5551c")
+	)
 	(label "IC1_MS3_DRV8825"
 		(at 100.33 168.91 0)
 		(effects
@@ -6956,6 +7026,16 @@
 		)
 		(uuid "506928c4-8760-42f8-bfac-6269b11bebb0")
 	)
+	(label "IC2_MS3_DRV8825"
+		(at 57.15 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53b3a830-5cad-4c6e-bce1-2ecb3cbdecdc")
+	)
 	(label "sleep_B"
 		(at 369.57 198.12 0)
 		(effects
@@ -6975,16 +7055,6 @@
 			(justify left bottom)
 		)
 		(uuid "53f6baa2-69de-4f96-9e0e-b7cbf181294b")
-	)
-	(label "MS1_DRV8825_4"
-		(at 149.86 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54508dde-460a-4113-b5a7-cfaf5d7e7adb")
 	)
 	(label "IC3_1B"
 		(at 83.82 109.22 0)
@@ -7065,16 +7135,6 @@
 			(justify left bottom)
 		)
 		(uuid "645af396-b69e-46e0-873d-5c67f268d7f7")
-	)
-	(label "MS2_DRV8825_4"
-		(at 149.86 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "647eab77-a912-4e41-948c-529c4e36dace")
 	)
 	(label "reset"
 		(at 54.61 101.6 0)
@@ -7197,7 +7257,7 @@
 		(uuid "74e04faa-fd53-4ef1-93b0-b6815f4a104b")
 	)
 	(label "IC2_MS3_DRV8825"
-		(at 241.3 229.87 0)
+		(at 247.65 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7246,16 +7306,6 @@
 		)
 		(uuid "7cc5efd3-a99c-4e8a-94ef-8f06e455c25d")
 	)
-	(label "MS3_DRV8825_4"
-		(at 149.86 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cf906b8-980d-4021-8532-d2151e6685d5")
-	)
 	(label "IC1_MS1_DRV8825"
 		(at 100.33 173.99 0)
 		(effects
@@ -7275,6 +7325,16 @@
 			(justify left bottom)
 		)
 		(uuid "82bf9c89-1ed1-4cb3-a8ce-18cd28fa0b4c")
+	)
+	(label "IC5_MS3_DRV8825"
+		(at 160.02 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8377ae91-b5d4-4453-a5b7-3083f1bdfe21")
 	)
 	(label "IC5_dir"
 		(at 152.4 46.99 0)
@@ -7316,6 +7376,16 @@
 		)
 		(uuid "8f8b8755-fafc-4a5f-90af-2147967695de")
 	)
+	(label "IC5_MS2_DRV8825"
+		(at 160.02 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "909a51e5-9f5b-4c7b-a9ae-1ae8dac46df9")
+	)
 	(label "step_1"
 		(at 124.46 237.49 0)
 		(effects
@@ -7326,16 +7396,6 @@
 		)
 		(uuid "92b48e8a-12ce-4e44-84ea-16859d77e6fb")
 	)
-	(label "MS3_DRV8825_2"
-		(at 43.18 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "963dfed5-2519-4c4f-b573-64173b636acb")
-	)
 	(label "IC5_MS1_DRV8825"
 		(at 351.79 190.5 0)
 		(effects
@@ -7345,16 +7405,6 @@
 			(justify left bottom)
 		)
 		(uuid "983d8477-9133-4ba9-b11d-4715aacaf6fe")
-	)
-	(label "MS2_DRV8825_2"
-		(at 43.18 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "998c10a4-5df9-4d86-aa70-3bea7204f923")
 	)
 	(label "IC1_2B"
 		(at 140.97 166.37 0)
@@ -7416,16 +7466,6 @@
 		)
 		(uuid "a1f75a44-7f53-444c-b8d4-6914c8f69c11")
 	)
-	(label "MS1_DRV8825_2"
-		(at 43.18 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2a0c941-5dc2-4b07-8eb3-8d0d5bce0540")
-	)
 	(label "IC1_1A"
 		(at 83.82 232.41 180)
 		(effects
@@ -7447,7 +7487,7 @@
 		(uuid "a3bf544f-8700-4809-8b42-085258e2595c")
 	)
 	(label "IC2_MS1_DRV8825"
-		(at 241.3 234.95 0)
+		(at 247.65 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7485,6 +7525,16 @@
 			(justify left bottom)
 		)
 		(uuid "b235c539-d6d7-4dbb-8969-607e8953107e")
+	)
+	(label "IC4_MS2_DRV8825"
+		(at 165.1 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5d4ea62-c760-44af-9d07-4159252bda8a")
 	)
 	(label "sleep_B"
 		(at 351.79 208.28 0)
@@ -7556,16 +7606,6 @@
 		)
 		(uuid "bf7c6640-2f72-468b-8239-1e42a76950b8")
 	)
-	(label "MS2_DRV8825_3"
-		(at 43.18 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfc61253-eb5b-4e82-9f18-04465052d8a5")
-	)
 	(label "IC2_dir"
 		(at 241.3 245.11 0)
 		(effects
@@ -7575,16 +7615,6 @@
 			(justify left bottom)
 		)
 		(uuid "c18dd213-8fcc-4291-ba24-6663ec2c17f6")
-	)
-	(label "MS1_DRV8825_3"
-		(at 43.18 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c45c8e86-a65d-41a1-8bfa-ba265925ad1c")
 	)
 	(label "IC5_enable"
 		(at 351.79 198.12 0)
@@ -7616,16 +7646,6 @@
 		)
 		(uuid "cb8801f4-d2f6-4d44-9ee5-f4e7ebb1b62e")
 	)
-	(label "MS3_DRV8825_5"
-		(at 146.05 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d32410bc-f3f7-472a-841a-e5318bf0f767")
-	)
 	(label "IC3_enable"
 		(at 345.44 55.88 0)
 		(effects
@@ -7646,8 +7666,28 @@
 		)
 		(uuid "d5b771ce-06e5-4b41-8387-e575ff8f8692")
 	)
+	(label "IC2_MS1_DRV8825"
+		(at 57.15 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6773da3-54d5-40c4-a4b7-062f5fe010b2")
+	)
 	(label "IC2_MS2_DRV8825"
-		(at 241.3 232.41 0)
+		(at 57.15 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d72db309-7005-48c0-8e7e-b4d0b51d4074")
+	)
+	(label "IC2_MS2_DRV8825"
+		(at 247.65 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7796,15 +7836,15 @@
 		)
 		(uuid "ea0799c2-37e7-42f1-9f27-f5dbcd08fcd5")
 	)
-	(label "MS3_DRV8825_3"
-		(at 43.18 124.46 0)
+	(label "IC3_MS2_DRV8825"
+		(at 57.15 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ec77594f-d965-4877-ab95-a2c5f8bcdee2")
+		(uuid "ef139f95-6235-4ca9-9899-ef38f2a1606c")
 	)
 	(label "reset_B"
 		(at 351.79 210.82 0)
@@ -7866,16 +7906,6 @@
 		)
 		(uuid "f5ddb2ec-ac8a-4b4a-ba59-4d281ff3abcd")
 	)
-	(label "MS1_DRV8825_5"
-		(at 146.05 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5e595d5-09ff-4325-a34d-54ceead614cd")
-	)
 	(label "IC3_2B"
 		(at 83.82 116.84 0)
 		(effects
@@ -7896,16 +7926,6 @@
 		)
 		(uuid "f7136dda-4192-489d-8770-b0200cc61250")
 	)
-	(label "MS2_DRV8825_5"
-		(at 146.05 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7912820-466e-49bb-874d-75fb92cb0649")
-	)
 	(label "IC2_step"
 		(at 241.3 240.03 0)
 		(effects
@@ -7915,6 +7935,16 @@
 			(justify left bottom)
 		)
 		(uuid "f94d0276-e5a9-43f9-b2a2-03ead5e19fe8")
+	)
+	(label "IC4_MS1_DRV8825"
+		(at 165.1 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f977ebb5-62c1-4176-8280-6d5423218b55")
 	)
 	(label "IC3_2A"
 		(at 304.8 60.96 180)
