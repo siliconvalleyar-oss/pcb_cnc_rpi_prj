@@ -97,12 +97,12 @@
       (place R6 67745.3 -97763.7 front 90 (PN 0.1r))
       (place R48 144473.8 -99902.1 front 90 (PN 2k2))
       (place R46 139190.6 -99902.1 front 90 (PN 2k2))
-      (place R36 81710.4 -97163.2 front 90 (PN 1.5k))
+      (place R36 81710.4 -96750.3 front 90 (PN 1.5k))
       (place R24 55573.8 -41252.5 front 90 (PN 33K))
       (place R57 101090.6 -109984.5 front 90 (PN 0.1r))
       (place R44 133907.4 -99902.1 front 90 (PN 2k2))
       (place R35 84174.2 -110475.7 front 90 (PN 0.1r))
-      (place R37 83666.2 -97212.1 front 90 (PN 0.1r))
+      (place R37 83666.2 -96799.2 front 90 (PN 0.1r))
       (place R59 99947.1 -97083.6 front 90 (PN 0.1r))
       (place R58 98016.7 -97007.4 front 90 (PN 1.5k))
     )
@@ -156,7 +156,7 @@
     (component Capacitor_SMD:C_0805_2012Metric::1
       (place C61 96789.5 -109964.5 front 90 (PN 100nf))
       (place C14 87222.2 -34386.2 front 90 (PN 4.7uf))
-      (place C37 85876 -97227.3 front 90 (PN 4.7uf))
+      (place C37 85876 -96814.4 front 90 (PN 4.7uf))
       (place C18 64020 -110999.4 front 90 (PN 100nf))
       (place C17 69604.8 -97763.7 front 90 (PN 4.7uf))
       (place C28 80042.5 -110455.7 front 90 (PN 100nf))
@@ -287,7 +287,7 @@
     (component Capacitor_SMD:C_Elec_6.3x5.4::1
       (place C41 98375.2 -91603.5 front 180 (PN RVT100UF35V67RV0034))
       (place C39 65820.2 -92378.4 front 180 (PN RVT100UF35V67RV0034))
-      (place C40 82105.3 -91632.5 front 180 (PN RVT100UF35V67RV0034))
+      (place C40 82105.3 -91368.6 front 180 (PN RVT100UF35V67RV0034))
     )
     (component "Package_TO_SOT_SMD:TO-252-3_TabPin2"
       (place U3 65857.1 -27098 front 90 (PN "LM1117DT-5.0"))
@@ -2008,13 +2008,13 @@
       (pins U10-23)
     )
     (net /Pololu/IC5_MS1_DRV8825
-      (pins U10-24)
+      (pins U10-24 A5-10 JP21-2)
     )
     (net /Pololu/IC5_MS2_DRV8825
-      (pins U10-25)
+      (pins U10-25 A5-11 JP22-2)
     )
     (net /Pololu/IC5_MS3_DRV8825
-      (pins U10-26)
+      (pins U10-26 A5-12 JP23-2)
     )
     (net "unconnected-(U10-nHOME-Pad27)"
       (pins U10-27)
@@ -2064,15 +2064,6 @@
     )
     (net /Pololu/IC4_enable
       (pins U1-90 A4-9 U11-21)
-    )
-    (net /Pololu/MS1_DRV8825_4
-      (pins A4-10 JP18-2)
-    )
-    (net /Pololu/MS2_DRV8825_4
-      (pins A4-11 JP19-2)
-    )
-    (net /Pololu/MS3_DRV8825_4
-      (pins A4-12 JP20-2)
     )
     (net /Pololu/reset_B
       (pins U1-84 U10-16 A4-13 A5-13 U11-16)
@@ -2135,13 +2126,13 @@
       (pins U12-23)
     )
     (net /Pololu/IC3_MS1_DRV8825
-      (pins U12-24)
+      (pins U12-24 A3-10 JP12-2)
     )
     (net /Pololu/IC3_MS2_DRV8825
-      (pins U12-25)
+      (pins U12-25 A3-11 JP13-2)
     )
     (net /Pololu/IC3_MS3_DRV8825
-      (pins U12-26)
+      (pins U12-26 A3-12 JP14-2)
     )
     (net "unconnected-(U12-nHOME-Pad27)"
       (pins U12-27)
@@ -2326,14 +2317,8 @@
     (net /flt_2
       (pins U1-19 R36-2 R37-2)
     )
-    (net /pic32/RB2
-      (pins U1-23)
-    )
     (net /motor_control_1
       (pins R65-2 J1-32 J1-33 J1-33@1)
-    )
-    (net /pic32/RB8
-      (pins U1-32)
     )
     (net /M_Rx
       (pins R61-1 J1-10)
@@ -2366,7 +2351,7 @@
       (pins U1-60)
     )
     (net /flt_3
-      (pins U1-66 R59-2 R58-2)
+      (pins U1-32 R59-2 R58-2)
     )
     (net /pic32/RA15
       (pins U1-67)
@@ -2404,15 +2389,6 @@
     (net /pic32/RE4
       (pins U1-100)
     )
-    (net /Pololu/MS1_DRV8825_5
-      (pins A5-10 JP21-2)
-    )
-    (net /Pololu/MS2_DRV8825_5
-      (pins A5-11 JP22-2)
-    )
-    (net /Pololu/MS3_DRV8825_5
-      (pins A5-12 JP23-2)
-    )
     (net "Net-(U9-nFAULT)"
       (pins R36-1 U9-18)
     )
@@ -2424,15 +2400,6 @@
     )
     (net "Net-(U11-ISENA)"
       (pins R43-1 U11-6)
-    )
-    (net /Pololu/MS1_DRV8825_3
-      (pins A3-10 JP12-2)
-    )
-    (net /Pololu/MS2_DRV8825_3
-      (pins A3-11 JP13-2)
-    )
-    (net /Pololu/MS3_DRV8825_3
-      (pins A3-12 JP14-2)
     )
     (net "Net-(U11-V3P3OUT)"
       (pins C56-1 U11-15)
@@ -2477,13 +2444,13 @@
       (pins U9-23)
     )
     (net /Pololu/IC2_MS1_DRV8825
-      (pins U9-24)
+      (pins U9-24 A2-10 JP15-2)
     )
     (net /Pololu/IC2_MS2_DRV8825
-      (pins U9-25)
+      (pins U9-25 A2-11 JP16-2)
     )
     (net /Pololu/IC2_MS3_DRV8825
-      (pins U9-26)
+      (pins U9-26 A2-12 JP17-2)
     )
     (net "unconnected-(U9-nHOME-Pad27)"
       (pins U9-27)
@@ -2537,25 +2504,16 @@
       (pins U11-23)
     )
     (net /Pololu/IC4_MS1_DRV8825
-      (pins U11-24)
+      (pins A4-10 U11-24 JP18-2)
     )
     (net /Pololu/IC4_MS2_DRV8825
-      (pins U11-25)
+      (pins A4-11 U11-25 JP19-2)
     )
     (net /Pololu/IC4_MS3_DRV8825
-      (pins U11-26)
+      (pins A4-12 U11-26 JP20-2)
     )
     (net "unconnected-(U11-nHOME-Pad27)"
       (pins U11-27)
-    )
-    (net /Pololu/MS1_DRV8825_2
-      (pins A2-10 JP15-2)
-    )
-    (net /Pololu/MS2_DRV8825_2
-      (pins A2-11 JP16-2)
-    )
-    (net /Pololu/MS3_DRV8825_2
-      (pins A2-12 JP17-2)
     )
     (net /pic32/RF3
       (pins U1-51)
@@ -2663,13 +2621,13 @@
       (pins U1-70)
     )
     (net /MS2
-      (pins U1-21 J4-6 JP10-1 JP13-1 JP16-1)
+      (pins U1-22 JP10-1 JP13-1 JP16-1)
     )
     (net /MS1
       (pins U1-20 JP15-1 JP12-1 JP9-1)
     )
     (net /MS3
-      (pins U1-22 JP14-1 JP11-1 JP17-1)
+      (pins U1-23 JP14-1 JP11-1 JP17-1)
     )
     (net /pic32/RG12
       (pins U1-96)
@@ -2679,6 +2637,12 @@
     )
     (net /pic32/RG14
       (pins U1-95)
+    )
+    (net /pic32/PGM
+      (pins U1-21 J4-6)
+    )
+    (net /pic32/RA14
+      (pins U1-66)
     )
     (class kicad_default /LED_a /LED_b /LED_c /LED_d /LED_e /M1_B /M2_B /M3_B
       /MCU/GPIO_22_1 /MCU/GPIO_27_1 /MCU/MISO_1 /MCU/MOSI_1 /MCU/SCLK_1 /MS1
@@ -2692,14 +2656,11 @@
       /Pololu/IC4_MS2_DRV8825 /Pololu/IC4_MS3_DRV8825 /Pololu/IC4_dir /Pololu/IC4_enable
       /Pololu/IC4_step /Pololu/IC5_1A /Pololu/IC5_1B /Pololu/IC5_2A /Pololu/IC5_2B
       /Pololu/IC5_MS1_DRV8825 /Pololu/IC5_MS2_DRV8825 /Pololu/IC5_MS3_DRV8825
-      /Pololu/IC5_dir /Pololu/IC5_enable /Pololu/IC5_step /Pololu/MS1_DRV8825_2
-      /Pololu/MS1_DRV8825_3 /Pololu/MS1_DRV8825_4 /Pololu/MS1_DRV8825_5 /Pololu/MS2_DRV8825_2
-      /Pololu/MS2_DRV8825_3 /Pololu/MS2_DRV8825_4 /Pololu/MS2_DRV8825_5 /Pololu/MS3_DRV8825_2
-      /Pololu/MS3_DRV8825_3 /Pololu/MS3_DRV8825_4 /Pololu/MS3_DRV8825_5 /Pololu/reset_B
+      /Pololu/IC5_dir /Pololu/IC5_enable /Pololu/IC5_step /Pololu/reset_B
       /Pololu/sleep_B /flt_1 /flt_2 /flt_3 /flt_4 /flt_5 /limit_1 /limit_2
       /limit_3 /limit_4 /limit_5 /motor_control_1 /motor_control_2 /pic32/D+
-      "/pic32/D-" /pic32/MCLR /pic32/OSC1 /pic32/OSC2 /pic32/RA15 /pic32/RA2
-      /pic32/RA4 /pic32/RA5 /pic32/RB13 /pic32/RB15 /pic32/RB2 /pic32/RB8
+      "/pic32/D-" /pic32/MCLR /pic32/OSC1 /pic32/OSC2 /pic32/PGM /pic32/RA14
+      /pic32/RA15 /pic32/RA2 /pic32/RA4 /pic32/RA5 /pic32/RB13 /pic32/RB15
       /pic32/RB9 /pic32/RC2 /pic32/RD0 /pic32/RD10 /pic32/RD11 /pic32/RD12
       /pic32/RD13 /pic32/RD14_SS3_U4RX /pic32/RD15_U4TX /pic32/RD3 /pic32/RD8
       /pic32/RD9 /pic32/RE2 /pic32/RE3 /pic32/RE4 /pic32/RE6 /pic32/RF2 /pic32/RF3
