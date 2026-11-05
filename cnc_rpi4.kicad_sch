@@ -10,6 +10,10 @@
 		(uuid "010e3706-8926-456b-904a-70cfe32ecd2c")
 	)
 	(no_connect
+		(at 184.15 200.66)
+		(uuid "017a2cf7-204b-4878-b612-1f862b91d2b7")
+	)
+	(no_connect
 		(at 243.84 209.55)
 		(uuid "03db5fe2-46e7-463e-9687-7dbf221ff0e6")
 	)
@@ -98,7 +102,7 @@
 		(uuid "8f58ea91-62c2-4b60-86f5-f4ce7d033ba8")
 	)
 	(no_connect
-		(at 156.21 200.66)
+		(at 176.53 200.66)
 		(uuid "9940c38d-9f68-4962-91d1-7e7bd1d0f089")
 	)
 	(no_connect
@@ -553,6 +557,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 229.87) (xy 147.32 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5715e258-cbad-43d8-8aed-ce7980296a47")
+	)
+	(wire
+		(pts
 			(xy 261.62 176.53) (xy 273.05 176.53)
 		)
 		(stroke
@@ -743,16 +757,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 232.41) (xy 87.63 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b54c2b-d334-4257-90fc-0281304bb9f7")
-	)
-	(wire
-		(pts
 			(xy 243.84 236.22) (xy 247.65 236.22)
 		)
 		(stroke
@@ -870,16 +874,6 @@
 			(type default)
 		)
 		(uuid "a4da9791-1166-4780-9012-86bf78c12890")
-	)
-	(wire
-		(pts
-			(xy 147.32 229.87) (xy 90.17 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a63f3c07-4991-499f-b49c-81f1d2e91b46")
 	)
 	(wire
 		(pts
@@ -1313,16 +1307,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 234.95) (xy 147.32 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a88aa4-10ee-4d17-9323-0e147bbf3443")
-	)
-	(wire
-		(pts
 			(xy 234.95 142.24) (xy 231.14 142.24)
 		)
 		(stroke
@@ -1330,6 +1314,16 @@
 			(type default)
 		)
 		(uuid "f87f5b0c-cb3b-4b5e-93c0-4d86687b419c")
+	)
+	(wire
+		(pts
+			(xy 143.51 232.41) (xy 147.32 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd257dd-7c57-4e1a-8915-7a330c424f06")
 	)
 	(label "GPIO3_SCL"
 		(at 163.83 78.74 0)
@@ -1572,12 +1566,12 @@
 		(uuid "4cf40931-8f71-422e-9efb-0c851ea40ab1")
 	)
 	(label "flt_4"
-		(at 248.92 259.08 0)
+		(at 143.51 232.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "55248181-e640-48d1-9da4-9379a21cbd5f")
 	)
@@ -1782,12 +1776,12 @@
 		(uuid "9f96021d-823d-4553-a7f7-e458e03bde76")
 	)
 	(label "flt_5"
-		(at 248.92 261.62 0)
+		(at 143.51 229.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9fc32752-45ad-4d56-b8ff-c8e91314d112")
 	)
@@ -1812,7 +1806,7 @@
 		(uuid "a3c296d5-3c70-4215-b08f-ff2c32bbb9f5")
 	)
 	(label "M3_B"
-		(at 193.04 195.58 90)
+		(at 190.5 195.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1842,7 +1836,7 @@
 		(uuid "ae862d34-adba-47d8-bf1f-c307df7861ea")
 	)
 	(label "M1_B"
-		(at 190.5 195.58 90)
+		(at 193.04 195.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,13 +2706,13 @@
 			)
 		)
 		(pin "RA7" bidirectional
-			(at 147.32 208.28 180)
+			(at 190.5 200.66 90)
 			(uuid "6e2a7ce5-55f5-4a69-859b-d8c691b08c01")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "RA5" bidirectional
@@ -2752,7 +2746,7 @@
 			)
 		)
 		(pin "RF1" bidirectional
-			(at 193.04 200.66 90)
+			(at 176.53 200.66 90)
 			(uuid "7122189a-e642-4852-80a8-cec9067cd65d")
 			(effects
 				(font
@@ -2762,7 +2756,7 @@
 			)
 		)
 		(pin "RF0" bidirectional
-			(at 195.58 200.66 90)
+			(at 184.15 200.66 90)
 			(uuid "e98a12ce-5bfa-46a3-b6c7-e7493b545beb")
 			(effects
 				(font
@@ -3072,7 +3066,7 @@
 			)
 		)
 		(pin "RE4" bidirectional
-			(at 190.5 200.66 90)
+			(at 193.04 200.66 90)
 			(uuid "0ddb665c-0d1e-47df-aaa1-3269703a1817")
 			(effects
 				(font
@@ -3112,7 +3106,7 @@
 			)
 		)
 		(pin "RE2" bidirectional
-			(at 243.84 207.01 0)
+			(at 195.58 200.66 90)
 			(uuid "138b25a9-86b8-4bb8-9b0c-950fea878023")
 			(effects
 				(font
@@ -3122,13 +3116,13 @@
 			)
 		)
 		(pin "RE3" bidirectional
-			(at 243.84 204.47 0)
+			(at 147.32 229.87 180)
 			(uuid "9a0732c0-2c93-4a9f-8ef8-de1cea9e2f67")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "D+" bidirectional
@@ -3172,7 +3166,7 @@
 			)
 		)
 		(pin "RG14" bidirectional
-			(at 147.32 229.87 180)
+			(at 147.32 208.28 180)
 			(uuid "aa6746a8-2525-45e3-a6e5-413d17332cb0")
 			(effects
 				(font
