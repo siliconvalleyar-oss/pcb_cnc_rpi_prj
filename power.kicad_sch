@@ -3902,12 +3902,6 @@
 		(uuid "97ed12bc-173d-4c71-bd52-e74da7a24515")
 	)
 	(junction
-		(at 83.82 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e0b3dc7-f647-4ab1-9bac-c56798efb5fa")
-	)
-	(junction
 		(at 180.34 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3968,12 +3962,6 @@
 		(uuid "d0c49eac-3427-4b08-84eb-d633c5242b27")
 	)
 	(junction
-		(at 106.68 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0df7b5a-c942-41e7-a883-8a71976e8ce7")
-	)
-	(junction
 		(at 97.79 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4014,12 +4002,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65ff327-6537-415f-a1f1-d71bb58ac739")
-	)
-	(junction
-		(at 90.17 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7ededf1-9442-4491-b6e4-3c1176db07ad")
 	)
 	(junction
 		(at 140.97 105.41)
@@ -4262,16 +4244,6 @@
 			(type default)
 		)
 		(uuid "2061932a-ed9e-4d3a-936f-f44f54b557a1")
-	)
-	(wire
-		(pts
-			(xy 90.17 153.67) (xy 106.68 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "218f99df-d651-4972-af5e-afe7dbf0dafb")
 	)
 	(wire
 		(pts
@@ -6763,88 +6735,6 @@
 		)
 	)
 	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 90.17 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f3e452-193c-4999-bbfb-1dc591d268d0")
-		(property "Reference" "C1"
-			(at 93.98 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 93.98 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 91.1352 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34ce20b1-2165-48a7-b409-a8041f628ce9")
-		)
-		(pin "2"
-			(uuid "99c87a2c-537f-47e3-8b1b-2bd1f0169b57")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 295.91 99.06 180)
 		(unit 1)
@@ -9328,14 +9218,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 180.34 143.51 0)
+		(property "Value" "+3V3"
+			(at 182.88 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -9649,14 +9540,15 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 266.7 176.53 0)
+		(property "Value" "+3V3"
+			(at 269.24 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10571,13 +10463,14 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 328.93 81.28 0)
+			(at 331.47 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10619,88 +10512,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "C_1")
-		(lib_id "Device:C")
-		(at 83.82 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "defabaf2-ef7c-423c-abb8-0ddb9059ad86")
-		(property "Reference" "C10"
-			(at 87.63 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nf"
-			(at 87.63 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 84.7852 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 83.82 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8b388df-202c-442d-8d1e-12d12d31a623")
-		)
-		(pin "2"
-			(uuid "4a5023be-2cd6-48c8-92f9-86d4e8cefa73")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/8e42f8aa-f00a-41b2-96fb-3753b4f2b509"
-					(reference "C10")
 					(unit 1)
 				)
 			)

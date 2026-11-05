@@ -775,6 +775,15 @@
       "/MCU/CE1": [
         "NetClassBus"
       ],
+      "/MCU/GPIO_22": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_23": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_27": [
+        "NetClassBus"
+      ],
       "/MCU/MISO": [
         "NetClassBus"
       ],
@@ -839,6 +848,15 @@
         "NetClassBus"
       ],
       "/limit_3": [
+        "NetClassBus"
+      ],
+      "/limit_pi_1": [
+        "NetClassBus"
+      ],
+      "/limit_pi_2": [
+        "NetClassBus"
+      ],
+      "/limit_pi_3": [
         "NetClassBus"
       ],
       "/microSD/CS": [
@@ -1148,7 +1166,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "C23-24,#PWR36,Y2-3",
+    "used_designators": "#FLG1-3,C1,C10,L2-3,J6-9,R30,R63-66,#PWR20-21,#PWR38-40,#PWR46,#PWR48",
     "variants": []
   },
   "sheets": [
@@ -1163,6 +1181,10 @@
     [
       "8e42f8aa-f00a-41b2-96fb-3753b4f2b509",
       "power"
+    ],
+    [
+      "b4f7c22e-97d2-4f0e-b30f-54b33f70f172",
+      "Motor"
     ],
     [
       "3da96f60-6562-4588-a905-3eaf5a84a8ba",
