@@ -1737,6 +1737,16 @@
 		)
 		(uuid "e3e30089-df76-4481-9101-ee21ea6aadb5")
 	)
+	(label "+3.3"
+		(at 198.12 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b7b9c1-2e08-4347-a983-11b82a983fea")
+	)
 	(hierarchical_label "GPIO_26"
 		(shape bidirectional)
 		(at 127 120.65 180)
@@ -2685,7 +2695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9070d888-9e1e-40d2-9f84-cdf13d91ab5e")
-		(property "Reference" "L2"
+		(property "Reference" "JP1"
 			(at 207.01 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2748,7 +2758,7 @@
 		(instances
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/64cf98d4-7353-423c-baad-4e05534717be"
-					(reference "L2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)

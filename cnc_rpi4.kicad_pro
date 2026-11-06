@@ -793,6 +793,15 @@
       "/MCU/SCLK": [
         "NetClassBus"
       ],
+      "/MS1": [
+        "NetClassBus"
+      ],
+      "/MS2": [
+        "NetClassBus"
+      ],
+      "/MS3": [
+        "NetClassBus"
+      ],
       "/Oled/SCL": [
         "NetClassBus"
       ],
@@ -841,6 +850,24 @@
       "/Pololu/sleep": [
         "NetClassBus"
       ],
+      "/dir_1": [
+        "NetClassBus"
+      ],
+      "/dir_2": [
+        "NetClassBus"
+      ],
+      "/dir_3": [
+        "NetClassBus"
+      ],
+      "/en_1": [
+        "NetClassBus"
+      ],
+      "/en_2": [
+        "NetClassBus"
+      ],
+      "/en_3": [
+        "NetClassBus"
+      ],
       "/limit_1": [
         "NetClassBus"
       ],
@@ -848,6 +875,18 @@
         "NetClassBus"
       ],
       "/limit_3": [
+        "NetClassBus"
+      ],
+      "/limit_pi1": [
+        "NetClassBus"
+      ],
+      "/limit_pi2": [
+        "NetClassBus"
+      ],
+      "/limit_pi3": [
+        "NetClassBus"
+      ],
+      "/limit_pi4": [
         "NetClassBus"
       ],
       "/limit_pi_1": [
@@ -870,6 +909,30 @@
       ],
       "/microSD/SCK": [
         "spiBus"
+      ],
+      "/pic32/RF12": [
+        "spiBus"
+      ],
+      "/pic32/RF13": [
+        "spiBus"
+      ],
+      "/pic32/RF4": [
+        "spiBus"
+      ],
+      "/pic32/RF5": [
+        "spiBus"
+      ],
+      "/pic32/RF8": [
+        "spiBus"
+      ],
+      "/step_1": [
+        "NetClassBus"
+      ],
+      "/step_2": [
+        "NetClassBus"
+      ],
+      "/step_3": [
+        "NetClassBus"
       ],
       "/switch_a": [
         "NetClassBus"
@@ -1166,7 +1229,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "R12-13,R38,L4,J10,C27,C29,C31,C44,#FLG6-7,#PWR66,#PWR78-83,U5-6",
+    "used_designators": "J6,J11,C2-7,C46,R71,JP1,JP21,#PWR4-5,#PWR84-87",
     "variants": []
   },
   "sheets": [
