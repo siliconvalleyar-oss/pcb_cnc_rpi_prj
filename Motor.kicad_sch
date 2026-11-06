@@ -702,10 +702,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cf56bb45-16b0-4f3d-8df2-d0d37432bd2d")
+			(uuid "cf56bb45-16b0-4f3d-8df2-d0d37432bd2e")
 		)
 		(pin "1"
-			(uuid "acd42768-852f-4660-b1e8-8fa30dbb0abe")
+			(uuid "acd42768-852f-4660-b1e8-8fa30dbb0abf")
 		)
 		(instances
 			(project "cnc_rpi4"
