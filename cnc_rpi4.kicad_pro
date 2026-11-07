@@ -213,6 +213,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.254,
         0.3,
         0.382,
         0.4,
@@ -261,28 +262,16 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.508,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.508,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.508,
+          "diameter": 0.6,
           "drill": 0.3
         },
         {
           "diameter": 0.762,
-          "drill": 0.508
+          "drill": 0.4
         },
         {
           "diameter": 0.8,
-          "drill": 0.4
+          "drill": 0.5
         },
         {
           "diameter": 1.0,
@@ -294,7 +283,7 @@
         },
         {
           "diameter": 1.27,
-          "drill": 0.75
+          "drill": 0.8
         },
         {
           "diameter": 2.54,
@@ -584,7 +573,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "tuning_profile": "",
-        "via_diameter": 0.6,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -722,8 +711,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.7,
+        "via_diameter": 0.9,
+        "via_drill": 0.5,
         "wire_width": 6
       },
       {
@@ -885,7 +874,7 @@
         "buspic32"
       ],
       "/PWR_SIGNAL": [
-        "spiBus"
+        "buspic32"
       ],
       "/Pololu/IC1_dir": [
         "NetClassBus"
@@ -1130,7 +1119,6 @@
         "spiBus"
       ],
       "/pic32/RF8": [
-        "buspic32",
         "spiBus"
       ],
       "/pic32/RG12": [
@@ -1483,7 +1471,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "C27,C29,C47,C49,R7,R20,R38-39,#PWR33,#PWR88,#PWR93-95,J5,J12",
+    "used_designators": "C27,C29,C47,C49,R7,R20,R38-39,#PWR33,#PWR88,#PWR93-96,#PWR100,J5,J12",
     "variants": []
   },
   "sheets": [

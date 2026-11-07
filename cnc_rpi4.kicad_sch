@@ -1374,6 +1374,10 @@
 		(uuid "1a5de6ac-4096-42d4-9576-339ec8043ab4")
 	)
 	(no_connect
+		(at 173.99 200.66)
+		(uuid "221ff4df-4d26-42fd-8107-177711af2899")
+	)
+	(no_connect
 		(at 207.01 200.66)
 		(uuid "2311cd15-6b22-47df-ba6a-b031f7719d76")
 	)
@@ -1384,10 +1388,6 @@
 	(no_connect
 		(at 210.82 281.94)
 		(uuid "27059161-75bd-4dc9-9880-8e51545c8778")
-	)
-	(no_connect
-		(at 199.39 200.66)
-		(uuid "2ced0015-3e16-40c4-b31f-23ba9e8c79a5")
 	)
 	(no_connect
 		(at 232.41 281.94)
@@ -1408,10 +1408,6 @@
 	(no_connect
 		(at 182.88 281.94)
 		(uuid "3e3be366-d618-48e3-b620-03759e43dd9e")
-	)
-	(no_connect
-		(at 173.99 200.66)
-		(uuid "486e7801-bbce-466e-9571-a3b0ba784a89")
 	)
 	(no_connect
 		(at 171.45 281.94)
@@ -1454,7 +1450,7 @@
 		(uuid "9e365870-97be-4d22-8f8c-d643d876acfe")
 	)
 	(no_connect
-		(at 147.32 267.97)
+		(at 177.8 281.94)
 		(uuid "9f110388-70d3-4e4e-9beb-94b457ec4269")
 	)
 	(no_connect
@@ -1476,6 +1472,10 @@
 	(no_connect
 		(at 228.6 281.94)
 		(uuid "af1e5459-b8be-4bd7-b84b-f023ccc52dff")
+	)
+	(no_connect
+		(at 243.84 212.09)
+		(uuid "b6287960-9a91-44a4-bd92-07b68f73172e")
 	)
 	(no_connect
 		(at 231.14 88.9)
@@ -1731,16 +1731,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 213.36) (xy 248.92 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2582b117-4955-4e4a-943f-b9b15f84af74")
-	)
-	(wire
-		(pts
 			(xy 231.14 165.1) (xy 238.76 165.1)
 		)
 		(stroke
@@ -1888,6 +1878,16 @@
 			(type default)
 		)
 		(uuid "4808f215-a122-4222-bdee-4fe0f1eaf4ac")
+	)
+	(wire
+		(pts
+			(xy 198.12 194.31) (xy 198.12 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4815f04d-af8c-4579-98b3-7eb0fbc81495")
 	)
 	(wire
 		(pts
@@ -2148,6 +2148,16 @@
 			(type default)
 		)
 		(uuid "6dadcc53-de65-4c83-b768-3557cde4d8f6")
+	)
+	(wire
+		(pts
+			(xy 199.39 199.39) (xy 199.39 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ecc8036-a639-4a82-b555-a59b21b12f33")
 	)
 	(wire
 		(pts
@@ -2568,6 +2578,16 @@
 			(type default)
 		)
 		(uuid "bd8c2de0-da16-431d-8bef-328a99e32b6d")
+	)
+	(wire
+		(pts
+			(xy 198.12 199.39) (xy 199.39 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffaa5c9-0c49-4ba0-9cd7-e03daaa225bd")
 	)
 	(wire
 		(pts
@@ -3130,7 +3150,7 @@
 		(uuid "314a0da9-88f4-47ab-b913-e0a7967d54df")
 	)
 	(label "flt_1"
-		(at 137.16 261.62 0)
+		(at 139.7 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3220,12 +3240,12 @@
 		(uuid "544f9450-bf30-4134-b6c0-126640a79d5b")
 	)
 	(label "flt_4"
-		(at 139.7 256.54 180)
+		(at 137.16 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "55248181-e640-48d1-9da4-9379a21cbd5f")
 	)
@@ -3370,7 +3390,7 @@
 		(uuid "777013fc-8518-4630-8075-8a9c45b50f4b")
 	)
 	(label "flt_3"
-		(at 139.7 259.08 0)
+		(at 137.16 261.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3520,7 @@
 		(uuid "97ca24b4-a76c-4349-ab65-3fde4a2c6c07")
 	)
 	(label "flt_2"
-		(at 137.16 264.16 0)
+		(at 139.7 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3680,7 +3700,7 @@
 		(uuid "c3557db6-2c81-40f6-b297-4cb36f51f407")
 	)
 	(label "PWR_SIGNAL"
-		(at 248.92 213.36 0)
+		(at 198.12 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6390,7 @@
 			)
 		)
 		(pin "RD0" bidirectional
-			(at 147.32 267.97 180)
+			(at 177.8 281.94 270)
 			(uuid "6f843471-6a67-4277-97ec-f06ae50d6b55")
 			(effects
 				(font
@@ -6402,16 +6422,6 @@
 		(pin "RA2" bidirectional
 			(at 224.79 200.66 90)
 			(uuid "35b8bca2-450a-4732-9f2b-38a5f8c27062")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RF8" bidirectional
-			(at 243.84 213.36 0)
-			(uuid "7ada3e86-262a-4292-9f97-575278fe4981")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,6 +6492,16 @@
 		(pin "RG9" bidirectional
 			(at 243.84 243.84 0)
 			(uuid "34679de9-1885-47bc-b2f9-6e91da79ae06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF8" bidirectional
+			(at 243.84 212.09 0)
+			(uuid "a1a8073c-b28f-48de-8974-c77361ee188b")
 			(effects
 				(font
 					(size 1.27 1.27)

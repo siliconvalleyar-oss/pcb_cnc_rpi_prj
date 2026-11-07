@@ -7570,16 +7570,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 234.95) (xy 347.98 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95f45781-1606-463a-befd-f1a2726169e2")
-	)
-	(wire
-		(pts
 			(xy 325.12 198.12) (xy 328.93 198.12)
 		)
 		(stroke
@@ -8459,7 +8449,7 @@
 		(uuid "00809681-3721-4063-8730-12013d520098")
 	)
 	(label "RF13"
-		(at 270.51 167.64 180)
+		(at 270.51 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9659,7 +9649,7 @@
 		(uuid "94e71ee9-3bf5-426d-8059-b76b18dc15c0")
 	)
 	(label "RF12"
-		(at 270.51 165.1 180)
+		(at 270.51 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10039,17 +10029,17 @@
 		(uuid "d99250e4-8ac0-4e08-b473-f1272921edf0")
 	)
 	(label "OSC2_B"
-		(at 347.98 220.98 0)
+		(at 340.36 226.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "da72e4b5-bfdd-48cf-ac8c-28ebd1720262")
 	)
 	(label "OSC1_B"
-		(at 347.98 234.95 0)
+		(at 356.87 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12133,6 +12123,84 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/77f4e5d0-8275-463d-bd32-54e54230af45"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 220.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208577b1-40b5-4aab-8164-f5d0d5c96d13")
+		(property "Reference" "#PWR0100"
+			(at 354.33 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 351.79 220.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 347.98 220.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e6d2c6d-486c-4ce6-97b2-0852b7181f6b")
+		)
+		(instances
+			(project "cnc_rpi4"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/77f4e5d0-8275-463d-bd32-54e54230af45"
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -15980,6 +16048,83 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/77f4e5d0-8275-463d-bd32-54e54230af45"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 347.98 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78fe942-0c61-4e69-aa1d-eb3e5c30664d")
+		(property "Reference" "#PWR096"
+			(at 347.98 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 236.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 347.98 231.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fd87615-6988-4142-a89a-c41214541ae9")
+		)
+		(instances
+			(project "cnc_rpi4"
+				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/77f4e5d0-8275-463d-bd32-54e54230af45"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
