@@ -582,7 +582,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.382,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -598,7 +598,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 128, 0, 0.302)",
-        "priority": 9,
+        "priority": 11,
         "schematic_color": "rgba(0, 128, 0, 0.302)",
         "track_width": 1.5,
         "tuning_profile": "",
@@ -615,7 +615,7 @@
         "microvia_drill": 0.1,
         "name": "NetClassBus",
         "pcb_color": "rgb(255, 43, 171)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgb(223, 24, 120)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -633,7 +633,7 @@
         "microvia_drill": 0.1,
         "name": "V+_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -651,13 +651,26 @@
         "microvia_drill": 0.1,
         "name": "V_USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.2,
         "via_drill": 0.7,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127,
+        "line_style": 1,
+        "name": "buspic32",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 143, 11)",
+        "track_width": 0.254,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 2
       },
       {
         "bus_width": 12,
@@ -669,7 +682,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
         "tuning_profile": "",
@@ -687,7 +700,7 @@
         "microvia_drill": 0.1,
         "name": "power3V3",
         "pcb_color": "rgb(255, 139, 0)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.635,
         "tuning_profile": "",
@@ -705,13 +718,26 @@
         "microvia_drill": 0.1,
         "name": "power5V",
         "pcb_color": "rgb(5, 255, 250)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
         "via_diameter": 1.2,
         "via_drill": 0.7,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.127,
+        "line_style": 0,
+        "name": "power_3v3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(118, 200, 18)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 3
       },
       {
         "bus_width": 12,
@@ -723,7 +749,7 @@
         "microvia_drill": 0.1,
         "name": "rf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.62,
         "tuning_profile": "",
@@ -741,7 +767,7 @@
         "microvia_drill": 0.1,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.54,
         "tuning_profile": "",
@@ -750,11 +776,16 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.127,
+        "line_style": 3,
         "name": "spiBus",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(179, 107, 255)",
+        "track_width": 0.254,
         "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 3
       }
     ],
@@ -763,11 +794,41 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "+3V3": [
+        "power_3v3"
+      ],
+      "/ANALOG_1": [
+        "buspic32"
+      ],
+      "/ANALOG_2": [
+        "buspic32"
+      ],
+      "/ANALOG_3": [
+        "buspic32"
+      ],
+      "/ANALOG_4": [
+        "buspic32"
+      ],
       "/GPIO2_SDA": [
         "NetClassBus"
       ],
       "/GPIO3_SCL": [
         "NetClassBus"
+      ],
+      "/LED_a": [
+        "buspic32"
+      ],
+      "/LED_b": [
+        "buspic32"
+      ],
+      "/LED_c": [
+        "buspic32"
+      ],
+      "/LED_d": [
+        "buspic32"
+      ],
+      "/LED_e": [
+        "buspic32"
       ],
       "/MCU/CE0": [
         "NetClassBus"
@@ -794,19 +855,37 @@
         "NetClassBus"
       ],
       "/MS1": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/MS2": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/MS3": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/Oled/SCL": [
         "NetClassBus"
       ],
       "/Oled/SDA": [
         "NetClassBus"
+      ],
+      "/PIC32_SCL": [
+        "buspic32"
+      ],
+      "/PIC32_SDA": [
+        "buspic32"
+      ],
+      "/PS2_CLK": [
+        "buspic32"
+      ],
+      "/PS2_DATA": [
+        "buspic32"
+      ],
+      "/PWR_SIGNAL": [
+        "spiBus"
       ],
       "/Pololu/IC1_dir": [
         "NetClassBus"
@@ -836,13 +915,13 @@
         "NetClassBus"
       ],
       "/Pololu/IC4_dir": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/Pololu/IC4_enable": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/Pololu/IC4_step": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/Pololu/reset": [
         "NetClassBus"
@@ -851,43 +930,68 @@
         "NetClassBus"
       ],
       "/dir_1": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/dir_2": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/dir_3": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/en_1": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/en_2": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/en_3": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
+      ],
+      "/flt_1": [
+        "buspic32"
+      ],
+      "/flt_2": [
+        "buspic32"
+      ],
+      "/flt_3": [
+        "buspic32"
+      ],
+      "/flt_4": [
+        "buspic32"
       ],
       "/limit_1": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/limit_2": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/limit_3": [
-        "NetClassBus"
+        "buspic32"
+      ],
+      "/limit_4": [
+        "buspic32"
       ],
       "/limit_pi1": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/limit_pi2": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/limit_pi3": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/limit_pi4": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/limit_pi_1": [
         "NetClassBus"
@@ -910,38 +1014,184 @@
       "/microSD/SCK": [
         "spiBus"
       ],
+      "/motor_control_2": [
+        "buspic32"
+      ],
+      "/pic32/D+": [
+        "buspic32"
+      ],
+      "/pic32/D-": [
+        "buspic32"
+      ],
+      "/pic32/MCLR": [
+        "buspic32"
+      ],
+      "/pic32/OSC1_B": [
+        "buspic32"
+      ],
+      "/pic32/OSC2_B": [
+        "buspic32"
+      ],
+      "/pic32/PGC": [
+        "buspic32"
+      ],
+      "/pic32/PGD": [
+        "buspic32"
+      ],
+      "/pic32/PGM": [
+        "buspic32"
+      ],
+      "/pic32/RA0": [
+        "buspic32"
+      ],
+      "/pic32/RA14": [
+        "buspic32"
+      ],
+      "/pic32/RA15": [
+        "buspic32"
+      ],
+      "/pic32/RA2": [
+        "buspic32"
+      ],
+      "/pic32/RA3": [
+        "buspic32"
+      ],
+      "/pic32/RA4": [
+        "buspic32"
+      ],
+      "/pic32/RA5": [
+        "buspic32"
+      ],
+      "/pic32/RA6": [
+        "buspic32"
+      ],
+      "/pic32/RA7": [
+        "buspic32"
+      ],
+      "/pic32/RB13": [
+        "buspic32"
+      ],
+      "/pic32/RB14": [
+        "buspic32"
+      ],
+      "/pic32/RB15": [
+        "buspic32"
+      ],
+      "/pic32/RB5": [
+        "buspic32"
+      ],
+      "/pic32/RC2": [
+        "buspic32"
+      ],
+      "/pic32/RC3": [
+        "buspic32"
+      ],
+      "/pic32/RC4": [
+        "buspic32"
+      ],
+      "/pic32/RD0": [
+        "buspic32"
+      ],
+      "/pic32/RD14": [
+        "buspic32"
+      ],
+      "/pic32/RD15": [
+        "buspic32"
+      ],
+      "/pic32/RE2": [
+        "buspic32"
+      ],
+      "/pic32/RE3": [
+        "buspic32"
+      ],
+      "/pic32/RE4": [
+        "buspic32"
+      ],
       "/pic32/RF12": [
+        "buspic32",
         "spiBus"
       ],
       "/pic32/RF13": [
+        "buspic32",
         "spiBus"
       ],
+      "/pic32/RF2": [
+        "buspic32"
+      ],
+      "/pic32/RF3": [
+        "buspic32"
+      ],
       "/pic32/RF4": [
+        "buspic32",
         "spiBus"
       ],
       "/pic32/RF5": [
+        "buspic32",
         "spiBus"
       ],
       "/pic32/RF8": [
+        "buspic32",
         "spiBus"
       ],
+      "/pic32/RG12": [
+        "buspic32"
+      ],
+      "/pic32/RG13": [
+        "buspic32"
+      ],
+      "/pic32/RG14": [
+        "buspic32"
+      ],
+      "/pic32/RG15": [
+        "buspic32"
+      ],
+      "/pic32/RG6": [
+        "buspic32"
+      ],
+      "/pic32/RG9": [
+        "buspic32"
+      ],
+      "/pic32/VBUS_": [
+        "buspic32"
+      ],
+      "/pic32/VDD_CORE": [
+        "buspic32"
+      ],
+      "/pic32/VUSB3V3": [
+        "buspic32"
+      ],
+      "/pic32/osc_1": [
+        "buspic32"
+      ],
+      "/pic32/osc_2": [
+        "buspic32"
+      ],
       "/step_1": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/step_2": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/step_3": [
-        "NetClassBus"
+        "NetClassBus",
+        "buspic32"
       ],
       "/switch_a": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/switch_b": [
-        "NetClassBus"
+        "buspic32"
       ],
       "/switch_c": [
-        "NetClassBus"
+        "buspic32"
+      ],
+      "/switch_d": [
+        "buspic32"
+      ],
+      "GND": [
+        "buspic32"
       ]
     },
     "netclass_patterns": [
@@ -962,7 +1212,7 @@
         "pattern": "+3.3V"
       },
       {
-        "netclass": "power3V3",
+        "netclass": "power_3v3",
         "pattern": "+3V"
       },
       {
@@ -1012,6 +1262,10 @@
       {
         "netclass": "spiBus",
         "pattern": "spiBussNetsAssign"
+      },
+      {
+        "netclass": "buspic32",
+        "pattern": "buspic32"
       }
     ]
   },
@@ -1229,7 +1483,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "J6,J11,C2-7,C46,R71,JP1,JP21,#PWR4-5,#PWR84-87",
+    "used_designators": "C27,C29,C47,C49,R7,R20,R38-39,#PWR33,#PWR88,#PWR93-95,J5,J12",
     "variants": []
   },
   "sheets": [
