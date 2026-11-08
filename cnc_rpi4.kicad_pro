@@ -918,6 +918,15 @@
       "/Pololu/sleep": [
         "NetClassBus"
       ],
+      "/ch1": [
+        "buspic32"
+      ],
+      "/ch2": [
+        "buspic32"
+      ],
+      "/ch3": [
+        "buspic32"
+      ],
       "/dir_1": [
         "NetClassBus",
         "buspic32"
@@ -1471,7 +1480,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J10,J12,R40-41,R72-77,#PWR101-103,U6-7",
     "variants": []
   },
   "sheets": [
@@ -1502,6 +1511,10 @@
     [
       "c23451d0-70ea-4fb8-9f51-b04cd7803801",
       "buttons"
+    ],
+    [
+      "6aa6a5e4-f6ca-40e4-a1a0-9ce3f1efac2c",
+      "opto_and_uln2803"
     ],
     [
       "d163b643-6954-48bb-bb05-5c9c3fb08250",
