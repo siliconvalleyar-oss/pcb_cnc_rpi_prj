@@ -2917,7 +2917,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c4751f8-7315-494c-a1ef-bf1a4f28e9fc")
 		(property "Reference" "SW5"
-			(at 281.94 129.54 0)
+			(at 281.94 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2928,6 +2928,7 @@
 		)
 		(property "Value" "K2-1107ST-A4SW-06"
 			(at 281.94 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4623,7 +4624,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e8dbf57-670d-4c0a-975e-61d482cd48a7")
 		(property "Reference" "SW4"
 			(at 281.94 116.84 0)
@@ -4636,7 +4636,8 @@
 			)
 		)
 		(property "Value" "K2-1107ST-A4SW-06"
-			(at 281.94 119.38 0)
+			(at 286.004 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4669,6 +4670,7 @@
 		)
 		(property "Description" ""
 			(at 281.94 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
