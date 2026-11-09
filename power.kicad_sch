@@ -5263,6 +5263,16 @@
 		)
 		(uuid "38a8b588-3a9b-43b2-b037-beff7a422aea")
 	)
+	(label "V_INUPT"
+		(at 139.7 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "687e80b0-4a96-4c93-ac0f-c8b7ab702452")
+	)
 	(label "D+"
 		(at 288.29 107.95 0)
 		(effects
