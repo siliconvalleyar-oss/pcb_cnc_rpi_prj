@@ -7060,7 +7060,7 @@
 	)
 	(global_label "IC3_1B"
 		(shape output)
-		(at 309.88 60.96 180)
+		(at 309.88 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7070,7 +7070,7 @@
 		)
 		(uuid "1e1fd284-3371-4186-95bf-458cef878ebe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.1927 60.96 0)
+			(at 301.1927 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,7 +7108,7 @@
 	)
 	(global_label "IC2_1A"
 		(shape output)
-		(at 311.15 205.74 180)
+		(at 311.15 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7118,7 +7118,7 @@
 		)
 		(uuid "2b107dc4-c3b3-4956-9735-5b67b81317c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.4627 205.74 0)
+			(at 302.4627 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7180,7 +7180,7 @@
 	)
 	(global_label "IC1_1A"
 		(shape output)
-		(at 204.47 207.01 180)
+		(at 204.47 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7190,7 +7190,7 @@
 		)
 		(uuid "34fbbc7a-a88a-4469-861c-b25fc5888099")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7827 207.01 0)
+			(at 195.7827 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7252,7 +7252,7 @@
 	)
 	(global_label "IC3_1A"
 		(shape output)
-		(at 309.88 48.26 180)
+		(at 309.88 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7262,7 +7262,7 @@
 		)
 		(uuid "5250ff0c-dc3e-4df9-be85-08a99c50cbc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.1927 48.26 0)
+			(at 301.1927 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7300,7 @@
 	)
 	(global_label "IC1_2B"
 		(shape output)
-		(at 204.47 214.63 180)
+		(at 204.47 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7310,7 +7310,7 @@
 		)
 		(uuid "597651d5-fb8f-43cc-b70e-b6fb40318388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7827 214.63 0)
+			(at 195.7827 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7420,7 +7420,7 @@
 	)
 	(global_label "IC3_2A"
 		(shape output)
-		(at 309.88 53.34 180)
+		(at 309.88 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7430,7 +7430,7 @@
 		)
 		(uuid "6e6621c2-cae1-4113-a869-7a6852c7ab16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.1927 53.34 0)
+			(at 301.1927 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7684,7 +7684,7 @@
 	)
 	(global_label "IC2_1B"
 		(shape output)
-		(at 313.69 218.44 180)
+		(at 311.15 205.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7694,7 +7694,7 @@
 		)
 		(uuid "ac6051a4-3b46-4812-8509-b3511199c506")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 305.0027 218.44 0)
+			(at 302.4627 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +7804,7 @@
 	)
 	(global_label "IC1_2A"
 		(shape output)
-		(at 204.47 212.09 180)
+		(at 204.47 214.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7814,7 +7814,7 @@
 		)
 		(uuid "c525d774-9849-4a74-924e-131c97f26c1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7827 212.09 0)
+			(at 195.7827 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +7828,7 @@
 	)
 	(global_label "IC3_2B"
 		(shape output)
-		(at 309.88 55.88 180)
+		(at 309.88 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7838,7 +7838,7 @@
 		)
 		(uuid "cb5be500-bfee-4395-93c2-4a93883f8fe0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 301.1927 55.88 0)
+			(at 301.1927 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7948,7 +7948,7 @@
 	)
 	(global_label "IC1_1B"
 		(shape output)
-		(at 204.47 219.71 180)
+		(at 204.47 207.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7958,7 +7958,7 @@
 		)
 		(uuid "e3ca4efd-ceb3-4e69-b381-b100897a33cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7827 219.71 0)
+			(at 195.7827 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7996,7 +7996,7 @@
 	)
 	(global_label "IC2_2B"
 		(shape output)
-		(at 311.15 213.36 180)
+		(at 313.69 218.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8006,7 +8006,7 @@
 		)
 		(uuid "f23a13d9-412c-461b-82a2-ec3677017594")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.4627 213.36 0)
+			(at 305.0027 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +8092,7 @@
 	)
 	(global_label "IC2_2A"
 		(shape output)
-		(at 311.15 210.82 180)
+		(at 311.15 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8102,7 +8102,7 @@
 		)
 		(uuid "ff56387e-9954-42e4-a428-47d11ce64f54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.4627 210.82 0)
+			(at 302.4627 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
