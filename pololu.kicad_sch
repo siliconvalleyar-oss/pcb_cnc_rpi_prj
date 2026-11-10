@@ -1935,172 +1935,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Pololu_Breakout_A4988_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4160,6 +3994,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 207.01) (xy 205.74 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0740be89-afad-492e-b141-386d8938653c")
+	)
+	(wire
+		(pts
 			(xy 360.68 193.04) (xy 360.68 195.58)
 		)
 		(stroke
@@ -4310,6 +4154,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 205.74) (xy 321.31 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd6aff6-41da-4a99-a7b9-ccba50e8696d")
+	)
+	(wire
+		(pts
 			(xy 182.88 187.96) (xy 182.88 191.77)
 		)
 		(stroke
@@ -4330,23 +4184,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 57.15) (xy 59.69 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc2115a-e1d4-410f-8d93-1c2623f7757e")
-	)
-	(wire
-		(pts
-			(xy 81.28 171.45) (xy 90.17 171.45)
+			(xy 81.28 171.45) (xy 116.84 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1dc57216-ad29-497a-8347-b2f234d76dc7")
+	)
+	(wire
+		(pts
+			(xy 111.76 111.76) (xy 115.57 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd2c5a5-203e-46a1-8077-c02c0f63dc8c")
 	)
 	(wire
 		(pts
@@ -4397,26 +4251,6 @@
 			(type default)
 		)
 		(uuid "214c888d-ebf4-47bf-8448-6d157352da0b")
-	)
-	(wire
-		(pts
-			(xy 149.86 113.03) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21d38dc3-c94a-44fd-8029-4d29fcec2478")
-	)
-	(wire
-		(pts
-			(xy 100.33 168.91) (xy 116.84 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2205ab51-9eca-4c6b-bd9a-74043e3b6ca8")
 	)
 	(wire
 		(pts
@@ -4570,6 +4404,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 213.36) (xy 321.31 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3067d070-dc76-4f6b-aa1e-ad9d29b43265")
+	)
+	(wire
+		(pts
 			(xy 182.88 217.17) (xy 181.61 217.17)
 		)
 		(stroke
@@ -4580,13 +4424,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 119.38) (xy 59.69 119.38)
+			(xy 314.96 124.46) (xy 317.5 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36bf9f94-cef7-4289-afc8-108a8e79bff1")
+		(uuid "32cde64e-448a-462d-85b2-f973521e9484")
+	)
+	(wire
+		(pts
+			(xy 309.88 48.26) (xy 314.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3530f492-9950-4cde-b74d-aca3afe40d8a")
 	)
 	(wire
 		(pts
@@ -4610,16 +4464,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 173.99) (xy 116.84 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a829a56-8e66-4c2f-b772-0d09bd213383")
-	)
-	(wire
-		(pts
 			(xy 365.76 139.7) (xy 369.57 139.7)
 		)
 		(stroke
@@ -4627,6 +4471,16 @@
 			(type default)
 		)
 		(uuid "3b2291f3-fe27-461f-a97b-37d66fdffb95")
+	)
+	(wire
+		(pts
+			(xy 311.15 210.82) (xy 321.31 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de26fc3-bf47-4bd6-a3b2-ffc5cc45f471")
 	)
 	(wire
 		(pts
@@ -4660,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 57.15) (xy 31.75 57.15)
+			(xy 22.86 57.15) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4730,6 +4584,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 142.24) (xy 347.98 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42407bbb-db35-4dd7-a92f-454275cb9b0f")
+	)
+	(wire
+		(pts
 			(xy 307.34 68.58) (xy 314.96 68.58)
 		)
 		(stroke
@@ -4770,16 +4634,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 124.46) (xy 59.69 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486ac5c4-a277-4e81-97a8-2577f3f442b2")
-	)
-	(wire
-		(pts
 			(xy 45.72 114.3) (xy 59.69 114.3)
 		)
 		(stroke
@@ -4810,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 52.07) (xy 115.57 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b22ff28-dce9-4f8e-b3b5-40d57a14033e")
+	)
+	(wire
+		(pts
 			(xy 46.99 49.53) (xy 59.69 49.53)
 		)
 		(stroke
@@ -4820,7 +4684,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 62.23) (xy 31.75 62.23)
+			(xy 22.86 62.23) (xy 59.69 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4830,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 173.99) (xy 90.17 173.99)
+			(xy 81.28 173.99) (xy 116.84 173.99)
 		)
 		(stroke
 			(width 0)
@@ -4870,6 +4734,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 219.71) (xy 205.74 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523c7da1-64a7-4932-9801-b18e28315dbc")
+	)
+	(wire
+		(pts
 			(xy 95.25 46.99) (xy 82.55 46.99)
 		)
 		(stroke
@@ -4880,6 +4754,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 214.63) (xy 205.74 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5435bbe4-ab00-478c-89bc-c9df8a3c42cd")
+	)
+	(wire
+		(pts
 			(xy 105.41 158.75) (xy 116.84 158.75)
 		)
 		(stroke
@@ -4887,16 +4771,6 @@
 			(type default)
 		)
 		(uuid "5530f020-9b93-48c2-8b03-7974047d312e")
-	)
-	(wire
-		(pts
-			(xy 41.91 62.23) (xy 59.69 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5553c439-328e-4d4e-8877-149e23e4f64a")
 	)
 	(wire
 		(pts
@@ -4920,7 +4794,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 124.46) (xy 30.48 124.46)
+			(xy 21.59 124.46) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4937,6 +4811,26 @@
 			(type default)
 		)
 		(uuid "5fb5e417-070f-4eee-a2a3-b8d5add44d48")
+	)
+	(wire
+		(pts
+			(xy 314.96 129.54) (xy 317.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607e6648-d8f8-45d1-b71e-5a28efcd308e")
+	)
+	(wire
+		(pts
+			(xy 363.22 147.32) (xy 363.22 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b1ba98-1e75-4caa-98d3-773c466244e9")
 	)
 	(wire
 		(pts
@@ -4970,6 +4864,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 49.53) (xy 115.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f37d36-675e-4c49-852b-0a182bdfbd04")
+	)
+	(wire
+		(pts
 			(xy 105.41 163.83) (xy 116.84 163.83)
 		)
 		(stroke
@@ -4990,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 119.38) (xy 30.48 119.38)
+			(xy 21.59 119.38) (xy 59.69 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5040,6 +4944,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 55.88) (xy 314.96 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4213e6-2427-4fb0-b065-9304be440e05")
+	)
+	(wire
+		(pts
 			(xy 369.57 220.98) (xy 373.38 220.98)
 		)
 		(stroke
@@ -5047,16 +4961,6 @@
 			(type default)
 		)
 		(uuid "6fcdf9f9-3835-4462-b341-02e5b0772c17")
-	)
-	(wire
-		(pts
-			(xy 41.91 59.69) (xy 59.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71588af1-7d2f-43c6-aee3-c1f602c8dd03")
 	)
 	(wire
 		(pts
@@ -5180,6 +5084,26 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 147.32) (xy 363.22 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8783cf49-cd58-4610-aa59-982048949459")
+	)
+	(wire
+		(pts
+			(xy 314.96 132.08) (xy 317.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880c0918-964c-439b-a6c9-f298a2b65839")
+	)
+	(wire
+		(pts
 			(xy 290.83 209.55) (xy 290.83 222.25)
 		)
 		(stroke
@@ -5230,16 +5154,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 107.95) (xy 165.1 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d6add46-3dad-423d-bae1-e73ed48af04e")
-	)
-	(wire
-		(pts
 			(xy 242.57 233.68) (xy 242.57 229.87)
 		)
 		(stroke
@@ -5257,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "9095a45b-9fcf-4e9d-8cc4-97ec97369dfd")
+	)
+	(wire
+		(pts
+			(xy 314.96 137.16) (xy 317.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b568e4-4ba9-4e72-b2ae-c6bc0f2f1388")
 	)
 	(wire
 		(pts
@@ -5327,6 +5251,16 @@
 			(type default)
 		)
 		(uuid "975da5bb-a6c8-441d-97a6-e835371a9fc9")
+	)
+	(wire
+		(pts
+			(xy 124.46 54.61) (xy 115.57 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97cc1484-2eba-431b-a065-dc86fbbe318b")
 	)
 	(wire
 		(pts
@@ -5430,6 +5364,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 53.34) (xy 314.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0893cb1-0989-43be-b4f9-024c59898e6f")
+	)
+	(wire
+		(pts
 			(xy 307.34 106.68) (xy 307.34 107.95)
 		)
 		(stroke
@@ -5440,23 +5384,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 113.03) (xy 139.7 113.03)
+			(xy 140.97 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3248d00-d7d8-494a-a6c8-4a1c8af4c0c6")
-	)
-	(wire
-		(pts
-			(xy 100.33 171.45) (xy 116.84 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ac6157-a7ac-427a-9a1a-5176fab06795")
 	)
 	(wire
 		(pts
@@ -5640,16 +5574,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 121.92) (xy 59.69 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6603ecd-c46c-4f79-bc4e-3eda7bfa66d0")
-	)
-	(wire
-		(pts
 			(xy 345.44 63.5) (xy 351.79 63.5)
 		)
 		(stroke
@@ -5760,13 +5684,33 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 139.7 110.49)
+			(xy 140.97 110.49) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0e16738-e1c6-44f2-8801-1ee66cbdebef")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 115.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1560ca7-dc1b-47ea-b536-815a83912f2d")
+	)
+	(wire
+		(pts
+			(xy 313.69 218.44) (xy 321.31 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25d75f3-4642-44ab-b3fd-d631816cea2f")
 	)
 	(wire
 		(pts
@@ -5807,6 +5751,16 @@
 			(type default)
 		)
 		(uuid "c6309453-5652-4d20-a87f-610937f9d263")
+	)
+	(wire
+		(pts
+			(xy 111.76 116.84) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a7b098-c68d-4dd7-9af8-3b6e86b5b058")
 	)
 	(wire
 		(pts
@@ -5940,16 +5894,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 110.49) (xy 165.1 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d98cd410-5b7d-4c08-9d8f-48597acbae59")
-	)
-	(wire
-		(pts
 			(xy 255.27 194.31) (xy 255.27 196.85)
 		)
 		(stroke
@@ -5957,6 +5901,16 @@
 			(type default)
 		)
 		(uuid "de57dea5-96ee-46a7-bfb8-fa4d5f097c70")
+	)
+	(wire
+		(pts
+			(xy 309.88 60.96) (xy 314.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7b4f30-c7a7-476f-b957-674c7b7339f5")
 	)
 	(wire
 		(pts
@@ -5970,7 +5924,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 59.69) (xy 31.75 59.69)
+			(xy 22.86 59.69) (xy 59.69 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6030,6 +5984,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ec1258-043b-4583-94e4-9249c5c36247")
+	)
+	(wire
+		(pts
 			(xy 294.64 208.28) (xy 321.31 208.28)
 		)
 		(stroke
@@ -6070,6 +6034,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 212.09) (xy 205.74 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f320c983-f717-4796-bc03-26ed453a60b1")
+	)
+	(wire
+		(pts
 			(xy 317.5 116.84) (xy 307.34 116.84)
 		)
 		(stroke
@@ -6080,7 +6054,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 107.95) (xy 139.7 107.95)
+			(xy 140.97 107.95) (xy 165.1 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6100,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 168.91) (xy 90.17 168.91)
+			(xy 81.28 168.91) (xy 116.84 168.91)
 		)
 		(stroke
 			(width 0)
@@ -6140,13 +6114,23 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 121.92) (xy 30.48 121.92)
+			(xy 21.59 121.92) (xy 59.69 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9a57a7f-f580-4b59-b455-e0772fadfe79")
+	)
+	(wire
+		(pts
+			(xy 111.76 109.22) (xy 115.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cce752-e34a-451b-8342-e4aeebe61191")
 	)
 	(wire
 		(pts
@@ -6198,16 +6182,6 @@
 		)
 		(uuid "00a78faf-2ee3-4911-a034-fcd75f606d88")
 	)
-	(label "IC1_2B"
-		(at 195.58 214.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01e42920-41b8-41d3-846e-59b0892c57aa")
-	)
 	(label "reset"
 		(at 154.94 90.17 0)
 		(effects
@@ -6217,36 +6191,6 @@
 			(justify left bottom)
 		)
 		(uuid "031adde8-f922-4986-884d-d18e0f9dc8f0")
-	)
-	(label "IC1_1B"
-		(at 195.58 212.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06212114-9dac-46fd-8b3a-729f6ad39a7b")
-	)
-	(label "IC2_1B"
-		(at 311.15 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07f48e7b-8343-4381-9d1d-817de4cea07e")
-	)
-	(label "IC4_2B"
-		(at 307.34 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "091480fd-cbe9-4d75-82d8-572fcd4c7914")
 	)
 	(label "IC3_dir"
 		(at 48.26 114.3 0)
@@ -6268,16 +6212,6 @@
 		)
 		(uuid "0fde2839-25c9-4e02-aa96-19b634b2731d")
 	)
-	(label "IC3_1A"
-		(at 83.82 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "133f0622-849e-453f-a653-05d7c23f0e4c")
-	)
 	(label "IC3_MS1_DRV8825"
 		(at 57.15 119.38 180)
 		(effects
@@ -6298,18 +6232,8 @@
 		)
 		(uuid "16f76d6e-cb48-43ba-a0ea-90e2c21338ec")
 	)
-	(label "IC1_1A"
-		(at 140.97 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b46373d-e0b3-4c7a-9669-9016775ac6c5")
-	)
 	(label "MS3"
-		(at 130.81 113.03 0)
+		(at 142.24 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6319,7 +6243,7 @@
 		(uuid "1c217c0a-2f79-4e50-807b-6602e0fd96b6")
 	)
 	(label "MS1"
-		(at 130.81 107.95 0)
+		(at 142.24 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6448,16 +6372,6 @@
 		)
 		(uuid "334d8967-c628-41ac-80af-4e2decac03e1")
 	)
-	(label "IC4_MS3_DRV8825"
-		(at 165.1 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "352ee1e2-041e-4265-9e10-f70711fa880b")
-	)
 	(label "IC1_MS3_DRV8825"
 		(at 100.33 168.91 0)
 		(effects
@@ -6467,16 +6381,6 @@
 			(justify left bottom)
 		)
 		(uuid "38f6971a-2074-4b35-8d34-3662f93aa408")
-	)
-	(label "IC4_1B"
-		(at 307.34 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39b3d0b1-5aeb-4890-be4c-5df3998d1c6e")
 	)
 	(label "reset"
 		(at 100.33 151.13 0)
@@ -6508,16 +6412,6 @@
 		)
 		(uuid "45edc0ed-ca2f-4218-abc2-d881fc498113")
 	)
-	(label "IC2_1B"
-		(at 91.44 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46b295b8-3881-467b-853d-d0a1fceb404a")
-	)
 	(label "MS3"
 		(at 22.86 62.23 0)
 		(effects
@@ -6528,16 +6422,6 @@
 		)
 		(uuid "4bee4841-c490-4a2f-ae77-cc19ae42f023")
 	)
-	(label "IC4_2B"
-		(at 190.5 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c57b946-9c5f-47af-ac65-747fa8f65948")
-	)
 	(label "IC1_step"
 		(at 106.68 161.29 0)
 		(effects
@@ -6547,6 +6431,16 @@
 			(justify left bottom)
 		)
 		(uuid "506928c4-8760-42f8-bfac-6269b11bebb0")
+	)
+	(label "IC4_MS1_DRV8825"
+		(at 148.59 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51f830c3-2cd0-4e43-86d1-ae5f5fe625d7")
 	)
 	(label "IC2_MS3_DRV8825"
 		(at 57.15 62.23 180)
@@ -6567,16 +6461,6 @@
 			(justify left bottom)
 		)
 		(uuid "53f6baa2-69de-4f96-9e0e-b7cbf181294b")
-	)
-	(label "IC3_1B"
-		(at 83.82 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eb7f350-7297-4c75-af9f-5d9f788287a2")
 	)
 	(label "IC2_dir"
 		(at 49.53 52.07 0)
@@ -6658,26 +6542,6 @@
 		)
 		(uuid "68927a43-98c8-4c55-a483-7ac175a6059b")
 	)
-	(label "IC4_2A"
-		(at 307.34 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "693771ef-c9e8-401c-a11b-f0ac932b4db5")
-	)
-	(label "IC1_2A"
-		(at 140.97 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f31faf0-10ad-4f6e-95e2-4ae0bb321217")
-	)
 	(label "sleep"
 		(at 53.34 41.91 0)
 		(effects
@@ -6687,16 +6551,6 @@
 			(justify left bottom)
 		)
 		(uuid "7019a69e-d93d-48c3-8df8-df30d226d7af")
-	)
-	(label "IC1_2A"
-		(at 195.58 219.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70760d19-8aeb-468a-aa31-bcf907ca9f82")
 	)
 	(label "IC4_step"
 		(at 347.98 129.54 0)
@@ -6778,26 +6632,6 @@
 		)
 		(uuid "809a227d-4ab0-45b7-8ab7-b1c6b65abdea")
 	)
-	(label "IC3_2A"
-		(at 83.82 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "82bf9c89-1ed1-4cb3-a8ce-18cd28fa0b4c")
-	)
-	(label "IC4_1A"
-		(at 190.5 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c778c72-d6b4-4252-8ccf-ee620002f445")
-	)
 	(label "IC3_MS1_DRV8825"
 		(at 345.44 48.26 0)
 		(effects
@@ -6807,16 +6641,6 @@
 			(justify left bottom)
 		)
 		(uuid "8d6459d8-51bb-457c-943e-86ef7b3f1745")
-	)
-	(label "sleep_B"
-		(at 365.76 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f8b8755-fafc-4a5f-90af-2147967695de")
 	)
 	(label "step_1"
 		(at 236.22 212.09 0)
@@ -6828,36 +6652,6 @@
 		)
 		(uuid "92b48e8a-12ce-4e44-84ea-16859d77e6fb")
 	)
-	(label "IC1_2B"
-		(at 140.97 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b655e7a-2a77-4c50-b68a-a44de7be2391")
-	)
-	(label "IC3_2B"
-		(at 304.8 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ef72cc2-3f15-4917-b428-98648ae27397")
-	)
-	(label "IC2_2A"
-		(at 91.44 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9f659802-2405-41ac-8d3c-cd8671f483a5")
-	)
 	(label "MS2"
 		(at 21.59 121.92 0)
 		(effects
@@ -6867,16 +6661,6 @@
 			(justify left bottom)
 		)
 		(uuid "a1f75a44-7f53-444c-b8d4-6914c8f69c11")
-	)
-	(label "IC1_1A"
-		(at 195.58 207.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a2ea6c1a-c611-4a59-93aa-dbc97bbd412b")
 	)
 	(label "IC1_MS1_DRV8825"
 		(at 236.22 207.01 0)
@@ -6928,16 +6712,6 @@
 		)
 		(uuid "b235c539-d6d7-4dbb-8969-607e8953107e")
 	)
-	(label "IC4_MS2_DRV8825"
-		(at 165.1 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5d4ea62-c760-44af-9d07-4159252bda8a")
-	)
 	(label "sleep"
 		(at 254 214.63 0)
 		(effects
@@ -6967,36 +6741,6 @@
 			(justify left bottom)
 		)
 		(uuid "bd3a330a-05eb-42df-9aaa-87e1138f95a7")
-	)
-	(label "IC4_1A"
-		(at 307.34 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bdf6a8bd-a00a-47d3-9523-4aec7b58ff31")
-	)
-	(label "IC2_2B"
-		(at 311.15 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bed3260e-d5f7-40d0-8062-692407d291bf")
-	)
-	(label "IC4_1B"
-		(at 190.5 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf7c6640-2f72-468b-8239-1e42a76950b8")
 	)
 	(label "IC2_dir"
 		(at 351.79 215.9 0)
@@ -7109,7 +6853,7 @@
 		(uuid "e163d9c1-0e76-4185-865c-5b02b95f7e85")
 	)
 	(label "MS2"
-		(at 130.81 110.49 0)
+		(at 142.24 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7117,6 +6861,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4512205-5d4b-40bd-92c8-4b04c484adad")
+	)
+	(label "IC4_MS2_DRV8825"
+		(at 148.59 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e61f0fb5-356d-4b26-bdea-614b5491529b")
 	)
 	(label "IC4_step"
 		(at 156.21 100.33 0)
@@ -7148,15 +6902,15 @@
 		)
 		(uuid "e9d10871-617f-4a78-bb05-a675b5ff9338")
 	)
-	(label "IC1_1B"
-		(at 140.97 158.75 0)
+	(label "IC4_MS3_DRV8825"
+		(at 148.59 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ea0799c2-37e7-42f1-9f27-f5dbcd08fcd5")
+		(uuid "eb957645-41a5-4ac3-a50d-6f7a667ece34")
 	)
 	(label "IC3_MS2_DRV8825"
 		(at 57.15 121.92 180)
@@ -7167,66 +6921,6 @@
 			(justify right bottom)
 		)
 		(uuid "ef139f95-6235-4ca9-9899-ef38f2a1606c")
-	)
-	(label "IC3_1B"
-		(at 304.8 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0fc18ba-0528-4208-b21e-0763feb8b35b")
-	)
-	(label "IC2_1A"
-		(at 91.44 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f19fce97-c814-4a71-8634-7e577bf31721")
-	)
-	(label "IC2_2B"
-		(at 91.44 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f1ed37f2-6aba-4eab-aa40-12e0e9382f92")
-	)
-	(label "IC2_1A"
-		(at 311.15 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f2ec8ca8-6609-4265-92ee-db511aa1602b")
-	)
-	(label "IC4_2A"
-		(at 190.5 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5ddb2ec-ac8a-4b4a-ba59-4d281ff3abcd")
-	)
-	(label "IC3_2B"
-		(at 83.82 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f6d9507f-9369-4164-8ff8-8f5ce503cca9")
 	)
 	(label "IC1_enable"
 		(at 106.68 158.75 0)
@@ -7248,36 +6942,6 @@
 		)
 		(uuid "f94d0276-e5a9-43f9-b2a2-03ead5e19fe8")
 	)
-	(label "IC4_MS1_DRV8825"
-		(at 165.1 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f977ebb5-62c1-4176-8280-6d5423218b55")
-	)
-	(label "IC3_2A"
-		(at 304.8 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f9d98123-c802-40fd-9189-9ad094ffc918")
-	)
-	(label "IC2_2A"
-		(at 311.15 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbf10350-88b9-4e89-8106-8efa71151df3")
-	)
 	(label "MS3"
 		(at 21.59 124.46 0)
 		(effects
@@ -7288,16 +6952,6 @@
 		)
 		(uuid "fc8610e5-0189-4a13-9a5f-610004ce0553")
 	)
-	(label "IC3_1A"
-		(at 304.8 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fddeedac-436f-4099-9740-0047abb54a00")
-	)
 	(label "sleep"
 		(at 100.33 153.67 0)
 		(effects
@@ -7307,6 +6961,1158 @@
 			(justify left bottom)
 		)
 		(uuid "fe506402-144c-43c0-9c43-7c94b63bd1a0")
+	)
+	(global_label "IC4_2A"
+		(shape input)
+		(at 220.98 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02872a19-41c4-40ac-9bb5-198da8b5cb8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2927 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_2A"
+		(shape input)
+		(at 115.57 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07519fc1-e33f-48cd-9b43-f1a7cfb09182")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8827 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_1A"
+		(shape input)
+		(at 220.98 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0931578d-55bc-470f-b637-8d037f35f2a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2927 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_1A"
+		(shape output)
+		(at 91.44 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1785a76f-9beb-4f5f-a3c0-0a993b1fe19e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1273 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC3_1B"
+		(shape output)
+		(at 309.88 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e1fd284-3371-4186-95bf-458cef878ebe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.1927 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_1B"
+		(shape output)
+		(at 148.59 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f824ec5-0120-4a27-bfd5-6adb6e0078e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2773 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC2_1A"
+		(shape output)
+		(at 311.15 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b107dc4-c3b3-4956-9735-5b67b81317c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.4627 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_1A"
+		(shape output)
+		(at 148.59 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31f2f734-1a24-4340-bddf-4e9a741b8d98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2773 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC2_1B"
+		(shape input)
+		(at 115.57 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33f943a6-35cd-4a01-9e78-11adb9e0a7d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8827 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_1A"
+		(shape output)
+		(at 204.47 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34fbbc7a-a88a-4469-861c-b25fc5888099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7827 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_2B"
+		(shape output)
+		(at 196.85 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a5652c2-d176-411c-9e6b-96079857bdf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.5373 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC4_2B"
+		(shape output)
+		(at 314.96 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48fea791-5ba3-4834-baa9-9e10f379dcd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.2727 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_1A"
+		(shape output)
+		(at 309.88 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5250ff0c-dc3e-4df9-be85-08a99c50cbc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.1927 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_1B"
+		(shape output)
+		(at 95.25 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "563e29da-d516-4eb7-8be8-0ca554155558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9373 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC1_2B"
+		(shape output)
+		(at 204.47 214.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "597651d5-fb8f-43cc-b70e-b6fb40318388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7827 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_2A"
+		(shape output)
+		(at 95.25 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5de8a1c8-c6e2-440b-b1c6-692e960f4858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9373 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC4_1A"
+		(shape output)
+		(at 314.96 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6542aef2-2589-4085-947d-630451d92e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.2727 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_1A"
+		(shape output)
+		(at 196.85 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6790a8df-609a-4524-9eb8-c88ec0fc56f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.5373 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC1_2A"
+		(shape output)
+		(at 148.59 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cd3e5fe-315e-485c-bcb9-7cf475323b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2773 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC3_2A"
+		(shape output)
+		(at 309.88 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e6621c2-cae1-4113-a869-7a6852c7ab16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.1927 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_2A"
+		(shape output)
+		(at 91.44 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72847b43-e510-486e-b6d9-417fe022d898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1273 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC3_2B"
+		(shape input)
+		(at 111.76 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75ae92c6-21b4-40c9-bb09-7e2d3b5671e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.0727 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_1A"
+		(shape output)
+		(at 95.25 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a3dfa9a-3136-4260-aef3-cfd476023c2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9373 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC2_2B"
+		(shape output)
+		(at 95.25 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f7bf75a-ebed-458a-bb50-b8c32ae399b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.9373 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC1_2B"
+		(shape output)
+		(at 148.59 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85509a7f-1a53-4347-8072-80e5537c8271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.2773 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC3_2A"
+		(shape input)
+		(at 111.76 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87bcf08f-ebed-457b-821f-c17e3da0ff9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.0727 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_1A"
+		(shape input)
+		(at 168.91 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a2b6d90-e7e5-4522-932e-f85589daa03d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.2227 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_1B"
+		(shape input)
+		(at 220.98 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c0c4bb9-2171-4379-9caa-1e0c840b5df8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2927 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_1B"
+		(shape output)
+		(at 196.85 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d96d817-1b55-4ab6-a32c-3cd22c93009e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.5373 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC1_2B"
+		(shape input)
+		(at 168.91 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aad59e7d-ab6c-46b1-8ab9-adb0059390bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.2227 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_1B"
+		(shape output)
+		(at 313.69 218.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac6051a4-3b46-4812-8509-b3511199c506")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.0027 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_1B"
+		(shape input)
+		(at 168.91 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acb321e6-8519-4c7f-aafa-42913f83e49c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.2227 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_2B"
+		(shape input)
+		(at 115.57 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5a75dbc-407a-44ed-aa28-716148edba22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8827 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_1B"
+		(shape output)
+		(at 314.96 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5c3dfc3-3f30-4812-9c40-3cda0ddf93c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.2727 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_1A"
+		(shape input)
+		(at 115.57 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdeda085-d5d4-487f-b317-e6339e2d86d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.8827 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_2A"
+		(shape output)
+		(at 204.47 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c525d774-9849-4a74-924e-131c97f26c1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7827 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_2B"
+		(shape output)
+		(at 309.88 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb5be500-bfee-4395-93c2-4a93883f8fe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.1927 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_1B"
+		(shape input)
+		(at 111.76 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdc4100f-e9fe-4194-b541-974f68e3d6b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.0727 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_2B"
+		(shape output)
+		(at 91.44 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5f36bca-ec2b-4767-9c32-5f747cc9564b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1273 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC4_2B"
+		(shape input)
+		(at 220.98 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de19ef29-aa51-4f71-9ee8-9c3bc4b109b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.2927 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_2A"
+		(shape output)
+		(at 196.85 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3a568a7-467e-4135-9fee-838ed6ef0d77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.5373 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC1_1B"
+		(shape output)
+		(at 204.47 219.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3ca4efd-ceb3-4e69-b381-b100897a33cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.7827 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC1_2A"
+		(shape input)
+		(at 168.91 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "edd8cc90-bed8-4ee5-bbd6-2249562de6db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.2227 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_2B"
+		(shape output)
+		(at 311.15 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f23a13d9-412c-461b-82a2-ec3677017594")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.4627 213.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC4_2A"
+		(shape output)
+		(at 314.96 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6aec76c-23f9-42b5-b082-8b7619f3a539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 306.2727 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC3_1B"
+		(shape output)
+		(at 91.44 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8ae7d20-0848-4fa2-bbb2-023089729b74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1273 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "IC3_1A"
+		(shape input)
+		(at 111.76 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd80c4f7-7557-49c5-8c38-06436934c6c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.0727 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "IC2_2A"
+		(shape output)
+		(at 311.15 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff56387e-9954-42e4-a428-47d11ce64f54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 302.4627 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "step_4"
 		(shape input)
@@ -7331,7 +8137,7 @@
 		(uuid "0658009b-8594-4aa8-9170-190e9a13eb67")
 	)
 	(hierarchical_label "MS1"
-		(shape input)
+		(shape output)
 		(at 21.59 119.38 180)
 		(effects
 			(font
@@ -7408,8 +8214,8 @@
 		(uuid "320922b0-2b4b-4fe9-bf16-ff280535089c")
 	)
 	(hierarchical_label "MS3"
-		(shape input)
-		(at 130.81 113.03 180)
+		(shape output)
+		(at 140.97 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7419,7 +8225,7 @@
 		(uuid "3795e677-8f19-4cb6-a556-c4785b4c0243")
 	)
 	(hierarchical_label "MS2"
-		(shape input)
+		(shape output)
 		(at 21.59 121.92 180)
 		(effects
 			(font
@@ -7474,8 +8280,8 @@
 		(uuid "5bce55e0-80b9-482d-91fa-ff6378f2d715")
 	)
 	(hierarchical_label "MS1"
-		(shape input)
-		(at 130.81 107.95 180)
+		(shape output)
+		(at 140.97 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,8 +8302,8 @@
 		(uuid "6d4fcce0-9181-4fa5-8d0e-bdda88887e80")
 	)
 	(hierarchical_label "MS2"
-		(shape input)
-		(at 130.81 110.49 180)
+		(shape output)
+		(at 140.97 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7595,7 +8401,7 @@
 		(uuid "e8d30fb2-e828-421e-b9d2-8ac5b88fbf91")
 	)
 	(hierarchical_label "MS3"
-		(shape input)
+		(shape output)
 		(at 21.59 124.46 180)
 		(effects
 			(font
@@ -9155,85 +9961,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 312.42 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "23f2b9af-a516-4450-9e1c-435f892e06ba")
-		(property "Reference" "JP67"
-			(at 309.88 134.112 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 315.214 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 312.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 312.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4957f777-68f7-4511-b930-296b18ae8a68")
-		)
-		(pin "1"
-			(uuid "74251854-46a9-4df4-ba62-97cd7b3c2579")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 74.93 30.48 0)
 		(unit 1)
@@ -9393,166 +10120,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 316.23 210.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27b6c71e-0e5d-47fc-9dcb-43b3409fd771")
-		(property "Reference" "JP58"
-			(at 313.69 208.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 318.262 209.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 316.23 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 316.23 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d389d4f2-435f-4991-b68d-7999bc20ccf0")
-		)
-		(pin "1"
-			(uuid "14610715-d893-4926-b20b-5d430c6a558f")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 95.25 168.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28d02de2-4440-45ef-9817-546df275aec6")
-		(property "Reference" "JP9"
-			(at 89.916 167.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS1"
-			(at 95.25 166.878 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 95.25 168.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 95.25 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15545537-6a18-4600-b3b4-7948d236e897")
-		)
-		(pin "1"
-			(uuid "8744ef84-3f36-410b-a8a0-d36259f8239f")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 365.76 135.89 0)
+		(at 365.76 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9563,7 +10132,7 @@
 		(fields_autoplaced yes)
 		(uuid "29ae8339-9a2c-461a-8a9f-a9be6ae0ed4b")
 		(property "Reference" "R55"
-			(at 368.3 134.6199 0)
+			(at 368.3 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9574,7 +10143,7 @@
 			)
 		)
 		(property "Value" "0.1r"
-			(at 368.3 137.1599 0)
+			(at 368.3 144.7799 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9586,7 +10155,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 366.776 136.144 90)
+			(at 366.776 143.764 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9597,7 +10166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 365.76 135.89 0)
+			(at 365.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9608,7 +10177,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 365.76 135.89 0)
+			(at 365.76 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +10398,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 153.67 163.83 180)
+		(at 173.99 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9839,7 +10408,7 @@
 		(dnp no)
 		(uuid "2ff0016f-d4fd-4fd4-ac28-fde8201b6931")
 		(property "Reference" "J15"
-			(at 149.86 169.926 0)
+			(at 170.18 169.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9850,7 +10419,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 148.59 168.148 0)
+			(at 168.91 168.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9861,7 +10430,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 153.67 163.83 0)
+			(at 173.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,7 +10441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 163.83 0)
+			(at 173.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9883,7 +10452,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 153.67 163.83 0)
+			(at 173.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,85 +10478,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 95.25 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "303dac71-c7d8-4bc0-8a70-d07812549c28")
-		(property "Reference" "JP11"
-			(at 89.916 172.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 95.504 172.212 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 95.25 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 95.25 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "77c45b00-f018-4215-a977-eecde8f1b1ef")
-		)
-		(pin "1"
-			(uuid "037057e5-b72a-49f1-a54d-325889160808")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -10295,243 +10785,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 200.66 219.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39e5142f-e8ed-42d4-a78c-19e7ca4c3242")
-		(property "Reference" "JP28"
-			(at 197.866 221.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 203.708 221.488 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 200.66 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 200.66 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce1b6bed-b4e1-4fbe-aed6-869325d101b8")
-		)
-		(pin "1"
-			(uuid "d0118b0c-0a33-4bf3-a555-255054f52f9c")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 309.88 55.88 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a0c1e43-3414-4cf2-b886-6b6d1b24e42b")
-		(property "Reference" "JP71"
-			(at 307.34 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 312.674 57.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 309.88 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 309.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "189cd6ef-7fae-4809-8cf5-d6f82f5ec515")
-		)
-		(pin "1"
-			(uuid "3a747a9c-4971-4e59-80d7-9e8e864fe3d0")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 316.23 205.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a94af67-a469-412f-bf19-de0419827612")
-		(property "Reference" "JP57"
-			(at 316.738 201.422 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 317.246 203.962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 316.23 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 200.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 316.23 198.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70448795-bc8f-4db1-be16-13658c43ba6e")
-		)
-		(pin "1"
-			(uuid "31b46d02-7a45-481c-952b-3b1edb9e8b1c")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP57")
 					(unit 1)
 				)
 			)
@@ -11128,164 +11381,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 35.56 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "532e8fd5-e6ef-44d2-80d1-bbddda102084")
-		(property "Reference" "JP14"
-			(at 30.226 122.682 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 35.814 122.682 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 35.56 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 35.56 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dfe0c363-7028-430e-bf8b-3f6226edc98c")
-		)
-		(pin "1"
-			(uuid "2af29708-4b2c-4aa7-babc-91f40aa157e3")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 309.88 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "568fe07d-c5cc-4b67-8b59-966ec12af165")
-		(property "Reference" "JP72"
-			(at 307.086 62.484 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 312.928 62.738 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 309.88 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 309.88 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8b0d7710-141c-42a0-98c3-a97016403ee8")
-		)
-		(pin "1"
-			(uuid "0c7b57be-ac1b-400a-986b-8b31b931c092")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 290.83 233.68 0)
 		(unit 1)
@@ -11357,85 +11452,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 36.83 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b2931b6-d35e-4637-b20c-1f9b57ec3ea6")
-		(property "Reference" "JP16"
-			(at 31.496 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS2"
-			(at 37.084 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 36.83 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 36.83 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4a710e08-10fe-4e42-ab62-a94abf402faa")
-		)
-		(pin "1"
-			(uuid "6244adad-d274-4d71-ab05-bace1fefe3c2")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -11800,85 +11816,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 316.23 213.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "60759e22-9354-4805-8289-a6fcabec1c76")
-		(property "Reference" "JP59"
-			(at 313.69 215.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 319.024 215.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 316.23 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 208.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 316.23 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e206382-d9e5-4c54-9120-927fc5a41cd8")
-		)
-		(pin "1"
-			(uuid "e58aab31-838b-4c19-8407-55383ce31712")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 294.64 212.09 0)
 		(unit 1)
@@ -11888,10 +11825,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6084bb29-0972-427d-b98d-8eaed0eae78e")
 		(property "Reference" "R34"
-			(at 297.18 210.8199 0)
+			(at 286.766 211.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12157,85 +12093,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 312.42 137.16 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6a028cd9-36e1-46d0-b4e3-b65e2cfe346c")
-		(property "Reference" "JP68"
-			(at 309.626 138.684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 315.468 138.938 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 312.42 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 312.42 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "038f2cf2-562d-40f1-82f0-efa43364c766")
-		)
-		(pin "1"
-			(uuid "48779974-299d-4ff5-b54b-79f0dceba173")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 356.87 114.3 0)
 		(unit 1)
@@ -12306,85 +12163,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "#PWR0162")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 309.88 53.34 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6da8b80b-67fb-4dad-a137-4ef129c3d828")
-		(property "Reference" "JP70"
-			(at 307.34 51.308 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 311.912 51.562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 309.88 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 309.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70569e30-7595-4198-afd5-eb08be9973a3")
-		)
-		(pin "1"
-			(uuid "fadb3e21-18b5-4dc2-8b5d-2631c47448ff")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP70")
 					(unit 1)
 				)
 			)
@@ -13151,7 +12929,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 201.93 102.87 180)
+		(at 226.06 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13161,7 +12939,7 @@
 		(dnp no)
 		(uuid "7d5fc4b4-e539-4743-96f8-c152c6e54222")
 		(property "Reference" "J19"
-			(at 204.978 100.076 0)
+			(at 229.108 100.076 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13172,7 +12950,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 204.978 102.616 0)
+			(at 229.108 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13183,7 +12961,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 201.93 102.87 0)
+			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13194,7 +12972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 102.87 0)
+			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13205,7 +12983,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 201.93 102.87 0)
+			(at 226.06 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13231,85 +13009,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 312.42 129.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7fc21d9f-0a6f-41d4-8e3b-ea493aae7d9a")
-		(property "Reference" "JP66"
-			(at 309.88 127.508 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 314.452 127.762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 312.42 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 312.42 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "95321e3d-ac6d-4138-8ca0-a8d44d732909")
-		)
-		(pin "1"
-			(uuid "7c7f4933-c691-4684-89ca-d52ea4086d79")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP66")
 					(unit 1)
 				)
 			)
@@ -13787,85 +13486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 95.25 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f8b5b97-f9ea-4b73-93ae-4ebc5377627d")
-		(property "Reference" "JP10"
-			(at 89.916 169.672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS2"
-			(at 95.504 169.672 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 95.25 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 95.25 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e48bbdf-a294-4993-b890-9ae0ce75a8f5")
-		)
-		(pin "1"
-			(uuid "eb277563-8ff5-4b1d-a65a-eb34bc8667be")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 297.18 148.59 180)
 		(unit 1)
@@ -14023,85 +13643,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 36.83 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9158f3c6-0d86-43d4-b382-cd18b0a55b2c")
-		(property "Reference" "JP15"
-			(at 31.496 55.372 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS1"
-			(at 36.83 55.118 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 36.83 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 36.83 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "46137489-01da-4079-88a1-baf737e80e4e")
-		)
-		(pin "1"
-			(uuid "677b86cb-79aa-4e7f-a136-d77d6741a166")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP15")
 					(unit 1)
 				)
 			)
@@ -14312,85 +13853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 35.56 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9b3e9c6e-9369-4ef4-ba5e-4cf7e03ff0db")
-		(property "Reference" "JP13"
-			(at 30.226 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS2"
-			(at 35.814 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 35.56 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 35.56 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "66b13c2a-c2a0-4f0b-97f9-f28c91de5565")
-		)
-		(pin "1"
-			(uuid "fe4a7caa-d9b0-4788-a56d-1532eecd9aef")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 234.95 0)
 		(unit 1)
@@ -14552,7 +14014,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 100.33 52.07 180)
+		(at 129.54 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14562,7 +14024,7 @@
 		(dnp no)
 		(uuid "a0916777-f2df-4ff5-8ea1-4ab66c2db2b2")
 		(property "Reference" "J17"
-			(at 101.854 56.134 0)
+			(at 131.064 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14573,7 +14035,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 101.854 53.594 0)
+			(at 131.064 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14584,7 +14046,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 100.33 52.07 0)
+			(at 129.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14595,7 +14057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 52.07 0)
+			(at 129.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14606,7 +14068,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 100.33 52.07 0)
+			(at 129.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15077,10 +14539,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8d6e28b-df0a-4e75-8bb7-2d2b14f4dcb4")
 		(property "Reference" "R35"
-			(at 302.26 209.55 90)
+			(at 302.26 218.694 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15090,7 +14551,7 @@
 			)
 		)
 		(property "Value" "0.1r"
-			(at 302.26 212.09 90)
+			(at 294.894 218.186 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15142,164 +14603,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 144.78 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa5a2223-0085-4663-af2c-29c02b9701f1")
-		(property "Reference" "JP18"
-			(at 139.446 106.172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS1"
-			(at 144.78 105.918 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 144.78 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 144.78 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4ea52ea9-9659-4c56-a416-1862c751ddbc")
-		)
-		(pin "1"
-			(uuid "35a2bbc8-eb8e-489e-b351-62325d1e508f")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 200.66 207.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b0a739c1-d7b8-4610-aaca-48ff4aa73ec8")
-		(property "Reference" "JP26"
-			(at 201.168 202.692 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 201.676 205.232 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 200.66 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 200.66 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6afa7ad8-9f03-4c44-a873-0b10b6e4d2a2")
-		)
-		(pin "1"
-			(uuid "40c2c64e-0c46-4fb5-8b1b-3756e10d1d9b")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP26")
 					(unit 1)
 				)
 			)
@@ -15378,164 +14681,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 36.83 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b559768f-b16f-42b3-8805-3a3c9a2a0eb7")
-		(property "Reference" "JP17"
-			(at 31.496 60.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 37.084 60.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 36.83 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 36.83 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dda1a16d-611d-4d6b-8f2b-c7d131926bf3")
-		)
-		(pin "1"
-			(uuid "4aa6938b-e1da-48e1-8b15-a150c0f404b1")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 144.78 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b74da23a-f4c9-46b0-a3df-ca0b0a2e1a9d")
-		(property "Reference" "JP20"
-			(at 139.446 111.252 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 145.034 111.252 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 144.78 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 144.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2bcf9f0-4192-4582-8f38-5206cb5c036b")
-		)
-		(pin "1"
-			(uuid "76ab8191-61f4-4db6-8444-03d1be93ad41")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP20")
 					(unit 1)
 				)
 			)
@@ -15898,7 +15043,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 96.52 114.3 180)
+		(at 120.65 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15908,7 +15053,7 @@
 		(dnp no)
 		(uuid "c38b8e29-8dc2-46c0-962a-1a1ed28eb6b8")
 		(property "Reference" "J18"
-			(at 91.44 119.634 0)
+			(at 115.57 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15919,7 +15064,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 93.218 122.428 0)
+			(at 117.348 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15930,7 +15075,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 96.52 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15941,7 +15086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15952,7 +15097,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 96.52 114.3 0)
+			(at 120.65 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16149,85 +15294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 200.66 214.63 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c920b2f7-2491-4f9b-8e16-539c461daaa1")
-		(property "Reference" "JP27"
-			(at 198.12 216.662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 203.454 216.408 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 200.66 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 209.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 200.66 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e9cd6c92-4eae-4ecd-bafe-1c5deb6f2e62")
-		)
-		(pin "1"
-			(uuid "87e79f2e-6126-415e-90db-23193d6053c7")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 120.65 0)
 		(unit 1)
@@ -16382,85 +15448,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 35.56 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cdb938bc-458a-4f1b-9328-e647fcfce6b8")
-		(property "Reference" "JP12"
-			(at 30.226 117.602 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS1"
-			(at 35.56 117.348 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 35.56 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 35.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "98cbdba4-305d-4e50-9ac3-dc32b4b14379")
-		)
-		(pin "1"
-			(uuid "702d154e-8b90-4ee8-ab1d-a390ec245147")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -16940,164 +15927,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 144.78 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8bf4d92-9edb-4658-8b12-2d2885284ae9")
-		(property "Reference" "JP19"
-			(at 139.446 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS2"
-			(at 145.034 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 144.78 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 144.78 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3a8f13d9-1dae-4e68-97da-8e07eb07ac67")
-		)
-		(pin "1"
-			(uuid "c5e27f93-eece-4401-8680-4179736e715e")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 309.88 48.26 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9d08f51-e320-423f-b340-3abb266d6405")
-		(property "Reference" "JP69"
-			(at 310.388 43.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 310.896 46.482 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 309.88 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 309.88 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0952755a-ca44-4628-859c-cf6b845e9247")
-		)
-		(pin "1"
-			(uuid "bbe5509f-9efc-4219-a912-62994723da5b")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP69")
 					(unit 1)
 				)
 			)
@@ -17655,85 +16484,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 312.42 124.46 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea93106e-ebdb-4bff-a7bc-eb5d67a24d9c")
-		(property "Reference" "JP65"
-			(at 312.928 120.142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 312.42 122.936 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 312.42 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 312.42 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 312.42 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4e9c406b-adeb-4b9b-aba6-81d7bd51fdf3")
-		)
-		(pin "1"
-			(uuid "81ff3368-357c-49be-b722-a3101f9ff2e7")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 295.91 58.42 90)
 		(unit 1)
@@ -17743,10 +16493,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eaa177a3-5553-4b5e-a2ca-ac4bfecc9ce2")
 		(property "Reference" "R57"
-			(at 295.91 52.07 90)
+			(at 294.386 56.134 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17756,7 +16505,7 @@
 			)
 		)
 		(property "Value" "0.1r"
-			(at 295.91 54.61 90)
+			(at 298.958 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18726,10 +17475,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8e21a1a-dc40-44e8-97b2-1bcd097231a6")
 		(property "Reference" "R56"
-			(at 290.83 53.3399 0)
+			(at 286.004 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18794,164 +17542,6 @@
 			(project "cnc_rpi4"
 				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 200.66 212.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9719196-642b-465d-b8f5-d2725352aec0")
-		(property "Reference" "JP25"
-			(at 198.12 210.058 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 202.692 210.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 200.66 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 200.66 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f6067b95-1609-4ab8-af5f-0ff0f92b0709")
-		)
-		(pin "1"
-			(uuid "1eedc212-201d-4ff7-97bc-b0705145cd5c")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 316.23 218.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fead8afb-19e1-4239-90ac-63853e0ec6d2")
-		(property "Reference" "JP60"
-			(at 313.436 219.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MS3"
-			(at 319.278 220.218 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 316.23 218.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 316.23 213.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 316.23 210.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2ab43624-571a-4785-925f-fcf962540d43")
-		)
-		(pin "1"
-			(uuid "8649ce9e-a7ab-4aa4-803f-fc636ca7cab6")
-		)
-		(instances
-			(project "cnc_rpi4"
-				(path "/13dbfc1f-be47-44ca-9042-3d6a9a657d7d/d163b643-6954-48bb-bb05-5c9c3fb08250"
-					(reference "JP60")
 					(unit 1)
 				)
 			)
