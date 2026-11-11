@@ -6963,7 +6963,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 175.26) (xy 187.96 175.26)
+			(xy 191.77 175.26) (xy 187.96 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9732,7 +9732,7 @@
 		(uuid "a2ff9231-8b47-41de-9c5b-6a7282ac7556")
 	)
 	(label "RF8"
-		(at 191.77 175.26 0)
+		(at 187.96 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10479,7 +10479,7 @@
 		(uuid "15cf34de-8891-43b4-802c-5111011aaa70")
 	)
 	(hierarchical_label "INT2_RE9"
-		(shape bidirectional)
+		(shape input)
 		(at 116.84 144.78 180)
 		(effects
 			(font
@@ -10832,7 +10832,7 @@
 	)
 	(hierarchical_label "RF8"
 		(shape bidirectional)
-		(at 199.39 175.26 0)
+		(at 191.77 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10996,7 +10996,7 @@
 		(uuid "9b864dfd-dc2a-4a7f-a547-886ab56f470c")
 	)
 	(hierarchical_label "RF4_SDO4"
-		(shape bidirectional)
+		(shape output)
 		(at 198.12 170.18 0)
 		(effects
 			(font
@@ -11007,7 +11007,7 @@
 		(uuid "9f7f2736-640c-4d49-b8fb-cad878f5b8e9")
 	)
 	(hierarchical_label "RF5_SDI4"
-		(shape bidirectional)
+		(shape input)
 		(at 198.12 172.72 0)
 		(effects
 			(font
@@ -11073,7 +11073,7 @@
 		(uuid "ae585a89-76bf-4d69-aabc-a6ed4113ab92")
 	)
 	(hierarchical_label "mclr"
-		(shape bidirectional)
+		(shape input)
 		(at 213.36 68.58 0)
 		(effects
 			(font
@@ -11249,7 +11249,7 @@
 		(uuid "ee23eb06-a5c7-459b-bafa-2b09ef76acaa")
 	)
 	(hierarchical_label "INT1_RE8"
-		(shape bidirectional)
+		(shape input)
 		(at 116.84 142.24 180)
 		(effects
 			(font

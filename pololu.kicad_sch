@@ -4652,7 +4652,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 52.07) (xy 115.57 52.07)
+			(xy 118.11 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4882,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 115.57 49.53)
+			(xy 118.11 49.53) (xy 115.57 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4989,6 +4989,16 @@
 			(type default)
 		)
 		(uuid "6fcdf9f9-3835-4462-b341-02e5b0772c17")
+	)
+	(wire
+		(pts
+			(xy 171.45 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c5521d-eef6-4f10-8074-5322e27d91c2")
 	)
 	(wire
 		(pts
@@ -5282,6 +5292,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 166.37) (xy 168.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956101e8-b04a-4918-8204-8919a5f05554")
+	)
+	(wire
+		(pts
 			(xy 314.96 40.64) (xy 304.8 40.64)
 		)
 		(stroke
@@ -5302,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 54.61) (xy 115.57 54.61)
+			(xy 118.11 54.61) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5782,6 +5802,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 158.75) (xy 168.91 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0a01c7-6b39-4b1f-8923-75cd5d3fd715")
+	)
+	(wire
+		(pts
 			(xy 307.34 68.58) (xy 307.34 66.04)
 		)
 		(stroke
@@ -6092,7 +6122,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 46.99) (xy 115.57 46.99)
+			(xy 118.11 46.99) (xy 115.57 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6269,6 +6299,16 @@
 			(type default)
 		)
 		(uuid "fd662f56-3919-450c-829b-0aa5d6bc4df7")
+	)
+	(wire
+		(pts
+			(xy 171.45 161.29) (xy 168.91 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb221f9-5262-452f-b427-b9962282014f")
 	)
 	(wire
 		(pts
@@ -10593,7 +10633,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 173.99 163.83 180)
+		(at 176.53 163.83 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10603,7 +10643,7 @@
 		(dnp no)
 		(uuid "2ff0016f-d4fd-4fd4-ac28-fde8201b6931")
 		(property "Reference" "J15"
-			(at 170.18 169.926 0)
+			(at 180.594 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10614,7 +10654,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 168.91 168.148 0)
+			(at 178.816 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10625,7 +10665,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 173.99 163.83 0)
+			(at 176.53 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10636,7 +10676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 163.83 0)
+			(at 176.53 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +10687,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 173.99 163.83 0)
+			(at 176.53 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14209,7 +14249,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 129.54 52.07 180)
+		(at 123.19 52.07 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14219,7 +14259,7 @@
 		(dnp no)
 		(uuid "a0916777-f2df-4ff5-8ea1-4ab66c2db2b2")
 		(property "Reference" "J17"
-			(at 131.064 56.134 0)
+			(at 124.714 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14230,7 +14270,7 @@
 			)
 		)
 		(property "Value" "pololu"
-			(at 131.064 53.594 0)
+			(at 124.714 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14241,7 +14281,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 129.54 52.07 0)
+			(at 123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14252,7 +14292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 52.07 0)
+			(at 123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14263,7 +14303,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 129.54 52.07 0)
+			(at 123.19 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

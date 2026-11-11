@@ -583,7 +583,7 @@
         "pcb_color": "rgba(0, 128, 0, 0.302)",
         "priority": 11,
         "schematic_color": "rgba(0, 128, 0, 0.302)",
-        "track_width": 0.382,
+        "track_width": 0.3,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -649,7 +649,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgb(255, 143, 11)",
-        "track_width": 0.254,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -752,7 +752,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.54,
+        "track_width": 0.382,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -918,9 +918,6 @@
       "/RA7": [
         "buspic32"
       ],
-      "/RD0": [
-        "buspic32"
-      ],
       "/RE2": [
         "buspic32"
       ],
@@ -934,9 +931,6 @@
         "buspic32"
       ],
       "/RE6": [
-        "buspic32"
-      ],
-      "/RE7": [
         "buspic32"
       ],
       "/RG13": [
@@ -973,6 +967,15 @@
       ],
       "/en_3": [
         "NetClassBus",
+        "buspic32"
+      ],
+      "/esp8266mod/RST_esp": [
+        "buspic32"
+      ],
+      "/esp8266mod/RXD_esp": [
+        "buspic32"
+      ],
+      "/esp8266mod/TDX_esp": [
         "buspic32"
       ],
       "/flt_1": [
@@ -1129,6 +1132,9 @@
       "/pic32/RE4": [
         "buspic32"
       ],
+      "/pic32/RE7": [
+        "buspic32"
+      ],
       "/pic32/RF12": [
         "buspic32",
         "spiBus"
@@ -1187,6 +1193,12 @@
       "/pic32/osc_2": [
         "buspic32"
       ],
+      "/reset": [
+        "NetClassBus"
+      ],
+      "/sleep": [
+        "NetClassBus"
+      ],
       "/step_1": [
         "NetClassBus",
         "buspic32"
@@ -1213,6 +1225,18 @@
       ],
       "GND": [
         "buspic32"
+      ],
+      "IC4_1A": [
+        "motor"
+      ],
+      "IC4_1B": [
+        "motor"
+      ],
+      "IC4_2A": [
+        "motor"
+      ],
+      "IC4_2B": [
+        "motor"
       ]
     },
     "netclass_patterns": [
@@ -1287,6 +1311,10 @@
       {
         "netclass": "buspic32",
         "pattern": "buspic32"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "motor"
       }
     ]
   },
@@ -1504,7 +1532,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C65,JP24-25,R40-41,R65,R72,#PWR104,#PWR110-111,#PWR116,#PWR125-126,U6-7,J5,J12-13,J26",
     "variants": []
   },
   "sheets": [
@@ -1535,6 +1563,10 @@
     [
       "c23451d0-70ea-4fb8-9f51-b04cd7803801",
       "buttons"
+    ],
+    [
+      "9a4c6e9e-5ce5-4207-905f-6ffc4c38a696",
+      "esp8266mod"
     ],
     [
       "d163b643-6954-48bb-bb05-5c9c3fb08250",
