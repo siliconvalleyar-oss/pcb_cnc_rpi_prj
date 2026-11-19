@@ -1532,7 +1532,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "C65,JP24-25,R40-41,R65,R72,#PWR104,#PWR110-111,#PWR116,#PWR125-126,U6-7,J5,J12-13,J26",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
