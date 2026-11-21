@@ -581,7 +581,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 128, 0, 0.302)",
-        "priority": 11,
+        "priority": 9,
         "schematic_color": "rgba(0, 128, 0, 0.302)",
         "track_width": 0.3,
         "tuning_profile": "",
@@ -607,42 +607,6 @@
         "wire_width": 2
       },
       {
-        "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "V+_USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.762,
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.7,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.127,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "V_USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "tuning_profile": "",
-        "via_diameter": 1.2,
-        "via_drill": 0.7,
-        "wire_width": 6
-      },
-      {
         "clearance": 0.127,
         "line_style": 1,
         "name": "buspic32",
@@ -665,7 +629,7 @@
         "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.016,
         "tuning_profile": "",
@@ -683,7 +647,7 @@
         "microvia_drill": 0.1,
         "name": "power3V3",
         "pcb_color": "rgb(255, 139, 0)",
-        "priority": 7,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "tuning_profile": "",
@@ -701,7 +665,7 @@
         "microvia_drill": 0.1,
         "name": "power5V",
         "pcb_color": "rgb(5, 255, 250)",
-        "priority": 8,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "tuning_profile": "",
@@ -716,10 +680,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgb(118, 200, 18)",
-        "track_width": 0.3,
+        "track_width": 0.382,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.7,
+        "via_drill": 0.4,
         "wire_width": 3
       },
       {
@@ -732,7 +696,7 @@
         "microvia_drill": 0.1,
         "name": "rf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.62,
         "tuning_profile": "",
@@ -750,7 +714,7 @@
         "microvia_drill": 0.1,
         "name": "signal",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.382,
         "tuning_profile": "",
@@ -819,13 +783,46 @@
       "/MCU/CE1": [
         "NetClassBus"
       ],
+      "/MCU/GPIO_0": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_1": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_16": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_19": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_20": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_21": [
+        "NetClassBus"
+      ],
       "/MCU/GPIO_22": [
         "NetClassBus"
       ],
       "/MCU/GPIO_23": [
         "NetClassBus"
       ],
+      "/MCU/GPIO_24": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_25": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_26": [
+        "NetClassBus"
+      ],
       "/MCU/GPIO_27": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_5": [
+        "NetClassBus"
+      ],
+      "/MCU/GPIO_6": [
         "NetClassBus"
       ],
       "/MCU/MISO": [
@@ -838,15 +835,12 @@
         "NetClassBus"
       ],
       "/MS1": [
-        "NetClassBus",
         "buspic32"
       ],
       "/MS2": [
-        "NetClassBus",
         "buspic32"
       ],
       "/MS3": [
-        "NetClassBus",
         "buspic32"
       ],
       "/Oled/SCL": [
@@ -946,27 +940,21 @@
         "buspic32"
       ],
       "/dir_1": [
-        "NetClassBus",
         "buspic32"
       ],
       "/dir_2": [
-        "NetClassBus",
         "buspic32"
       ],
       "/dir_3": [
-        "NetClassBus",
         "buspic32"
       ],
       "/en_1": [
-        "NetClassBus",
         "buspic32"
       ],
       "/en_2": [
-        "NetClassBus",
         "buspic32"
       ],
       "/en_3": [
-        "NetClassBus",
         "buspic32"
       ],
       "/esp8266mod/RST_esp": [
@@ -1200,15 +1188,12 @@
         "NetClassBus"
       ],
       "/step_1": [
-        "NetClassBus",
         "buspic32"
       ],
       "/step_2": [
-        "NetClassBus",
         "buspic32"
       ],
       "/step_3": [
-        "NetClassBus",
         "buspic32"
       ],
       "/switch_a": [
@@ -1273,7 +1258,7 @@
         "pattern": "+16"
       },
       {
-        "netclass": "V_USB",
+        "netclass": "Default",
         "pattern": "_V+_USB"
       },
       {
@@ -1532,7 +1517,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG1-2,#PWR127-128,U7,C66-67",
     "variants": []
   },
   "sheets": [
