@@ -835,12 +835,15 @@
         "NetClassBus"
       ],
       "/MS1": [
+        "NetClassBus",
         "buspic32"
       ],
       "/MS2": [
+        "NetClassBus",
         "buspic32"
       ],
       "/MS3": [
+        "NetClassBus",
         "buspic32"
       ],
       "/Oled/SCL": [
@@ -1222,6 +1225,15 @@
       ],
       "IC4_2B": [
         "motor"
+      ],
+      "MS1": [
+        "buspic32"
+      ],
+      "MS2": [
+        "buspic32"
+      ],
+      "MS3": [
+        "buspic32"
       ]
     },
     "netclass_patterns": [
@@ -1517,7 +1529,7 @@
         "uuid": "13dbfc1f-be47-44ca-9042-3d6a9a657d7d"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR127-128,U7,C66-67",
+    "used_designators": "RV2,R65,R67-70,R73-76,J9,J16,#FLG1-2,#FLG6,#PWR22,#PWR25,#PWR45,#PWR51,#PWR55,#PWR60,#PWR62,#PWR65,#PWR89,#PWR118,#PWR127-136,#PWR147-153,Q4-5,U7,U13,A5,C26,C39-41,C48,C50,C66-72",
     "variants": []
   },
   "sheets": [
@@ -1552,6 +1564,14 @@
     [
       "9a4c6e9e-5ce5-4207-905f-6ffc4c38a696",
       "esp8266mod"
+    ],
+    [
+      "3d11d2cf-19f1-4d21-8bc6-5e6b828eb0b8",
+      "Pololu5"
+    ],
+    [
+      "ff896e98-f1a1-4db3-8427-97548160045e",
+      "ps2"
     ],
     [
       "d163b643-6954-48bb-bb05-5c9c3fb08250",
